@@ -1,0 +1,12 @@
+.git
+.gitignore
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+*.odt
+*.sql
+*.txt
+*.sh
+
