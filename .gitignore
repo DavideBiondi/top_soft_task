@@ -1,0 +1,34 @@
+# Ignora credenziali e configurazioni locali
+/php_webapp/login_module/secrets.php
+secrets.php
+/.env
+/config/*.env
+*.env
+*.ini
+*.bak
+*.log
+
+# File temporanei o cache
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# Composer (se usato)
+vendor/
+
+# Docker volumes
+*.pid
+*.sock
+
+# OS generated files
+Thumbs.db
+
+#Extra files
+Nota-metodologica-1.pdf
+*.docx
+*.sh

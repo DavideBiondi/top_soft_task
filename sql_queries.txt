@@ -1,0 +1,250 @@
+mysql> CREATE DATABASE topsoft_task;
+Query OK, 1 row affected (0,07 sec)
+
+mysql> USE topsoft_task;
+Database changed
+mysql> CREATE TABLE admin (username VARCHAR(50) NOT NULL, password VARCHAR(255)
+NOT NULL, PRIMARY KEY (username));
+Query OK, 0 rows affected (0,19 sec)
+
+mysql> SELECT * FROM admin;
+Empty set (0,07 sec)
+
+#From DBeaver
+
+USE topsoft_task;
+SET foreign_key_checks = 1;
+SHOW TABLES;
+
+CREATE TABLE codici_ateco (
+id_ateco INT NOT NULL AUTO_INCREMENT,
+codice VARCHAR(10) UNIQUE,
+descrizione VARCHAR(200),
+PRIMARY KEY (id_ateco));
+
+CREATE TABLE clienti (
+id_cliente INT NOT NULL AUTO_INCREMENT,
+nome VARCHAR(100) NOT NULL,
+cognome VARCHAR(100) NOT NULL,
+email VARCHAR(150) NOT NULL,
+data_inserimento DATE DEFAULT (CURRENT_DATE),
+PRIMARY KEY (id_cliente),
+UNIQUE (nome, cognome, email));
+
+CREATE TABLE telefoni_clienti (
+id_telefono INT NOT NULL AUTO_INCREMENT,
+id_cliente INT NOT NULL,
+FOREIGN KEY (id_cliente) REFERENCES clienti(id_cliente),
+numero_telefono VARCHAR(15) UNIQUE,
+PRIMARY KEY (id_telefono));
+
+CREATE TABLE partite_iva(
+id_piva INT NOT NULL AUTO_INCREMENT,
+id_cliente INT NOT NULL,
+FOREIGN KEY (id_cliente) REFERENCES clienti(id_cliente),
+numero_piva VARCHAR(15) UNIQUE,
+denominazione VARCHAR(3) NULL,
+data_attivazione DATE,
+PRIMARY KEY (id_piva));
+
+CREATE TABLE piva_ateco (
+id_piva INT NOT NULL,
+id_ateco INT NOT NULL,
+PRIMARY KEY (id_piva, id_ateco),
+FOREIGN KEY (id_piva) REFERENCES partite_iva (id_piva)
+ON DELETE CASCADE ON UPDATE CASCADE,
+FOREIGN KEY (id_ateco) REFERENCES codici_ateco (id_ateco)
+ON DELETE CASCADE ON UPDATE CASCADE);
+
+ALTER TABLE clienti
+ADD CONSTRAINT check_name_min_length CHECK (CHAR_LENGTH (nome) >= 2),
+ADD CONSTRAINT check_email_min_length CHECK (CHAR_LENGTH (email) >= 5);
+
+ALTER TABLE partite_iva
+ADD CONSTRAINT check_piva_length CHECK (CHAR_LENGTH (numero_piva) BETWEEN 10 AND 15);
+
+#Making numero_piva both UNIQUE and NOT NULL
+ALTER TABLE partite_iva MODIFY COLUMN numero_piva VARCHAR(15) UNIQUE NOT NULL;
+
+#Allowing cascade deletion of P.IVAs when a client is deleted
+ALTER TABLE partite_iva
+DROP FOREIGN KEY partite_iva_ibfk_1,
+ADD CONSTRAINT partiteiva_clienti
+FOREIGN KEY (id_cliente) REFERENCES clienti(id_cliente)
+ON DELETE CASCADE;
+
+#Allowing cascade deletion of phone numbers when a client is deleted
+ALTER TABLE telefoni_clienti
+DROP FOREIGN KEY telefoni_clienti_ibfk_1,
+ADD CONSTRAINT telefoniclienti_clienti
+FOREIGN KEY (id_cliente) REFERENCES clienti(id_cliente)
+ON DELETE CASCADE;
+
+#Warning
+Duplicate index 'numero_piva_2' defined on the table 'topsoft_task.partite_iva'. This is deprecated and will be disallowed in a future release.
+
+
+#Populating tables
+#If you want to populate using double quotes
+SET sql_mode = 'ANSI_QUOTES';
+INSERT INTO admin(username, password) VALUES ('davide_biondi','P@ssp@rtout0');
+
+INSERT INTO clienti (nome, cognome, email, data_inserimento) VALUES 
+('Luca', 'Verdi', 'luca.verdi@example.com', '2024-12-01'),
+('Giulia', 'Bianchi', 'giulia.bianchi@example.com', '2025-01-15'),
+('Marco', 'Neri', 'marco.neri@example.com', '2025-03-10');
+
+INSERT INTO telefoni_clienti (id_cliente, numero_telefono) VALUES
+(1, '+393401112233'),
+(2, '+393473334455'),
+(3, '+393498887766');
+
+INSERT INTO partite_iva (id_cliente, numero_piva, denominazione, data_attivazione) VALUES
+(1,'IT12345678901','StudioVerdi','2020-04-15'),
+(2,'IT98765432109','BianchiConsult','2019-09-10'),
+(3,'IT11122233344','NeriGroup','2023-06-20');
+
+ALTER TABLE partite_iva
+MODIFY denominazione VARCHAR(3) NULL,
+ADD COLUMN nome_azienda VARCHAR(100) NOT NULL AFTER numero_piva;
+
+UPDATE partite_iva SET
+nome_azienda = 'Studio_Verdi_SRL',
+denominazione = 'IT' 
+WHERE id_cliente = 1;
+
+UPDATE partite_iva SET
+nome_azienda = 'Bianchi_Consult_SNC',
+denominazione = 'IT' 
+WHERE id_cliente = 2;
+
+UPDATE partite_iva SET
+nome_azienda = 'Neri_Group_SPA',
+denominazione = 'IT' 
+WHERE id_cliente = 3;
+
+ALTER TABLE partite_iva
+ADD COLUMN nome_gruppo VARCHAR(100) NULL AFTER nome_azienda;
+
+UPDATE partite_iva SET
+nome_gruppo = 'Verdi_Holding' WHERE id_cliente = 1;
+
+INSERT INTO codici_ateco(codice, descrizione) VALUES
+('62.01', 'Produzione di software non connesso all edizione'),
+('63.11', 'Elaborazione dei dati, hosting e attività connesse'),
+('70.22', 'Consulenza imprenditoriale e altra consulenza amministrativo-gestionale');
+
+INSERT INTO piva_ateco(id_piva, id_ateco) VALUES
+(1, 1),
+(1, 2),
+(2, 3),
+(3, 1),
+(3, 3);
+
+#From bash
+mysql> SHOW TABLES;
++------------------------+
+| Tables_in_topsoft_task |
++------------------------+
+| admin                  |
+| clienti                |
+| codici_ateco           |
+| partite_iva            |
+| piva_ateco             |
+| telefoni_clienti       |
++------------------------+
+6 rows in set (0,06 sec)
+
+#Testing Joins
+mysql> SELECT c.nome, c.cognome, c.email, t.numero_telefono FROM clienti c INNER JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente ;
++--------+---------+----------------------------+-----------------+
+| nome   | cognome | email                      | numero_telefono |
++--------+---------+----------------------------+-----------------+
+| Giulia | Bianchi | giulia.bianchi@example.com | +393473334455   |
+| Luca   | Verdi   | luca.verdi@example.com     | +393401112233   |
+| Marco  | Neri    | marco.neri@example.com     | +393498887766   |
++--------+---------+----------------------------+-----------------+
+3 rows in set (0,05 sec)
+
+mysql> SELECT c.nome, c.cognome, p.numero_piva, ca.codice AS codice_ateco, ca.descrizione FROM clienti c INNER JOIN partite_iva p ON c.id_cliente=p.id_cliente INNER JOIN piva_ateco pa ON p.id_piva=pa.id_piva INNER JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco ORDER BY c.nome;
++--------+---------+---------------+--------------+-------------------------------------------------------------------------+
+| nome   | cognome | numero_piva   | codice_ateco | descrizione                                                             |
++--------+---------+---------------+--------------+-------------------------------------------------------------------------+
+| Giulia | Bianchi | IT98765432109 | 70.22        | Consulenza imprenditoriale e altra consulenza amministrativo-gestionale |
+| Luca   | Verdi   | IT12345678901 | 62.01        | Produzione di software non connesso all edizione                        |
+| Luca   | Verdi   | IT12345678901 | 63.11        | Elaborazione dei dati, hosting e attività connesse                      |
+| Marco  | Neri    | IT11122233344 | 62.01        | Produzione di software non connesso all edizione                        |
+| Marco  | Neri    | IT11122233344 | 70.22        | Consulenza imprenditoriale e altra consulenza amministrativo-gestionale |
++--------+---------+---------------+--------------+-------------------------------------------------------------------------+
+5 rows in set (0,05 sec)
+
+mysql> SELECT c.nome, c.cognome, p.numero_piva, t.numero_telefono, ca.codice AS codice_ateco, ca.descrizione FROM clienti c INNER JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente INNER JOIN partite_iva p ON c.id_cliente=p.id_cliente INNER JOIN piva_ateco pa ON p.id_piva=pa.id_piva INNER JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco ORDER BY c.nome;
++--------+---------+---------------+-----------------+--------------+-------------------------------------------------------------------------+
+| nome   | cognome | numero_piva   | numero_telefono | codice_ateco | descrizione                                                             |
++--------+---------+---------------+-----------------+--------------+-------------------------------------------------------------------------+
+| Giulia | Bianchi | IT98765432109 | +393473334455   | 70.22        | Consulenza imprenditoriale e altra consulenza amministrativo-gestionale |
+| Luca   | Verdi   | IT12345678901 | +393401112233   | 62.01        | Produzione di software non connesso all edizione                        |
+| Luca   | Verdi   | IT12345678901 | +393401112233   | 63.11        | Elaborazione dei dati, hosting e attività connesse                      |
+| Marco  | Neri    | IT11122233344 | +393498887766   | 62.01        | Produzione di software non connesso all edizione                        |
+| Marco  | Neri    | IT11122233344 | +393498887766   | 70.22        | Consulenza imprenditoriale e altra consulenza amministrativo-gestionale |
++--------+---------+---------------+-----------------+--------------+-------------------------------------------------------------------------+
+5 rows in set (0,06 sec)
+
+mysql> SHOW INDEXES FROM partite_iva;
++-------------+------------+---------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| Table       | Non_unique | Key_name      | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | Visible | Expression |
++-------------+------------+---------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| partite_iva |          0 | PRIMARY       |            1 | id_piva     | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| partite_iva |          0 | numero_piva   |            1 | numero_piva | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| partite_iva |          0 | numero_piva_2 |            1 | numero_piva | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| partite_iva |          1 | id_cliente    |            1 | id_cliente  | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
++-------------+------------+---------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+4 rows in set (0,05 sec)
+
+mysql> ALTER TABLE partite_iva DROP INDEX numero_piva_2;
+mysql> SHOW INDEXES FROM partite_iva;
++-------------+------------+-------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| Table       | Non_unique | Key_name    | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | Visible | Expression |
++-------------+------------+-------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| partite_iva |          0 | PRIMARY     |            1 | id_piva     | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| partite_iva |          0 | numero_piva |            1 | numero_piva | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| partite_iva |          1 | id_cliente  |            1 | id_cliente  | A         |           3 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
++-------------+------------+-------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+3 rows in set (0,05 sec)
+
+mysql> SHOW CREATE TABLE partite_iva;
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table       | Create Table                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| partite_iva | CREATE TABLE "partite_iva" (
+  "id_piva" int NOT NULL AUTO_INCREMENT,
+  "id_cliente" int NOT NULL,
+  "numero_piva" varchar(15) NOT NULL,
+  "nome_azienda" varchar(100) NOT NULL,
+  "nome_gruppo" varchar(100) DEFAULT NULL,
+  "denominazione" varchar(3) DEFAULT NULL,
+  "data_attivazione" date DEFAULT NULL,
+  PRIMARY KEY ("id_piva"),
+  UNIQUE KEY "numero_piva" ("numero_piva"),
+  KEY "id_cliente" ("id_cliente"),
+  CONSTRAINT "partite_iva_ibfk_1" FOREIGN KEY ("id_cliente") REFERENCES "clienti" ("id_cliente"),
+  CONSTRAINT "check_piva_length" CHECK ((char_length(`numero_piva`) between 10 and 15))
+) |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0,05 sec)
+mysql> SHOW CREATE TABLE telefoni_clienti;
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table            | Create Table                                                                                                                                                                                                                                                                                                                                                                            |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| telefoni_clienti | CREATE TABLE "telefoni_clienti" (
+  "id_telefono" int NOT NULL AUTO_INCREMENT,
+  "id_cliente" int NOT NULL,
+  "numero_telefono" varchar(15) DEFAULT NULL,
+  PRIMARY KEY ("id_telefono"),
+  UNIQUE KEY "numero_telefono" ("numero_telefono"),
+  KEY "id_cliente" ("id_cliente"),
+  CONSTRAINT "telefoni_clienti_ibfk_1" FOREIGN KEY ("id_cliente") REFERENCES "clienti" ("id_cliente")
+) |
++------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0,05 sec)
+
