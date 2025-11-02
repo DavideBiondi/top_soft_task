@@ -50,6 +50,7 @@
   <input type="submit" value="Accedi">
   <?php
     if (isset($_SESSION['error'])) {
+      $_SESSION['error']="Inserisci le tue credenziali per l'accesso alla dashboard.";
       echo "<p style='color:red;'>".$_SESSION['error']."</p>";
       unset($_SESSION['error']);
     }

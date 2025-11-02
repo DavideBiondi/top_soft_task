@@ -80,14 +80,15 @@ if (isset($_SESSION['error'])) {
   <input type="email" name="email" required><br>
   <label>P.IVA*</label><br>
   <input type="text" name="numero_piva" required><br>
+  <label>Nome dell'azienda*</label><br>
+  <input type="text" name="nome_azienda" required><br>
+  
   <label>Data di attivazione (formato yyyy-mm-gg)</label><br>
   <input type="text" name="data_attivazione" 
   pattern="(?<=(^19\d\d|^20\d\d)-02-)(0[1-9]|2[0-9])$|^(19\d\d|20\d\d)-(0[469]|11)-(0[1-9]|1[1-9]|2[1-9]|30)$|^(19\d\d|20\d\d)-(0[13578]|12)-(0[1-9]|1[1-9]|2[1-9]|3[01])$">
   <br>
   <label>Denominazione</label><br>
-  <input type="text" name="denominazione"><br>
-  <label>Nome dell'azienda</label><br>
-  <input type="text" name="nome_azienda"><br>
+  <input type="text" name="denominazione" maxlength="4"><br>
   <label>Nome del gruppo</label><br>
   <input type="text" name="nome_gruppo"><br>
   <label>Codice ATECO</label><br>

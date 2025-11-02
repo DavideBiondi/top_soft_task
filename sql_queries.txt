@@ -141,6 +141,30 @@ INSERT INTO piva_ateco(id_piva, id_ateco) VALUES
 (3, 1),
 (3, 3);
 
+#Testing the CREATE part of the CRUD from the web app
+SELECT 
+    c.id_cliente,
+    c.nome,
+    c.cognome,
+    c.email,
+    t.numero_telefono,
+    p.numero_piva,
+    p.nome_azienda,
+    p.denominazione,
+    p.data_attivazione,
+    ca.codice AS codice_ateco,
+    ca.descrizione AS descrizione_ateco
+FROM clienti c
+LEFT JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente
+LEFT JOIN partite_iva p ON c.id_cliente = p.id_cliente
+LEFT JOIN piva_ateco pa ON p.id_piva = pa.id_piva
+LEFT JOIN codici_ateco ca ON pa.id_ateco = ca.id_ateco
+WHERE c.email = 'alessandro.conti@example.com';
+
+10	Alessandro	Conti	alessandro.conti@example.com	+393475551234	IT15672539237	Conti_Solutions_SRL	IT	2023-09-15	(NULL)	Produzione di software di tipo embedded
+
+
+
 #From bash
 mysql> SHOW TABLES;
 +------------------------+
@@ -247,4 +271,26 @@ mysql> SHOW CREATE TABLE telefoni_clienti;
 ) |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 1 row in set (0,05 sec)
+
+mysql> SELECT TABLE_NAME, COLUMN_NAME, IS_NULLABLE, COLUMN_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'topsoft_task' AND TABLE_NAME = 'clienti' AND IS_NULLABLE = 'NO';
++------------+-------------+-------------+--------------+
+| TABLE_NAME | COLUMN_NAME | IS_NULLABLE | COLUMN_TYPE  |
++------------+-------------+-------------+--------------+
+| clienti    | id_cliente  | NO          | int          |
+| clienti    | nome        | NO          | varchar(100) |
+| clienti    | cognome     | NO          | varchar(100) |
+| clienti    | email       | NO          | varchar(150) |
++------------+-------------+-------------+--------------+
+4 rows in set (0,05 sec)
+
+mysql> SELECT TABLE_NAME, COLUMN_NAME, IS_NULLABLE, COLUMN_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'topsoft_task' AND TABLE_NAME = 'partite_iva' AND IS_NULLABLE = 'NO';
++-------------+--------------+-------------+--------------+
+| TABLE_NAME  | COLUMN_NAME  | IS_NULLABLE | COLUMN_TYPE  |
++-------------+--------------+-------------+--------------+
+| partite_iva | id_piva      | NO          | int          |
+| partite_iva | id_cliente   | NO          | int          |
+| partite_iva | numero_piva  | NO          | varchar(15)  |
+| partite_iva | nome_azienda | NO          | varchar(100) |
++-------------+--------------+-------------+--------------+
+4 rows in set (0,04 sec)
 

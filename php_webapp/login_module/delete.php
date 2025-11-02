@@ -38,7 +38,7 @@ error_log("DEBUG delete.php - params: nome='$nome', cognome='$cognome', email='$
 
 // Dynamic bind
 $stmt->bind_param("sss", $nome, $cognome, $email);
-// Diagnostic print to check the real executed query
+
 $stmt->execute();
 // Execution check
 if (!$stmt->execute()) {
