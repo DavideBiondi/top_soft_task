@@ -79,3 +79,43 @@ INSERT INTO partite_iva (id_cliente, numero_piva, denominazione, nome_azienda, d
 (5, 'IT33344455566', 'IT', 'RossiConsulting_SRL', '2021-07-10');
 
 DELETE FROM partite_iva WHERE id_piva= 5;
+
+SELECT 
+    TABLE_NAME,
+    COLUMN_NAME,
+    IS_NULLABLE,
+    COLUMN_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA = 'topsoft_task'
+  AND TABLE_NAME = 'clienti'
+  AND IS_NULLABLE = 'NO';
+
+SELECT TABLE_NAME, COLUMN_NAME, IS_NULLABLE, COLUMN_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'topsoft_task' AND TABLE_NAME = 'clienti' AND IS_NULLABLE = 'NO';
+
+
+SELECT 
+    c.id_cliente,
+    c.nome,
+    c.cognome,
+    c.email,
+    t.numero_telefono,
+    p.numero_piva,
+    p.nome_azienda,
+    p.denominazione,
+    p.data_attivazione,
+    ca.codice AS codice_ateco,
+    ca.descrizione AS descrizione_ateco
+FROM clienti c
+LEFT JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente
+LEFT JOIN partite_iva p ON c.id_cliente = p.id_cliente
+LEFT JOIN piva_ateco pa ON p.id_piva = pa.id_piva
+LEFT JOIN codici_ateco ca ON pa.id_ateco = ca.id_ateco
+WHERE c.email = 'alessandro.conti@example.com';
+
+
+
+ALTER TABLE clienti
+ADD CONSTRAINT check_surname_min_length CHECK (CHAR_LENGTH (cognome) >= 2);
+
+
+

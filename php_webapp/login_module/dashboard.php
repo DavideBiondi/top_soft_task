@@ -5,6 +5,8 @@ if (!isset($_SESSION['loggedin'])) {
     header("Location: login.php");
     exit;
 }
+// Import the dictionary with ATECO codes
+require_once "ateco_dict.php";
 ?>
 <!DOCTYPE html>
 <html lang="IT">
@@ -117,11 +119,11 @@ if (isset($_SESSION['error'])) {
   <input type="email" name="email" required><br>
   <h3>Scegli i campi che vuoi modificare</h3>
   <label>Nome</label><br>
-  <input type="text" name="nome"><br>
+  <input type="text" name="nome_to_insert"><br>
   <label>Cognome</label><br>
-  <input type="text" name="cognome"><br>
+  <input type="text" name="cognome_to_insert"><br>
   <label>Email</label><br>
-  <input type="email" name="email"><br>
+  <input type="email" name="email_to_insert"><br>
   <label>Telefono</label><br>
   <input type="text" name="numero_telefono"><br>
   <label>P.IVA</label><br>
@@ -136,11 +138,32 @@ if (isset($_SESSION['error'])) {
   <input type="text" name="nome_azienda"><br>
   <label>Nome del gruppo</label><br>
   <input type="text" name="nome_gruppo"><br>
-  <label>Codice ATECO</label><br>
+  <!--<label>Codice ATECO</label><br>
   <input type="text" name="codice_ateco"><br>
   <label>Descrizione del Codice ATECO</label><br>
   <input type="text" name="descrizione"><br>
-  <br>
+  <br> -->
+  <!-- <label>Codici ATECO associati</label><br>
+<select name="id_ateco[]" multiple size="5">
+  <option value="1">62.01 - Produzione di software non connesso all’edizione</option>
+  <option value="2">63.11 - Elaborazione dei dati, hosting e attività connesse</option>
+  <option value="3">70.22 - Consulenza imprenditoriale e amministrativo-gestionale</option>
+  <option value="4">62.09 - Altre attività dei servizi connessi alle tecnologie informatiche</option>
+  <option value="5">57.21 - Produzione di software di tipo embedded</option>
+</select> -->
+<label>Codici ATECO disponibili</label><br>
+<select name="codici_ateco[]" multiple size="7">
+<?php
+foreach ($ateco_dict as $codice => $descrizione) {
+    echo "<option value='$codice'>$codice - $descrizione</option>";
+}
+?>
+</select>  
+  <small>
+    Tieni premuto <b>Ctrl</b> (Windows/Linux) o <b>Cmd</b> (Mac) per selezionare più codici ATECO.
+  </small>
+  <br><br>
+
   <input type="submit" value="Modifica">
   <div>*I punti contrassegnati con asterisco (*) sono obbligatori</div>
   <?php
@@ -152,7 +175,7 @@ if (isset($_SESSION['error'])) {
 </form>
 <!-- Form di Eliminazione cliente -->
 <form method="post" class="hidden" id="elimina_cliente" action="delete.php">
-  <h2>Modifica Cliente</h2>
+  <h2>Elimina Cliente</h2>
   <h3> Requisiti minimi di identificazione </h3>
   <label>Nome*</label><br>
   <input type="text" name="nome" required><br>

@@ -1,6 +1,6 @@
 <?php 
-// This file receives data from a form, checks whether a client is matched against the required parameters, 
-// and returns a table
+// This file receives data from a form, and create a client with the required parameters, 
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -36,7 +36,7 @@ if ($nome === '' || $cognome === '' || $email === '' || $numero_piva === '' || $
 $query = "INSERT INTO clienti (nome, cognome, email) VALUES (?, ?, ?)";
 
 // Make the addition of the client instant, otherwise partite_iva and telefoni_clienti will not be
-// populated. So we strat the transaction before the prepared statement, and the commit after execution 
+// populated. So we start the transaction before the prepared statement, and the commit after execution 
 $conn->begin_transaction();
 
 $stmt = $conn->prepare($query);

@@ -60,6 +60,9 @@ ALTER TABLE clienti
 ADD CONSTRAINT check_name_min_length CHECK (CHAR_LENGTH (nome) >= 2),
 ADD CONSTRAINT check_email_min_length CHECK (CHAR_LENGTH (email) >= 5);
 
+ALTER TABLE clienti
+ADD CONSTRAINT check_surname_min_length CHECK (CHAR_LENGTH (cognome) >= 2);
+
 ALTER TABLE partite_iva
 ADD CONSTRAINT check_piva_length CHECK (CHAR_LENGTH (numero_piva) BETWEEN 10 AND 15);
 
@@ -108,6 +111,7 @@ ALTER TABLE partite_iva
 MODIFY denominazione VARCHAR(3) NULL,
 ADD COLUMN nome_azienda VARCHAR(100) NOT NULL AFTER numero_piva;
 
+#Modifying tables
 UPDATE partite_iva SET
 nome_azienda = 'Studio_Verdi_SRL',
 denominazione = 'IT' 
@@ -293,4 +297,36 @@ mysql> SELECT TABLE_NAME, COLUMN_NAME, IS_NULLABLE, COLUMN_TYPE FROM INFORMATION
 | partite_iva | nome_azienda | NO          | varchar(100) |
 +-------------+--------------+-------------+--------------+
 4 rows in set (0,04 sec)
+
+mysql> UPDATE codici_ateco SET codice='57.21' WHERE id_ateco=4;
+Query OK, 1 row affected (0,05 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM codici_ateco;
++----------+--------+-------------------------------------------------------------------------+
+| id_ateco | codice | descrizione                                                             |
++----------+--------+-------------------------------------------------------------------------+
+|        1 | 62.01  | Produzione di software non connesso all edizione                        |
+|        2 | 63.11  | Elaborazione dei dati, hosting e attività connesse                      |
+|        3 | 70.22  | Consulenza imprenditoriale e altra consulenza amministrativo-gestionale |
+|        4 | 57.21  | Produzione di software di tipo embedded                                 |
++----------+--------+-------------------------------------------------------------------------+
+4 rows in set (0,05 sec)
+mysql> SELECT c.nome, c.cognome, p.numero_piva, ca.codice AS codice_ateco, ca.descrizione, t.numero_telefono FROM clienti c INNER JOIN partite_iva p ON c.id_cliente=p.id_cliente INNER JOIN piva_ateco pa ON p.id_piva=pa.id_piva INNER JOIN telefoni_clienti t on t.id_cliente=c.id_cliente  INNER JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco WHERE c.email='luca.verdi@example.com';
++------+---------+---------------+--------------+-----------------------------------------------------+-----------------+
+| nome | cognome | numero_piva   | codice_ateco | descrizione                                         | numero_telefono |
++------+---------+---------------+--------------+-----------------------------------------------------+-----------------+
+| Luca | Verdi   | IT12345678901 | 62.01        | Produzione di software non connesso all edizione    | +393401112233   |
+| Luca | Verdi   | IT12345678901 | 63.11        | Elaborazione dei dati, hosting e attività connesse  | +393401112233   |
++------+---------+---------------+--------------+-----------------------------------------------------+-----------------+
+2 rows in set (0,04 sec)
+
+mysql> SELECT c.nome, c.cognome, p.numero_piva, ca.codice AS codice_ateco, ca.descrizione, t.numero_telefono FROM clienti c INNER JOIN partite_iva p ON c.id_cliente=p.id_cliente INNER JOIN piva_ateco pa ON p.id_piva=pa.id_piva INNER JOIN telefoni_clienti t on t.id_cliente=c.id_cliente  INNER JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco WHERE c.email='luca.verdi@example.com';
++------+---------+---------------+--------------+-------------------------------------------------------------------+-----------------+
+| nome | cognome | numero_piva   | codice_ateco | descrizione                                                       | numero_telefono |
++------+---------+---------------+--------------+-------------------------------------------------------------------+-----------------+
+| Luca | Verdi   | IT12345678901 | 57.21        | Produzione di software di tipo embedded                           | +393401112234   |
+| Luca | Verdi   | IT12345678901 | 62.09        | Altre attività dei servizi connessi alle tecnologie informatiche  | +393401112234   |
++------+---------+---------------+--------------+-------------------------------------------------------------------+-----------------+
+2 rows in set (0,05 sec)
 
