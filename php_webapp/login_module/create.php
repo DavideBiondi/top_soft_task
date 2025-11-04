@@ -7,21 +7,21 @@ error_reporting(E_ALL);
 
 session_start();
 require_once "db_connect.php";
-
+require_once "sanitize_csv.php";
 // We use "?? ''" to avoid warnings
 // Mandatory data
-$nome=$_POST['nome'] ?? '';
-$cognome=$_POST['cognome'] ?? '';
+$nome=sanitize_csv_input($_POST['nome'] ?? '');
+$cognome=sanitize_csv_input($_POST['cognome'] ?? '');
 $email=$_POST['email'] ?? '';
-$numero_piva=$_POST['numero_piva'] ?? '';
-$nome_azienda=$_POST['nome_azienda'] ?? '';
+$numero_piva=sanitize_csv_input($_POST['numero_piva'] ?? '');
+$nome_azienda=sanitize_csv_input($_POST['nome_azienda'] ?? '');
 
 //Non mandatory
-$numero_telefono=$_POST['numero_telefono'] ?? '';
-$nome_gruppo=$_POST['nome_gruppo'] ?? '';
+$numero_telefono=sanitize_csv_input($_POST['numero_telefono'] ?? '');
+$nome_gruppo=sanitize_csv_input($_POST['nome_gruppo'] ?? '');
 $data_attivazione=$_POST['data_attivazione'] ?? '';
-$denominazione=$_POST['denominazione'] ?? '';
-$descrizione_ateco=$_POST['descrizione'] ?? '';
+$denominazione=sanitize_csv_input($_POST['denominazione'] ?? '');
+$descrizione_ateco=sanitize_csv_input($_POST['descrizione'] ?? '');
 $codice_ateco=$_POST['codice_ateco'] ?? '';
 
 // Minimal client creation diagnostic check

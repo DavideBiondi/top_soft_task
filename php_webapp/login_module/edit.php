@@ -11,24 +11,25 @@ error_reporting(E_ALL);
 //Start the MySQL session
 session_start();
 require_once "db_connect.php";
+require_once "sanitize_csv.php";
+
 
 // We use "?? ''" to avoid warnings
 // Mandatory data for client identification
-$nome=$_POST['nome'] ?? '';
-$cognome=$_POST['cognome'] ?? '';
+$nome=sanitize_csv_input($_POST['nome'] ?? '');
+$cognome=sanitize_csv_input($_POST['cognome'] ?? '');
 $email=$_POST['email'] ?? '';
 
 //Fields to modify
-$nome_to_insert = trim($_POST['nome_to_insert'] ?? '');
-$cognome_to_insert = trim($_POST['cognome_to_insert'] ?? '');
+$nome_to_insert = trim(sanitize_csv_input($_POST['nome_to_insert'] ?? ''));
+$cognome_to_insert = trim(sanitize_csv_input($_POST['cognome_to_insert'] ?? ''));
 $email_to_insert = trim($_POST['email_to_insert'] ?? '');
-
-$numero_telefono=$_POST['numero_telefono'] ?? '';
-$numero_piva=$_POST['numero_piva'] ?? '';
+$numero_telefono=sanitize_csv_input($_POST['numero_telefono'] ?? '');
+$numero_piva=sanitize_csv_input($_POST['numero_piva'] ?? '');
 $data_attivazione=$_POST['data_attivazione'] ?? '';
-$denominazione=$_POST['denominazione'] ?? '';
-$nome_azienda=$_POST['nome_azienda'] ?? '';
-$nome_gruppo=$_POST['nome_gruppo'] ?? '';
+$denominazione=sanitize_csv_input($_POST['denominazione'] ?? '');
+$nome_azienda=sanitize_csv_input($_POST['nome_azienda'] ?? '');
+$nome_gruppo=sanitize_csv_input($_POST['nome_gruppo'] ?? '');
 // Due to N:M relationship, we were forced to change the code
 // $codice_ateco=$_POST['codice_ateco'] ?? '';
 // $descrizione_ateco=$_POST['descrizione'] ?? '';

@@ -1,12 +1,23 @@
 <?php 
+// Output buffering activation
+ob_start();
+
 // This file receives data from a form, checks whether a client is matched against the required parameters, 
 // and returns a table
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+ini_set("error_log", __DIR__ . "/php_error.log");
+
+// Number of buffers opened diagnostic check
+error_log("DEBUG search.php - number of buffers opened after ob_start(): " . ob_get_level());
+
 
 session_start();
 require_once "db_connect.php";
+
+//CSV export option
+$export_csv = isset($_POST['export_csv']);
 
 // We use "?? ''" to avoid warnings
 $nome=$_POST['nome'] ?? '';
@@ -17,7 +28,7 @@ $numero_telefono=$_POST['numero_telefono'] ?? '';
 $numero_piva=$_POST['numero_piva'] ?? '';
 $nome_azienda=$_POST['nome_azienda'] ?? '';
 $nome_gruppo=$_POST['nome_gruppo'] ?? '';
-$codice_ateco=$_POST['codice'] ?? '';
+$codice_ateco=$_POST['codice_ateco'] ?? '';
 
 $conditions =[];
 $params=[];
@@ -98,10 +109,10 @@ if (empty($conditions)) {
 
 // Dynamic query
 $query = "SELECT c.nome, c.cognome, c.email, p.numero_piva, t.numero_telefono, ca.codice AS codice_ateco, ca.descrizione FROM clienti c 
-          INNER JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente
-          INNER JOIN partite_iva p ON c.id_cliente=p.id_cliente 
-          INNER JOIN piva_ateco pa ON p.id_piva=pa.id_piva 
-          INNER JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco 
+          LEFT JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente
+          LEFT JOIN partite_iva p ON c.id_cliente=p.id_cliente 
+          LEFT JOIN piva_ateco pa ON p.id_piva=pa.id_piva 
+          LEFT JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco 
           ";
 
 // Dianostic check on the filling of conditions
@@ -115,12 +126,24 @@ $query .= " ORDER BY c.nome;";
 
 // Diagnostic print to check the real executed query
 echo "<pre>$query</pre>";
+
+// Diagnostic check over the passed parameters
+error_log("DEBUG search.php - SEARCH/READ clienti(joined): $query");
+error_log("DEBUG search.php - PARAMS: " . json_encode($params));
+error_log("DEBUG search.php - TYPES: $types");
+
 $stmt = $conn->prepare($query);
 // Diagnostic check to assess the preparation of the query statement
 if (!$stmt) {
     # code...
     die("Errore nella preparazione della query: " . $conn->error);
 }
+
+// Pre-binding diagnostic check
+$expected_params = substr_count($query, '?');
+$actual_params= count($params);
+error_log("DEBUG search.php - binding check clienti: expected=$expected_params, actual=$actual_params");
+
 // Dynamic bind
 $stmt->bind_param($types, ...$params);
 $stmt->execute();
@@ -143,6 +166,46 @@ if ($result->num_rows >= 1) {
     header("Location: dashboard.php");
     exit;
 }
+
+// === EXPORT CSV ===
+if ($export_csv) {
+  if ($result->num_rows > 0) {
+
+      // Buffer cleanse diagnostic check
+      if (ob_get_level() > 0) {
+        ob_end_clean();
+      }
+      // Set HTTP headers for direct download
+      header('Content-Type: text/csv; charset=utf-8');
+      header('Content-Disposition: attachment; filename="clienti_export.csv"');
+
+      $output = fopen('php://output', 'w');
+
+      // Columns headers (avoid whitespaces otherwise they will be enclosed in double quotes)
+      fputcsv($output, ['Nome', 'Cognome', 'Email', 'Telefono', 'P._IVA', 'Codice_ATECO', 'Descrizione']);
+
+      // Row per row
+      while ($row = $result->fetch_assoc()) {
+          fputcsv($output, [
+              $row['nome'] ?? '',
+              $row['cognome'] ?? '',
+              $row['email'] ?? '',
+              $row['numero_telefono'] ?? '',
+              $row['numero_piva'] ?? '',
+              $row['codice_ateco'] ?? '',
+              $row['descrizione'] ?? ''
+          ]);
+      }
+
+      fclose($output);
+      exit; // Stop HTML rendering
+  } else {
+      $_SESSION['error'] = "Nessun risultato da esportare.";
+      header("Location: dashboard.php");
+      exit;
+  }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="IT">
@@ -169,6 +232,23 @@ if ($result->num_rows >= 1) {
 <body>
   <h1>Risultati ricerca</h1>
   <?php if ($result->num_rows > 0): ?>
+
+    <form method="post" action="search.php">
+      <!-- Manteniamo i parametri della ricerca -->
+      <input type="hidden" name="nome" value="<?= htmlspecialchars($nome) ?>">
+      <input type="hidden" name="cognome" value="<?= htmlspecialchars($cognome) ?>">
+      <input type="hidden" name="email" value="<?= htmlspecialchars($email) ?>">
+      <input type="hidden" name="numero_piva" value="<?= htmlspecialchars($numero_piva) ?>">
+      <input type="hidden" name="data_inserimento" value="<?= htmlspecialchars($data_inserimento) ?>">
+      <input type="hidden" name="numero_telefono" value="<?= htmlspecialchars($numero_telefono) ?>">
+      <input type="hidden" name="nome_azienda" value="<?= htmlspecialchars($nome_azienda) ?>">
+      <input type="hidden" name="nome_gruppo" value="<?= htmlspecialchars($nome_gruppo) ?>">
+      <input type="hidden" name="codice_ateco" value="<?= htmlspecialchars($codice_ateco) ?>">
+
+
+      <button type="submit" name="export_csv" value="1"> Esporta CSV</button>
+    </form>
+
     <table>
       <tr>
         <th>Nome</th>
@@ -195,6 +275,7 @@ if ($result->num_rows >= 1) {
     <p>Nessun risultato trovato.</p>
   <?php endif; ?>
   <br>
+  
   <a href="dashboard.php">Torna alla Dashboard</a>
 </body>
 </html>

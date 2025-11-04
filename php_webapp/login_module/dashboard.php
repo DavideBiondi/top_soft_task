@@ -53,7 +53,7 @@ if (isset($_SESSION['error'])) {
   <input type="text" name="numero_piva"><br>
   <label>Data di inserimento (formato yyyy-mm-gg)</label><br>
   <input type="text" name="data_inserimento" 
-  pattern="(?<=(^19\d\d|^20\d\d)-02-)(0[1-9]|2[0-9])$|^(19\d\d|20\d\d)-(0[469]|11)-(0[1-9]|1[1-9]|2[1-9]|30)$|^(19\d\d|20\d\d)-(0[13578]|12)-(0[1-9]|1[1-9]|2[1-9]|3[01])$">
+  pattern="(?<=(^19\d\d|^20\d\d)-02-)(0[1-9]|2[0-9])$|^(19\d\d|20\d\d)-(0[469]|11)-(0[1-9]|1[0-9]|2[0-9]|30)$|^(19\d\d|20\d\d)-(0[13578]|12)-(0[1-9]|1[0-9]|2[0-9]|3[01])$">
   <br>
   <label>Codice ATECO</label><br>
   <input type="text" name="codice_ateco"><br>
@@ -73,30 +73,30 @@ if (isset($_SESSION['error'])) {
     <form method="post" class="hidden" id="crea_cliente" action="create.php">
   <h2>Crea Cliente</h2>
   <label>Nome*</label><br>
-  <input type="text" name="nome" required><br>
+  <input type="text" name="nome" required pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Cognome*</label><br>
-  <input type="text" name="cognome" required><br>
+  <input type="text" name="cognome" required pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Telefono</label><br>
-  <input type="text" name="numero_telefono"><br>
+  <input type="text" name="numero_telefono" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Email*</label><br>
   <input type="email" name="email" required><br>
   <label>P.IVA*</label><br>
-  <input type="text" name="numero_piva" required><br>
+  <input type="text" name="numero_piva" required pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Nome dell'azienda*</label><br>
-  <input type="text" name="nome_azienda" required><br>
+  <input type="text" name="nome_azienda" required pattern='^[^;,:\t\"\n\r><|]+'><br>
   
   <label>Data di attivazione (formato yyyy-mm-gg)</label><br>
   <input type="text" name="data_attivazione" 
   pattern="(?<=(^19\d\d|^20\d\d)-02-)(0[1-9]|2[0-9])$|^(19\d\d|20\d\d)-(0[469]|11)-(0[1-9]|1[1-9]|2[1-9]|30)$|^(19\d\d|20\d\d)-(0[13578]|12)-(0[1-9]|1[1-9]|2[1-9]|3[01])$">
   <br>
   <label>Denominazione</label><br>
-  <input type="text" name="denominazione" maxlength="4"><br>
+  <input type="text" name="denominazione" maxlength="4" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Nome del gruppo</label><br>
-  <input type="text" name="nome_gruppo"><br>
+  <input type="text" name="nome_gruppo" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Codice ATECO</label><br>
-  <input type="text" name="codice_ateco"><br>
+  <input type="text" name="codice_ateco" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Descrizione del Codice ATECO</label><br>
-  <input type="text" name="descrizione"><br>
+  <input type="text" name="descrizione" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <br>
   <input type="submit" value="Crea">
   <div>*I punti contrassegnati con asterisco (*) sono obbligatori</div>
@@ -112,32 +112,32 @@ if (isset($_SESSION['error'])) {
   <h2>Modifica Cliente</h2>
   <h3> Requisiti minimi di identificazione </h3>
   <label>Nome*</label><br>
-  <input type="text" name="nome" required><br>
+  <input type="text" name="nome" required pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Cognome*</label><br>
-  <input type="text" name="cognome" required><br>
+  <input type="text" name="cognome" required pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Email*</label><br>
   <input type="email" name="email" required><br>
   <h3>Scegli i campi che vuoi modificare</h3>
   <label>Nome</label><br>
-  <input type="text" name="nome_to_insert"><br>
+  <input type="text" name="nome_to_insert" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Cognome</label><br>
-  <input type="text" name="cognome_to_insert"><br>
+  <input type="text" name="cognome_to_insert" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Email</label><br>
   <input type="email" name="email_to_insert"><br>
   <label>Telefono</label><br>
-  <input type="text" name="numero_telefono"><br>
+  <input type="text" name="numero_telefono" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>P.IVA</label><br>
-  <input type="text" name="numero_piva"><br>
+  <input type="text" name="numero_piva" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Data di attivazione (formato yyyy-mm-gg)</label><br>
   <input type="text" name="data_attivazione" 
   pattern="(?<=(^19\d\d|^20\d\d)-02-)(0[1-9]|2[0-9])$|^(19\d\d|20\d\d)-(0[469]|11)-(0[1-9]|1[1-9]|2[1-9]|30)$|^(19\d\d|20\d\d)-(0[13578]|12)-(0[1-9]|1[1-9]|2[1-9]|3[01])$">
   <br>
   <label>Denominazione</label><br>
-  <input type="text" name="denominazione"><br>
+  <input type="text" name="denominazione" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Nome dell'azienda</label><br>
-  <input type="text" name="nome_azienda"><br>
+  <input type="text" name="nome_azienda" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <label>Nome del gruppo</label><br>
-  <input type="text" name="nome_gruppo"><br>
+  <input type="text" name="nome_gruppo" pattern='^[^;,:\t\"\n\r><|]+'><br>
   <!--<label>Codice ATECO</label><br>
   <input type="text" name="codice_ateco"><br>
   <label>Descrizione del Codice ATECO</label><br>
