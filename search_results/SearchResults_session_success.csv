@@ -1,0 +1,68 @@
+Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
+PHP Core Security,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_2,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_2,Chapter
+How to Write PHP Scripts,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_3,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_3,Chapter
+Sessions and Cookies,PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_7,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_7,Chapter
+Sessions and Logging In,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_10,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_10,Chapter
+Security Standards and Best Practices,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_5,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_5,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_11,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_11,Chapter
+Authenticating Users with a Database,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_19,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_19,Chapter
+Basic Blog: Images and Authentication,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_9,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_9,Chapter
+"Config, Cache, Sessions, Filesystems",Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_10,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_10,Chapter
+Testing Our Framework,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_9,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_9,Chapter
+Building a Validator,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_5,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_5,Chapter
+"Queues, Logging, Emails",Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_11,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_11,Chapter
+Authentication,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_8,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_8,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_11,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_11,Chapter
+Authenticating Users with a Database,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_19,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_19,Chapter
+Add the Finishing Touches: Security and Validation,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_6,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_6,Chapter
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_17,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_17,Chapter
+Password Protecting Sensitive Actions and Areas,Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_6,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_6,Chapter
+Authentication,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_7,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_7,Chapter
+"Add Controls to Create, Edit, and Delete Events",Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_5,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_5,Chapter
+Neo4j + PHP,Practical Neo4j,,,,10.1007/978-1-4842-0022-3_8,Gregory Jordan,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0022-3_8,Chapter
+Appendices,Web Programming with PHP and MySQL,,,,10.1007/978-3-319-22659-0_19,Max Bramer,2015,https://link.springer.com/chapter/10.1007/978-3-319-22659-0_19,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP Solutions,,,,10.1007/978-1-4842-0635-5_9,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_9,Chapter
+Mach,JavaScript Frameworks for Modern Web Dev,,,,10.1007/978-1-4842-0662-1_10,Tim AmblerNicholas Cloud,2015,https://link.springer.com/chapter/10.1007/978-1-4842-0662-1_10,Chapter
+Authenticating Users with a Database,PHP Solutions,,,,10.1007/978-1-4842-0635-5_17,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_17,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-6032-5_12,Matt Zandstra,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6032-5_12,Chapter
+Building the Back End: Part 1,Realtime Web Apps,,,,10.1007/978-1-4302-4621-3_8,Jason LengstorfPhil Leggetter,2013,https://link.springer.com/chapter/10.1007/978-1-4302-4621-3_8,Chapter
+Reports and Other Outputs,Expert PHP and MySQL,,,,10.1007/978-1-4302-6008-0_7,Marc Rochkind,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6008-0_7,Chapter
+Application Structure,Expert PHP and MySQL,,,,10.1007/978-1-4302-6008-0_5,Marc Rochkind,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6008-0_5,Chapter
+Registration and Login,Pro PHP MVC,,,,10.1007/978-1-4302-4165-2_14,Chris Pitt,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4165-2_14,Chapter
+Social Media,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_4,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_4,Chapter
+JSON and Ajax,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_15,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_15,Chapter
+PHP Basics,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_3,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_3,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP Solutions,,,,10.1007/978-1-4302-3250-6_9,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_9,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-2926-1_12,Matt Zandstra,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2926-1_12,Chapter
+Preventing Data Loss,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_11,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_11,Chapter
+Adding Password Protection to Administrative Links,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_11,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_11,Chapter
+Password Protecting Sensitive Actions and Areas,Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_6,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_6,Chapter
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_18,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_18,Chapter
+Authenticating Users with a Database,PHP Solutions,,,,10.1007/978-1-4302-3250-6_17,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_17,Chapter
+"Add Controls to Create, Edit, and Delete Events",Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_5,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_5,Chapter
+Using CAPTCHAs,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_9,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_9,Chapter
+Validating Database Input and User Authentication,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_15,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_15,Chapter
+"Database Communication, Manipulation, and Display",Beginning Zend Framework,,,,10.1007/978-1-4302-1826-5_5,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1826-5_5,Chapter
+PHP Basics,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_3,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_3,Chapter
+Using Php filters to Validate User Input,PHP Object-Oriented Solutions,,,,10.1007/978-1-4302-1012-2_4,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-1012-2_4,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-0467-1_12,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0467-1_12,Chapter
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_18,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_18,Chapter
+Using Amazon.com Web Services,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_22,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_22,Chapter
+Advanced Zend Framework,Pro PHP,,,,10.1007/978-1-4302-0279-0_16,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0279-0_16,Chapter
+Installation Profiles,Pro Drupal Development,,,,10.1007/978-1-4302-0990-4_23,John K. VanDyk,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0990-4_23,Chapter
+PHP Basics,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_3,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_3,Chapter
+Controlling Access to Your Site,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_15,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_15,Chapter
+Session Handlers,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_18,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_18,Chapter
+PHP Basics,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_3,Chapter
+PHP Basics,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_3,Chapter
+PHP’s mysqli Extension,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_30,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_30,Chapter
+Session Handlers,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_18,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_18,Chapter
+Session Handlers,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_18,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_18,Chapter
+Using Sessions to Track Visitors and Restrict Access,Foundation PHP For Dreamweaver 8,,,,10.1007/978-1-4302-0101-4_10,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0101-4_10,Chapter
+Working with Variables,PHP 5 Recipes,,,,10.1007/978-1-4302-0070-3_10,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0070-3_10,Chapter
+Keeping Control with a Content Management System,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_10,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_10,Chapter
+Working Smarter with Arrays and Loops,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_5,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_5,Chapter
+PHP: Discussion Forum,The Definitive Guide to MySQL,,,,10.1007/978-1-4302-0669-9_13,Michael Kofler,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0669-9_13,Chapter
+Enterprise Patterns,"PHP 5 Objects, Patterns, and Practice",,,,10.1007/978-1-4302-0403-9_12,Matt Zandstra,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0403-9_12,Chapter
+News Portal,Dreamweaver MX 2004 Design Projects,,,,10.1007/978-1-4302-5432-4_2,Rachel AndrewCraig GrannellAllan KentChristopher Schmitt,2004,https://link.springer.com/chapter/10.1007/978-1-4302-5432-4_2,Chapter
+User Interface Components,Foundation Flash MX Applications,,,,10.1007/978-1-4302-5211-5_7,Scott MebbersonSteve Webster,2003,https://link.springer.com/chapter/10.1007/978-1-4302-5211-5_7,Chapter

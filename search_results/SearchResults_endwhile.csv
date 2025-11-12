@@ -1,0 +1,57 @@
+Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
+The Control Statements,PHP by Example,,,,10.1007/979-8-8688-0258-4_3,Alex Vasilev,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0258-4_3,Chapter
+Loops,PHP 8 Quick Scripting Reference,,,,10.1007/978-1-4842-6619-9_7,Mikael Olsson,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6619-9_7,Chapter
+Code Injection Prevention in Content Management Systems Using Machine Learning,Computational Vision and Bio-Inspired Computing,,,,10.1007/978-981-16-9573-5_4,C. KavithamaniR. S. Sankara SubramanianSrinevasan KrishnamurthyJayakrishnan ChathuGayatri Iyer,2022,https://link.springer.com/chapter/10.1007/978-981-16-9573-5_4,Conference paper
+Syntax,Programming Language Design and Implementation,,,,10.1007/978-3-031-93299-1_3,Torben Ægidius Mogensen,2026,https://link.springer.com/chapter/10.1007/978-3-031-93299-1_3,Chapter
+Syntax,Programming Language Design and Implementation,,,,10.1007/978-3-031-11806-7_3,Torben Ægidius Mogensen,2022,https://link.springer.com/chapter/10.1007/978-3-031-11806-7_3,Chapter
+Outputs of Ring,Beginning Ring Programming,,,,10.1007/978-1-4842-5833-0_4,Mansour Ayouni,2020,https://link.springer.com/chapter/10.1007/978-1-4842-5833-0_4,Chapter
+Loops,PHP 7 Quick Scripting Reference,,,,10.1007/978-1-4842-1922-5_7,Mikael Olsson,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1922-5_7,Chapter
+Loops,PHP Quick Scripting Reference,,,,10.1007/978-1-4302-6284-8_7,Mikael Olsson,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6284-8_7,Chapter
+Content Options and the Loop,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_3,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_3,Chapter
+Creating a Theme,WordPress for Web Developers,,,,10.1007/978-1-4302-5867-4_12,Stephanie Leary,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5867-4_12,Chapter
+Getting Started,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_1,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_1,Chapter
+Using Custom Post Types,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_4,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_4,Chapter
+"Custom Post Types, Taxonomies, and Fields",WordPress for Web Developers,,,,10.1007/978-1-4302-5867-4_14,Stephanie Leary,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5867-4_14,Chapter
+Creating Custom Taxonomies and Fields,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_5,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_5,Chapter
+"Customize with Hooks, Shortcodes, and Widgets",Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_6,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_6,Chapter
+Evaluation of a Self-adapting Method for Resource Classification in Folksonomies,7th International Conference on Knowledge Management in Organizations: Service and Cloud Computing,,,,10.1007/978-3-642-30867-3_1,José Javier AstrainAlberto CórdobaFrancisco EcharteJesús Villadangos,2013,https://link.springer.com/chapter/10.1007/978-3-642-30867-3_1,Conference paper
+Adding Facebook Components,Beginning Facebook Game Apps Development,,,,10.1007/978-1-4302-4171-3_11,Wayne Graham,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4171-3_11,Chapter
+PHP Basics,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_3,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_3,Chapter
+SCHO: An Ontology Based Model for Computing Divergence Awareness in Distributed Collaborative Systems,"ECSCW 2011: Proceedings of the 12th European Conference on Computer Supported Cooperative Work, 24-28 September 2011, Aarhus Denmark",,,,10.1007/978-0-85729-913-0_20,Khaled AslanNagham AlhadadHala Skaf-MolliPascal Molli,2011,https://link.springer.com/chapter/10.1007/978-0-85729-913-0_20,Conference paper
+Refactoring with Patterns,Pro PHP Refactoring,,,,10.1007/978-1-4302-2728-1_15,Francesco TrucchiaJacopo Romei,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2728-1_15,Chapter
+Creating an Advanced Theme,Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_7,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_7,Chapter
+Creating a Basic Theme,Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_6,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_6,Chapter
+Creating Widgets,Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_8,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_8,Chapter
+"Custom Content Types, Taxonomies, and Fields",Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_12,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_12,Chapter
+Legacy Code,Pro PHP Refactoring,,,,10.1007/978-1-4302-2728-1_13,Francesco TrucchiaJacopo Romei,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2728-1_13,Chapter
+PHP Basics,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_3,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_3,Chapter
+Multi-synchronous Collaborative Semantic Wikis,Web Information Systems Engineering - WISE 2009,,,,10.1007/978-3-642-04409-0_17,Charbel RahhalHala Skaf-MolliPascal MolliStéphane Weiss,2009,https://link.springer.com/chapter/10.1007/978-3-642-04409-0_17,Conference paper
+PHP Basics,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_3,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_3,Chapter
+PHP Basics,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_3,Chapter
+PHP Basics,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_3,Chapter
+Tables: How Nature (and the W3C) Intended,The Essential Guide to CSS and HTML Web Design,,,,10.1007/978-1-4302-0479-4_6,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0479-4_6,Chapter
+Working with the File and Operating System,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_10,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_10,Chapter
+Working with the File and Operating System,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_10,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_10,Chapter
+WordPress,Blog Design Solutions,,,,10.1007/978-1-4302-0127-4_5,Chris J. DavisMichael Heilemann,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0127-4_5,Chapter
+Manipulating Third-Party Data,Beginning Google Maps Applications with PHP and Ajax,,,,10.1007/978-1-4302-0224-0_5,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0224-0_5,Chapter
+Improving the User Interface,Beginning Google Maps Applications with PHP and Ajax,,,,10.1007/978-1-4302-0224-0_6,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0224-0_6,Chapter
+Some Orthodox Languages,Theoretical Introduction to Programming,,,,10.1007/1-84628-263-2_5,,2006,https://link.springer.com/chapter/10.1007/1-84628-263-2_5,Chapter
+"Message Automata for Messages with Variants, and Methods for Their Translation",Computational Linguistics and Intelligent Text Processing,,,,10.1007/978-3-540-30586-6_40,Christian Boitet,2005,https://link.springer.com/chapter/10.1007/978-3-540-30586-6_40,Conference paper
+Flash Breaks Free,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_2,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_2,Chapter
+Code Reuse with Dreamweaver and PHP,PHP Web Development with Macromedia Dreamweaver MX 2004,,,,10.1007/978-1-4302-0701-6_6,Allan KentDavid PowersRachel Andrew,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0701-6_6,Chapter
+Extending Apache,Pro Apache,,,,10.1007/978-1-4302-0658-3_12,Peter Wainwright,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0658-3_12,Chapter
+PHP Structures,Professional PHP4,,,,10.1007/978-1-4302-1120-4_5,Luis ArgerichWankyu ChoiJohn CoggeshallKen EgervariMartin GeislerZak GreantAndrew HillChris HubbardJames MooreDevon O’DellJon PariseHarish RawatTarique SaniChristopher ScolloDeepak ThomasChris Ullman,2003,https://link.springer.com/chapter/10.1007/978-1-4302-1120-4_5,Chapter
+Logics and Arithmetics,Logic Functions and Equations,,,,10.1007/978-1-4020-2938-7_6,Christian PosthoffBernd Steinbach,2004,https://link.springer.com/chapter/10.1007/978-1-4020-2938-7_6,Chapter
+Controlling the Flow of Control,Essential PHP fast,,,,10.1007/978-1-4471-0209-0_8,Simon Stobart,2002,https://link.springer.com/chapter/10.1007/978-1-4471-0209-0_8,Chapter
+Object-Oriented PHP,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_6,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_6,Chapter
+PHP and XML,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_14,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_14,Chapter
+File I/O and the File System,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_7,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_7,Chapter
+JavaScript and COM,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_15,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_15,Chapter
+Arrays,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_5,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_5,Chapter
+Variables and Data Types,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_2,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_2,Chapter
+"Expressions, Operators, and Control Structures",A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_3,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_3,Chapter
+Databases,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_11,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_11,Chapter
+Templates,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_12,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_12,Chapter
+Forms,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_10,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_10,Chapter
+Strings and Regular Expressions,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_8,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_8,Chapter
+Cookies and Session Tracking,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_13,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_13,Chapter

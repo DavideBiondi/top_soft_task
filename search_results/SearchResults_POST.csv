@@ -1,0 +1,596 @@
+Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
+Using PHP,PHP by Example,,,,10.1007/979-8-8688-0258-4_12,Alex Vasilev,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0258-4_12,Chapter
+PHP Core Security,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_2,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_2,Chapter
+Working with PHP,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_2,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_2,Chapter
+Web Security for PHP Applications,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_3,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_3,Chapter
+PHP Fundamentals,PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_2,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_2,Chapter
+"PHP Exceptions, Validation, and Regular Expressions",PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_9,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_9,Chapter
+How to Write PHP Scripts,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_3,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_3,Chapter
+Using PHP to Manage Files,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_7,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_7,Chapter
+File Handling,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_7,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_7,Chapter
+PHP: A Quick Reference,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_4,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_4,Chapter
+Email and Form Processing,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_3,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_3,Chapter
+PHP,Tweak Your Mac Terminal,,,,10.1007/978-1-4842-6171-2_6,Daniel Platt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6171-2_6,Chapter
+Form Data,PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_5,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_5,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_11,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_11,Chapter
+Sessions and Cookies,PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_7,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_7,Chapter
+Managing Data,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_9,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_9,Chapter
+A Content Management System,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_12,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_12,Chapter
+A Configuration System,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_11,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_11,Chapter
+Data and Data Types,PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_4,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_4,Chapter
+Security Standards and Best Practices,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_5,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_5,Chapter
+Uploading Data and Files,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_4,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_4,Chapter
+Sessions and Logging In,An Introduction to PHP,,,,10.1007/979-8-8688-0177-8_10,Mark Simon,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0177-8_10,Chapter
+WordPress Customization Fundamentals,Pro WordPress,,,,10.1007/979-8-8688-0971-2_3,Sivaraj Selvaraj,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0971-2_3,Chapter
+Form Management,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_3,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_3,Chapter
+Data Dashboard and Gaming,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_10,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_10,Chapter
+Website with a DB,PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_12,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_12,Chapter
+Uploading Files,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_9,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_9,Chapter
+Enterprise Patterns,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_12,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_12,Chapter
+Generating Thumbnail Images,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_10,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_10,Chapter
+Working with Arrays,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_8,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_8,Chapter
+"Databases, MVC, and Data Objects",PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_6,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_6,Chapter
+HTML Forms,The Absolute Beginner's Guide to HTML and CSS,,,,10.1007/978-1-4842-9250-1_7,Kevin Wilson,2023,https://link.springer.com/chapter/10.1007/978-1-4842-9250-1_7,Chapter
+Understanding Software Threats and Vulnerabilities,Information Security Planning,,,,10.1007/978-3-031-43118-0_21,Susan Lincke,2024,https://link.springer.com/chapter/10.1007/978-3-031-43118-0_21,Chapter
+An Empirical Study of&#xa0;Multi-language Security Patches in&#xa0;Open Source Software,"Detection of Intrusions and Malware, and Vulnerability Assessment",,,,10.1007/978-3-031-97623-0_8,Shiyu SunYunlong XingGrant ZouXinda WangKun Sun,2025,https://link.springer.com/chapter/10.1007/978-3-031-97623-0_8,Conference paper
+Bringing Forms to Life,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_6,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_6,Chapter
+Scripting Languages,Apache Essentials,,,,10.1007/978-1-4842-8324-0_4,Darren James Harkness,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8324-0_4,Chapter
+Managing Multiple Database Tables,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_18,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_18,Chapter
+Managing Content,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_15,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_15,Chapter
+User Input,PHP 8 Quick Scripting Reference,,,,10.1007/978-1-4842-6619-9_23,Mikael Olsson,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6619-9_23,Chapter
+Basic Blog: Entries and Comments,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_8,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_8,Chapter
+Pulling Data from Multiple Tables,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_17,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_17,Chapter
+Formatting Text and Dates,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_16,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_16,Chapter
+Basic Blog: Images and Authentication,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_9,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_9,Chapter
+Authenticating Users with a Database,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_19,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_19,Chapter
+Developing a University Twitter-Like Smart Social Network,Intelligent and Fuzzy Techniques for Emerging Conditions and Digital Transformation,,,,10.1007/978-3-030-85626-7_88,Marius Constantin PopescuCalin RadaAntoanela Naaji,2022,https://link.springer.com/chapter/10.1007/978-3-030-85626-7_88,Conference paper
+Log Files,Apache Essentials,,,,10.1007/978-1-4842-8324-0_6,Darren James Harkness,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8324-0_6,Chapter
+Building the Basic Blog System,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_7,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_7,Chapter
+Advanced Web Challenges,Handbook for CTFers,,,,10.1007/978-981-19-0336-6_3,,2022,https://link.springer.com/chapter/10.1007/978-981-19-0336-6_3,Chapter
+A Location-Based Mobile Advertising System for Small-to-Medium Businesses,2nd EAI International Conference on Smart Technology,,,,10.1007/978-3-031-07670-1_1,Ahmed Abdelmoamen AhmedAnitha Palusa,2023,https://link.springer.com/chapter/10.1007/978-3-031-07670-1_1,Conference paper
+AJAX,jQuery Recipes,,,,10.1007/978-1-4842-7304-3_10,Bintu Harwani,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7304-3_10,Chapter
+Recent Techniques Supporting Vulnerabilities Management for Secure Online Apps,Advances in Cybersecurity Management,,,,10.1007/978-3-030-71381-2_12,Tun Myat AungNi Ni Hla,2021,https://link.springer.com/chapter/10.1007/978-3-030-71381-2_12,Chapter
+Building a Dynamic Image Gallery,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_4,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_4,Chapter
+PHP,Cyber Operations,,,,10.1007/978-1-4842-4294-0_20,Mike O’Leary,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4294-0_20,Chapter
+AWD,Handbook for CTFers,,,,10.1007/978-981-19-0336-6_11,,2022,https://link.springer.com/chapter/10.1007/978-981-19-0336-6_11,Chapter
+Code Injection Prevention in Content Management Systems Using Machine Learning,Computational Vision and Bio-Inspired Computing,,,,10.1007/978-981-16-9573-5_4,C. KavithamaniR. S. Sankara SubramanianSrinevasan KrishnamurthyJayakrishnan ChathuGayatri Iyer,2022,https://link.springer.com/chapter/10.1007/978-981-16-9573-5_4,Conference paper
+Server-Side Programming with PHP,Web-Based Projects that Rock the Class,,,,10.1007/978-1-4842-4463-0_2,Christos Karayiannis,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4463-0_2,Chapter
+Creating a Dynamic Photo Gallery,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_14,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_14,Chapter
+How to Write PHP Scripts,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_3,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_3,Chapter
+Design and Implementation of an Internet of Things (IoT) Architecture for the Acquisition of Relevant Variables in the Study of Failures in Medical Equipment: A Case Study,Internet of Things and Its Applications,,,,10.1007/978-3-030-77528-5_4,Jefferson Sarmiento-RojasPedro Antonio Aya-ParraDaniel-Alejandro Quiroga-TorresAntonio Miguel-Cruz,2022,https://link.springer.com/chapter/10.1007/978-3-030-77528-5_4,Chapter
+Using PHP to Manage Files,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_7,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_7,Chapter
+Enterprise Patterns,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_12,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_12,Chapter
+Advanced Web,Handbook for CTFers,,,,10.1007/978-981-19-0336-6_2,,2022,https://link.springer.com/chapter/10.1007/978-981-19-0336-6_2,Chapter
+An Analysis of Remotely Triggered Malware Exploits in Content Management System-Based Web Applications,Intelligence in Big Data Technologies—Beyond the Hype,,,,10.1007/978-981-15-5285-4_15,C. KavithamaniR. S. Sankara SubramanianSrinevasan KrishnamurthyJayakrishnan ChathuGayatri Iyer,2021,https://link.springer.com/chapter/10.1007/978-981-15-5285-4_15,Conference paper
+Testing Our Framework,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_9,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_9,Chapter
+PHP: A Quick Reference,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_4,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_4,Chapter
+Building a Dependency Injection Container,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_8,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_8,Chapter
+webFuzz: Grey-Box Fuzzing for Web Applications,Computer Security – ESORICS 2021,,,,10.1007/978-3-030-88418-5_8,Orpheas van RooijMarcos Antonios CharalambousDemetris KaizerMichalis PapaevripidesElias Athanasopoulos,2021,https://link.springer.com/chapter/10.1007/978-3-030-88418-5_8,Conference paper
+Slicing Based on Web Scrapped Concurrent Component,Intelligent System Design,,,,10.1007/978-981-15-5400-1_29,Niharika PujariAbhishek RayJagannath Singh,2021,https://link.springer.com/chapter/10.1007/978-981-15-5400-1_29,Conference paper
+Running Online Services Using PHP Sockets,Web-Based Projects that Rock the Class,,,,10.1007/978-1-4842-4463-0_10,Christos Karayiannis,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4463-0_10,Chapter
+Programmable Remote Laboratory for Mobile Robots,Cross Reality and Data Science in Engineering,,,,10.1007/978-3-030-52575-0_6,Rafael Franco-VeraXuemin ChenWei Wayne Li,2021,https://link.springer.com/chapter/10.1007/978-3-030-52575-0_6,Conference paper
+SQL Injection Attacks and Mitigation Strategies: The Latest Comprehension,Advances in Cybersecurity Management,,,,10.1007/978-3-030-71381-2_10,Neelima Bayyapu,2021,https://link.springer.com/chapter/10.1007/978-3-030-71381-2_10,Chapter
+"Early Detection of Poisonous Gas Leakage in Pipelines in an Industrial Environment Using Gas Sensor, Automated with IoT",Advances in Applications of Data-Driven Computing,,,,10.1007/978-981-33-6919-1_12,Pushan Kumar DuttaAkshay VinayakSimran KumariMahdi Hussain,2021,https://link.springer.com/chapter/10.1007/978-981-33-6919-1_12,Chapter
+Building a Validator,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_5,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_5,Chapter
+Authentication,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_8,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_8,Chapter
+Secured User Interfaces,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_5,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_5,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_11,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_11,Chapter
+Handling and Logging Exceptions,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_6,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_6,Chapter
+Multifunctional Interfaces,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_9,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_9,Chapter
+Data Objects,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_7,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_7,Chapter
+Bringing Forms to Life,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_6,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_6,Chapter
+PHP Basics,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_3,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_3,Chapter
+Quantitative Assessment of Remote Code Execution Vulnerability in Web Apps,InECCE2019,,,,10.1007/978-981-15-2317-5_53,Md Maruf HassanUmam MustainSabira KhatunMohamad Shaiful Abdul KarimNazia NishatMostafijur Rahman,2020,https://link.springer.com/chapter/10.1007/978-981-15-2317-5_53,Conference paper
+"Interfaces, Platforms, and Three-Tier Programming",Learn PHP 8,,,,10.1007/978-1-4842-6240-5_2,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_2,Chapter
+Generating Thumbnail Images,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_10,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_10,Chapter
+Working with Arrays,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_8,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_8,Chapter
+Using PHP with MySQL,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_27,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_27,Chapter
+The Utilization of the Biometric Technology in the 2013 Manyu Division Legislative and Municipal Elections in Cameroon: An Appraisal,Advances in Electrical and Computer Technologies,,,,10.1007/978-981-15-5558-9_32,P. A. AssibongI. A. P. WoguSanjay MisraDaspan Makplang,2020,https://link.springer.com/chapter/10.1007/978-981-15-5558-9_32,Conference paper
+Managing Multiple Database Tables,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_18,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_18,Chapter
+Managing Content,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_15,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_15,Chapter
+Pulling Data from Multiple Tables,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_17,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_17,Chapter
+Formatting Text and Dates,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_16,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_16,Chapter
+Implementing Secure Sockets Layer on Your Site,Web-Based Projects that Rock the Class,,,,10.1007/978-1-4842-4463-0_8,Christos Karayiannis,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4463-0_8,Chapter
+Running Your Site with a Certificate from a Certificate Authority,Web-Based Projects that Rock the Class,,,,10.1007/978-1-4842-4463-0_9,Christos Karayiannis,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4463-0_9,Chapter
+Creating a Dynamic Content Web Site,Web-Based Projects that Rock the Class,,,,10.1007/978-1-4842-4463-0_7,Christos Karayiannis,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4463-0_7,Chapter
+Authenticating Users with a Database,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_19,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_19,Chapter
+Uploading Files,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_9,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_9,Chapter
+GuruWS: A Hybrid Platform for Detecting Malicious Web Shells and Web Application Vulnerabilities,Transactions on Computational Collective Intelligence XXXII,,,,10.1007/978-3-662-58611-2_5,Van-Giap LeHuu-Tung NguyenDuy-Phuc PhamVan-On PhungNgoc-Hoa Nguyen,2019,https://link.springer.com/chapter/10.1007/978-3-662-58611-2_5,Chapter
+Obtaining a Domain Name with DDNS,Web-Based Projects that Rock the Class,,,,10.1007/978-1-4842-4463-0_4,Christos Karayiannis,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4463-0_4,Chapter
+Creating a Simple Web App,Building Scalable PHP Web Applications Using the Cloud,,,,10.1007/978-1-4842-5212-3_4,Jonathan Bartlett,2019,https://link.springer.com/chapter/10.1007/978-1-4842-5212-3_4,Chapter
+The Lighttpd Web Server,Web-Based Projects that Rock the Class,,,,10.1007/978-1-4842-4463-0_5,Christos Karayiannis,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4463-0_5,Chapter
+Introduction,Building Scalable PHP Web Applications Using the Cloud,,,,10.1007/978-1-4842-5212-3_1,Jonathan Bartlett,2019,https://link.springer.com/chapter/10.1007/978-1-4842-5212-3_1,Chapter
+Forms,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_13,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_13,Chapter
+PHP Graphics,Programming in HTML and PHP,,,,10.1007/978-3-319-56973-4_9,David R. Brooks,2017,https://link.springer.com/chapter/10.1007/978-3-319-56973-4_9,Chapter
+Transactions,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_34,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_34,Chapter
+Creating a PHP Environment,Programming in HTML and PHP,,,,10.1007/978-3-319-56973-4_4,David R. Brooks,2017,https://link.springer.com/chapter/10.1007/978-3-319-56973-4_4,Chapter
+Introduction to PHP,Programming in HTML and PHP,,,,10.1007/978-3-319-56973-4_5,David R. Brooks,2017,https://link.springer.com/chapter/10.1007/978-3-319-56973-4_5,Chapter
+Create Web Pages That Interact with Users,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_2,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_2,Chapter
+PHP from a Command Line,Programming in HTML and PHP,,,,10.1007/978-3-319-56973-4_10,David R. Brooks,2017,https://link.springer.com/chapter/10.1007/978-3-319-56973-4_10,Chapter
+Add the Finishing Touches: Security and Validation,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_6,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_6,Chapter
+Networking,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_16,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_16,Chapter
+Create a Product Catalog,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_8,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_8,Chapter
+PHP Basics,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_1,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_1,Chapter
+Creating a Dynamic Photo Gallery,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_14,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_14,Chapter
+MySQL Database System,Systems Programming in Unix/Linux,,,,10.1007/978-3-319-92429-8_14,K. C. Wang,2018,https://link.springer.com/chapter/10.1007/978-3-319-92429-8_14,Chapter
+TCP/IP and Network Programming,Systems Programming in Unix/Linux,,,,10.1007/978-3-319-92429-8_13,K. C. Wang,2018,https://link.springer.com/chapter/10.1007/978-3-319-92429-8_13,Chapter
+Some Specific Examples of Attacks on Information Systems and Smart Cities Applications,Cybersecurity and Secure Information Systems,,,,10.1007/978-3-030-16837-7_10,Muzafer SaračevićAybeyan SelimiŠemsudin Plojović,2019,https://link.springer.com/chapter/10.1007/978-3-030-16837-7_10,Chapter
+MySQL Triggers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_30,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_30,Chapter
+Expand and Enrich Your Website,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_5,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_5,Chapter
+Arrays,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_5,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_5,Chapter
+Migrate to a Host and Back Up Your Website Database,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_7,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_7,Chapter
+Create an Administration Interface,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_4,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_4,Chapter
+Create a Message Board,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_10,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_10,Chapter
+Remote Crash Logs,Practical Android,,,,10.1007/978-1-4842-3333-7_4,Mark Wickham,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3333-7_4,Chapter
+E-commerce: A Brief Introduction,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_11,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_11,Chapter
+Create Login/Logout Functionality for Members and an Administrator,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_3,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_3,Chapter
+Indexes and Searching,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_33,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_33,Chapter
+Uploading and Emailing,Practical Android,,,,10.1007/978-1-4842-3333-7_5,Mark Wickham,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3333-7_5,Chapter
+MVC and Frameworks,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_21,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_21,Chapter
+Stored Routines,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_29,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_29,Chapter
+Error and Exception Handling,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_8,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_8,Chapter
+Working with the File and Operating System,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_10,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_10,Chapter
+Towards Detecting MVC Architectural Smells,Trends and Applications in Software Engineering,,,,10.1007/978-3-319-69341-5_23,Perla Velasco-ElizondoLucero Castañeda-CalvilloAlejandro García-FernandezSodel Vazquez-Reyes,2018,https://link.springer.com/chapter/10.1007/978-3-319-69341-5_23,Conference paper
+Server-Side Scripting Languages,Encyclopedia of Social Network Analysis and Mining,,,,10.1007/978-1-4939-7131-2_363,Ludger Martin,2018,https://link.springer.com/rwe/10.1007/978-1-4939-7131-2_363,Reference work entry
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_17,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_17,Chapter
+SQL Mapping,Beginning Ethical Hacking with Kali Linux,,,,10.1007/978-1-4842-3891-2_9,Sanjib Sinha,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3891-2_9,Chapter
+Introducing PDO,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_28,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_28,Chapter
+Handling File Uploads,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_15,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_15,Chapter
+Push Messaging,Practical Android,,,,10.1007/978-1-4842-3333-7_6,Mark Wickham,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3333-7_6,Chapter
+Functions,Programming in HTML and PHP,,,,10.1007/978-3-319-56973-4_7,David R. Brooks,2017,https://link.springer.com/chapter/10.1007/978-3-319-56973-4_7,Chapter
+Arrays,Programming in HTML and PHP,,,,10.1007/978-3-319-56973-4_6,David R. Brooks,2017,https://link.springer.com/chapter/10.1007/978-3-319-56973-4_6,Chapter
+Authenticating Your Users,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_14,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_14,Chapter
+A Novel Semantic-Aware Approach for&#xa0;Detecting Malicious Web Traffic,Information and Communications Security,,,,10.1007/978-3-319-89500-0_54,Jing YangLiming WangZhen Xu,2018,https://link.springer.com/chapter/10.1007/978-3-319-89500-0_54,Conference paper
+"Input/Output and Functions to Files, Strings, and Arrays",Programming in HTML and PHP,,,,10.1007/978-3-319-56973-4_8,David R. Brooks,2017,https://link.springer.com/chapter/10.1007/978-3-319-56973-4_8,Chapter
+Web Features,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_9,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_9,Chapter
+Error Handling,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_11,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_11,Chapter
+Arrays,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_4,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_4,Chapter
+A Secured Framework for Encrypted Messaging Service for Smart Device (Crypto-Message),Information Systems Design and Intelligent Applications,,,,10.1007/978-981-10-7512-4_41,Shopan DeyAfaq AhmadAnil Kr. ChandravanshiSandip Das,2018,https://link.springer.com/chapter/10.1007/978-981-10-7512-4_41,Conference paper
+Input-Output,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_8,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_8,Chapter
+Simple Arrays,PHP Arrays,,,,10.1007/978-1-4842-2556-1_2,Steve Prettyman,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2556-1_2,Chapter
+An Overview of CLI Programming in PHP,PHP CLI,,,,10.1007/978-1-4842-2238-6_2,Rob Aley,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2238-6_2,Chapter
+Associative and Object Arrays,PHP Arrays,,,,10.1007/978-1-4842-2556-1_4,Steve Prettyman,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2556-1_4,Chapter
+Server-Side Scripting Languages,Encyclopedia of Social Network Analysis and Mining,,,,10.1007/978-1-4614-7163-9_363-1,Ludger Martin,2017,https://link.springer.com/rwe/10.1007/978-1-4614-7163-9_363-1,Living reference work entry
+More About Validation,Beginning Laravel,,,,10.1007/978-1-4842-2538-7_15,Sanjib Sinha,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2538-7_15,Chapter
+Firebase Cloud Messaging,The Definitive Guide to Firebase,,,,10.1007/978-1-4842-2943-9_9,Laurence Moroney,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2943-9_9,Chapter
+Regular Expressions,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_9,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_9,Chapter
+User Input,PHP 7 Quick Scripting Reference,,,,10.1007/978-1-4842-1922-5_23,Mikael Olsson,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1922-5_23,Chapter
+Receive Emails from a Contact Us Page,Practical Web Design for Absolute Beginners,,,,10.1007/978-1-4842-1993-5_23,Adrian W. West,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1993-5_23,Chapter
+Security,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_6,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_6,Chapter
+Functional Programming: Key Concepts,Pro Functional PHP Programming,,,,10.1007/978-1-4842-2958-3_2,Rob Aley,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2958-3_2,Chapter
+Creating and Using Forms,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_13,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_13,Chapter
+Web Fundamentals,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_12,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_12,Chapter
+PHP,Cyber Operations,,,,10.1007/978-1-4842-0457-3_17,Mike O’Leary,2015,https://link.springer.com/chapter/10.1007/978-1-4842-0457-3_17,Chapter
+PHP and MySQL,Make an E-commerce Site in a Weekend,,,,10.1007/978-1-4842-1672-9_2,Bintu Harwani,2015,https://link.springer.com/chapter/10.1007/978-1-4842-1672-9_2,Chapter
+Variables,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_10,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_10,Chapter
+Getting Away from the Web—the Basics,PHP Beyond the Web,,,,10.1007/978-1-4842-2481-6_2,Rob Aley,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2481-6_2,Chapter
+Strings,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_6,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_6,Chapter
+Installation and Configuration,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_1,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_1,Chapter
+Files and Directories,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_7,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_7,Chapter
+Authentication,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_7,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_7,Chapter
+Password Protecting Sensitive Actions and Areas,Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_6,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_6,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_12,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_12,Chapter
+Data Exchange with JSON,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_15,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_15,Chapter
+"Add Controls to Create, Edit, and Delete Events",Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_5,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_5,Chapter
+Password Encryption and Storage for Everyone,Securing PHP Apps,,,,10.1007/978-1-4842-2120-4_3,Ben Edmunds,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2120-4_3,Chapter
+Secured User Interfaces,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_4,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_4,Chapter
+Multifunctional Interfaces,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_8,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_8,Chapter
+Handling and Logging Exceptions,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_5,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_5,Chapter
+User Name and Password for a Member’s Page,Practical Web Design for Absolute Beginners,,,,10.1007/978-1-4842-1993-5_28,Adrian W. West,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1993-5_28,Chapter
+Performing Form Validation with Regular Expressions,Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_9,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_9,Chapter
+Never Trust Your Users. Sanitize ALL Input!,Securing PHP Apps,,,,10.1007/978-1-4842-2120-4_1,Ben Edmunds,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2120-4_1,Chapter
+Data Objects,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_6,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_6,Chapter
+Editing the Calendar with AJAX and jQuery,Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_8,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_8,Chapter
+Accessing the Database Using PHP,Make an E-commerce Site in a Weekend,,,,10.1007/978-1-4842-1672-9_3,Bintu Harwani,2015,https://link.springer.com/chapter/10.1007/978-1-4842-1672-9_3,Chapter
+Passing Variables to a PHP Script II,Web Programming with PHP and MySQL,,,,10.1007/978-3-319-22659-0_10,Max Bramer,2015,https://link.springer.com/chapter/10.1007/978-3-319-22659-0_10,Chapter
+Cyber Security for Website of Technology Policy Laboratory,"Proceedings of Second International Conference on Electrical Systems, Technology and Information 2015 (ICESTI 2015)",,,,10.1007/978-981-287-988-2_58,Jarot S. Suroso,2016,https://link.springer.com/chapter/10.1007/978-981-287-988-2_58,Conference paper
+Enhancing the User Interface with jQuery,Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_7,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_7,Chapter
+PHP and MongoDB,The Definitive Guide to MongoDB,,,,10.1007/978-1-4842-1182-3_6,David HowsPeter MembreyEelco PluggeTim Hawkins,2015,https://link.springer.com/chapter/10.1007/978-1-4842-1182-3_6,Chapter
+Using the Simple Database with a PHP Web Site,Introducing SQLite for Mobile Developers,,,,10.1007/978-1-4842-1766-5_11,Jesse Feiler,2015,https://link.springer.com/chapter/10.1007/978-1-4842-1766-5_11,Chapter
+"Safe Defaults, Cross-Site Scripting, and Other Popular Hacks",Securing PHP Apps,,,,10.1007/978-1-4842-2120-4_5,Ben Edmunds,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2120-4_5,Chapter
+A Solution for Automatically Malicious Web Shell and Web Application Vulnerability Detection,Computational Collective Intelligence,,,,10.1007/978-3-319-45243-2_34,Van-Giap LeHuu-Tung NguyenDang-Nhac LuNgoc-Hoa Nguyen,2016,https://link.springer.com/chapter/10.1007/978-3-319-45243-2_34,Conference paper
+"Interfaces, Platforms, Containers, and Three-Tier Programming",Learn PHP 7,,,,10.1007/978-1-4842-1730-6_2,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_2,Chapter
+"Authentication, Access Control, and Safe File Handling",Securing PHP Apps,,,,10.1007/978-1-4842-2120-4_4,Ben Edmunds,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2120-4_4,Chapter
+Modular Programming,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_3,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_3,Chapter
+Common jQuery Actions and Methods,Pro PHP and jQuery,,,,10.1007/978-1-4842-1230-1_2,Jason LengstorfKeith Wald,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1230-1_2,Chapter
+Managing the Shopping Cart,Make an E-commerce Site in a Weekend,,,,10.1007/978-1-4842-1672-9_4,Bintu Harwani,2015,https://link.springer.com/chapter/10.1007/978-1-4842-1672-9_4,Chapter
+Using PHP to Manage Files,PHP Solutions,,,,10.1007/978-1-4842-0635-5_7,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_7,Chapter
+How to Write PHP Scripts,PHP Solutions,,,,10.1007/978-1-4842-0635-5_3,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_3,Chapter
+Appendices,Web Programming with PHP and MySQL,,,,10.1007/978-3-319-22659-0_19,Max Bramer,2015,https://link.springer.com/chapter/10.1007/978-3-319-22659-0_19,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP Solutions,,,,10.1007/978-1-4842-0635-5_9,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_9,Chapter
+A LAMP of Your Own,Learn Raspberry Pi 2 with Linux and Windows 10,,,,10.1007/978-1-4842-1162-5_8,Peter MembreyDavid Hows,2015,https://link.springer.com/chapter/10.1007/978-1-4842-1162-5_8,Chapter
+Bringing Forms to Life,PHP Solutions,,,,10.1007/978-1-4842-0635-5_5,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_5,Chapter
+Building a Dynamic Image Gallery with Image Upload,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_4,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_4,Chapter
+Generating Thumbnail Images,PHP Solutions,,,,10.1007/978-1-4842-0635-5_8,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_8,Chapter
+Spicing Up Your Image Gallery with JavaScript and CSS,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_5,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_5,Chapter
+Managing Multiple Database Tables,PHP Solutions,,,,10.1007/978-1-4842-0635-5_16,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_16,Chapter
+Form Management,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_3,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_3,Chapter
+Pulling Data from Multiple Tables,PHP Solutions,,,,10.1007/978-1-4842-0635-5_15,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_15,Chapter
+Formatting Text and Dates,PHP Solutions,,,,10.1007/978-1-4842-0635-5_14,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_14,Chapter
+Managing Content,PHP Solutions,,,,10.1007/978-1-4842-0635-5_13,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_13,Chapter
+Password Protection,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_12,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_12,Chapter
+Deleting and Updating Entries,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_9,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_9,Chapter
+Authenticating Users with a Database,PHP Solutions,,,,10.1007/978-1-4842-0635-5_17,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_17,Chapter
+Uploading Files,PHP Solutions,,,,10.1007/978-1-4842-0635-5_6,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_6,Chapter
+Building the Entry Manager,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_7,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_7,Chapter
+Improving Your Blog with User Comments and Search,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_10,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_10,Chapter
+Working with Databases,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_6,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_6,Chapter
+Server-Side Scripting Languages,Encyclopedia of Social Network Analysis and Mining,,,,10.1007/978-1-4614-6170-8_363,Ludger Martin,2014,https://link.springer.com/rwe/10.1007/978-1-4614-6170-8_363,Reference work entry
+Adding Images to Blog Entries,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_11,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_11,Chapter
+Detection Method of the Second-Order SQL Injection in Web Applications,Structured Object-Oriented Formal Language and Method,,,,10.1007/978-3-319-04915-1_11,Lu YanXiaohong LiRuitao FengZhiyong FengJing Hu,2014,https://link.springer.com/chapter/10.1007/978-3-319-04915-1_11,Conference paper
+Showing Blog Entries,PHP for Absolute Beginners,,,,10.1007/978-1-4302-6814-7_8,Thomas Blom HansenJason Lengstorf,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6814-7_8,Chapter
+Creating a Dynamic Photo Gallery,PHP Solutions,,,,10.1007/978-1-4842-0635-5_12,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_12,Chapter
+PHP and MongoDB,The Definitive Guide to MongoDB,,,,10.1007/978-1-4302-5822-3_6,David HowsPeter MembreyEelco PluggeTim Hawkins,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5822-3_6,Chapter
+"Creating Joomla Menus, Articles, and Categories with PHP",Advanced Joomla!,,,,10.1007/978-1-4302-1629-2_11,Dan Rahmel,2013,https://link.springer.com/chapter/10.1007/978-1-4302-1629-2_11,Chapter
+PExy: The Other Side of Exploit Kits,"Detection of Intrusions and Malware, and Vulnerability Assessment",,,,10.1007/978-3-319-08509-8_8,Giancarlo De MaioAlexandros KapravelosYan ShoshitaishviliChristopher KruegelGiovanni Vigna,2014,https://link.springer.com/chapter/10.1007/978-3-319-08509-8_8,Conference paper
+User Input,PHP Quick Scripting Reference,,,,10.1007/978-1-4302-6284-8_23,Mikael Olsson,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6284-8_23,Chapter
+Appendix,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_13,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_13,Chapter
+"Security, Forms, and Error Handling",Expert PHP and MySQL,,,,10.1007/978-1-4302-6008-0_6,Marc Rochkind,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6008-0_6,Chapter
+The Finishing Touches,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_6,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_6,Chapter
+Create Web Pages That Interact with Users,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_2,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_2,Chapter
+Creating a Product Catalog,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_8,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_8,Chapter
+A Framework for Migrating Web Applications to Web Services,Web Engineering,,,,10.1007/978-3-642-39200-9_32,Asil A. AlmonaiesManar H. AlalfiJames R. CordyThomas R. Dean,2013,https://link.springer.com/chapter/10.1007/978-3-642-39200-9_32,Conference paper
+Client-Side Detection of SQL Injection Attack,Advanced Information Systems Engineering Workshops,,,,10.1007/978-3-642-38490-5_46,Hossain ShahriarSarah NorthWei-Chuen Chen,2013,https://link.springer.com/chapter/10.1007/978-3-642-38490-5_46,Conference paper
+Static Validation of Dynamically Generated HTML Documents Based on Abstract Parsing and Semantic Processing,Static Analysis,,,,10.1007/978-3-642-38856-9_12,Hyunha KimKyung-Goo DohDavid A. Schmidt,2013,https://link.springer.com/chapter/10.1007/978-3-642-38856-9_12,Conference paper
+Register Addresses and Phone Numbers,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_5,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_5,Chapter
+Display Membership Tables for the Administrator,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_4,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_4,Chapter
+Creating a Message Board,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_10,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_10,Chapter
+Login/Logout for Members and an Administrator,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_3,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_3,Chapter
+E-Commerce: A Brief Introduction,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_11,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_11,Chapter
+Migrating to a Host and Backing Up Your Web Site Database,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_7,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_7,Chapter
+"Users, Roles, and Capabilities",Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_8,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_8,Chapter
+Building the Back-End: Part 2,Realtime Web Apps,,,,10.1007/978-1-4302-4621-3_9,Jason LengstorfPhil Leggetter,2013,https://link.springer.com/chapter/10.1007/978-1-4302-4621-3_9,Chapter
+Creating Custom Taxonomies and Fields,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_5,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_5,Chapter
+"Custom Post Types, Taxonomies, and Fields",WordPress for Web Developers,,,,10.1007/978-1-4302-5867-4_14,Stephanie Leary,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5867-4_14,Chapter
+Transmission of Unsolicited E-mails with Hidden Sender Identity,Soft Computing Applications,,,,10.1007/978-3-642-33941-7_33,Ioan ViragAntoanela NaajiMarius Popescu,2013,https://link.springer.com/chapter/10.1007/978-3-642-33941-7_33,Conference paper
+Application Structure,Expert PHP and MySQL,,,,10.1007/978-1-4302-6008-0_5,Marc Rochkind,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6008-0_5,Chapter
+Reports and Other Outputs,Expert PHP and MySQL,,,,10.1007/978-1-4302-6008-0_7,Marc Rochkind,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6008-0_7,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-6032-5_12,Matt Zandstra,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6032-5_12,Chapter
+Building the Back End: Part 1,Realtime Web Apps,,,,10.1007/978-1-4302-4621-3_8,Jason LengstorfPhil Leggetter,2013,https://link.springer.com/chapter/10.1007/978-1-4302-4621-3_8,Chapter
+Data Conversion,Expert PHP and MySQL,,,,10.1007/978-1-4302-6008-0_8,Marc Rochkind,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6008-0_8,Chapter
+Pusher,Realtime Web Apps,,,,10.1007/978-1-4302-4621-3_3,Jason LengstorfPhil Leggetter,2013,https://link.springer.com/chapter/10.1007/978-1-4302-4621-3_3,Chapter
+Beginning Theme and Plugin Development,WordPress for Web Developers,,,,10.1007/978-1-4302-5867-4_11,Stephanie Leary,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5867-4_11,Chapter
+Creating Plugins,WordPress for Web Developers,,,,10.1007/978-1-4302-5867-4_13,Stephanie Leary,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5867-4_13,Chapter
+Troubleshooting Your Database-Driven Web Site,Practical PHP and MySQL Web Site Databases,,,,10.1007/978-1-4302-6077-6_12,Adrian W. West,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6077-6_12,Chapter
+Extending Your Theme,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_12,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_12,Chapter
+THAPS: Automated Vulnerability Scanning of PHP Applications,Secure IT Systems,,,,10.1007/978-3-642-34210-3_3,Torben JensenHeine PedersenMads Chr. OlesenRené Rydhof Hansen,2012,https://link.springer.com/chapter/10.1007/978-3-642-34210-3_3,Conference paper
+Communication: Humans Talk. Computers Talk,Smart Home Automation with Linux and Raspberry Pi,,,,10.1007/978-1-4302-5888-9_5,Steven Goodwin,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5888-9_5,Chapter
+Security and Performance,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_10,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_10,Chapter
+Content Options and the Loop,Pro WordPress Theme Development,,,,10.1007/978-1-4302-5915-2_3,Adam Onishi,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5915-2_3,Chapter
+A LAMP of Your Own,Learn Raspberry Pi with Linux,,,,10.1007/978-1-4302-4822-4_8,Peter MembreyDavid Hows,2013,https://link.springer.com/chapter/10.1007/978-1-4302-4822-4_8,Chapter
+Control Hubs: Bringing It All Together,Smart Home Automation with Linux and Raspberry Pi,,,,10.1007/978-1-4302-5888-9_7,Steven Goodwin,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5888-9_7,Chapter
+Developing Research of Enterprise Portal Basing on Open Source Technology,Software Engineering and Knowledge Engineering: Theory and Practice,,,,10.1007/978-3-642-03718-4_8,Wenrong JiangShiwei Lin,2012,https://link.springer.com/chapter/10.1007/978-3-642-03718-4_8,Conference paper
+perfLogger—JavaScript Benchmarking and Logging,Pro JavaScript Performance,,,,10.1007/978-1-4302-4750-0_4,Tom Barker,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4750-0_4,Chapter
+JavaScript and User Interaction: Navigation and Forms,Beginning JavaScript with DOM Scripting and Ajax,,,,10.1007/978-1-4302-5093-7_7,Russ FergusonChristian Heilmann,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5093-7_7,Chapter
+Database Access and Management with the Use of the MOODLE Platform,Human – Computer Systems Interaction: Backgrounds and Applications 2,,,,10.1007/978-3-642-23187-2_4,K. HarężlakA. Werner,2012,https://link.springer.com/chapter/10.1007/978-3-642-23187-2_4,Chapter
+Secure Feedback Methods,Practical HTML5 Projects,,,,10.1007/978-1-4302-4276-5_11,Adrian W. West,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4276-5_11,Chapter
+Local and Remote File Inclusion,Internet - Technical Developments and Applications 2,,,,10.1007/978-3-642-25355-3_17,Michal HubczykAdam DomanskiJoanna Domanska,2012,https://link.springer.com/chapter/10.1007/978-3-642-25355-3_17,Chapter
+Design of Field Information Monitoring Platform Based on the Internet of Things,Internet of Things,,,,10.1007/978-3-642-32427-7_85,Keqiang WangKen Cai,2012,https://link.springer.com/chapter/10.1007/978-3-642-32427-7_85,Conference paper
+Adding Facebook Components,Beginning Facebook Game Apps Development,,,,10.1007/978-1-4302-4171-3_11,Wayne Graham,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4171-3_11,Chapter
+PHP Arrays,"Guide to HTML, JavaScript and PHP",,,,10.1007/978-0-85729-449-4_9,David R. Brooks,2011,https://link.springer.com/chapter/10.1007/978-0-85729-449-4_9,Chapter
+Working with PHP,"Guide to HTML, JavaScript and PHP",,,,10.1007/978-0-85729-449-4_8,David R. Brooks,2011,https://link.springer.com/chapter/10.1007/978-0-85729-449-4_8,Chapter
+Using Graphics with PHP,"Guide to HTML, JavaScript and PHP",,,,10.1007/978-0-85729-449-4_12,David R. Brooks,2011,https://link.springer.com/chapter/10.1007/978-0-85729-449-4_12,Chapter
+Registration and Login,Pro PHP MVC,,,,10.1007/978-1-4302-4165-2_14,Chris Pitt,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4165-2_14,Chapter
+Facebook Fuzed,Beginning Facebook Game Apps Development,,,,10.1007/978-1-4302-4171-3_14,Wayne Graham,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4171-3_14,Chapter
+Using PHP from a Command Line,"Guide to HTML, JavaScript and PHP",,,,10.1007/978-0-85729-449-4_11,David R. Brooks,2011,https://link.springer.com/chapter/10.1007/978-0-85729-449-4_11,Chapter
+Creating a Server-Side Environment with PHP,"Guide to HTML, JavaScript and PHP",,,,10.1007/978-0-85729-449-4_7,David R. Brooks,2011,https://link.springer.com/chapter/10.1007/978-0-85729-449-4_7,Chapter
+PHP and MySQL,Pro Drupal 7 for Windows Developers,,,,10.1007/978-1-4302-3154-7_3,Brian Travis,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3154-7_3,Chapter
+Supercharging the User Experience with AJAX,Beginning Android Web Apps Development,,,,10.1007/978-1-4302-3958-1_12,Jon WestfallRocco AugustoGrant Allen,2012,https://link.springer.com/chapter/10.1007/978-1-4302-3958-1_12,Chapter
+Research on Audit System Based on PHP with Analysis of Scientific Materials,"Advances in Computer Science, Environment, Ecoinformatics, and Education",,,,10.1007/978-3-642-23357-9_57,Qingxiu WuJun OuLiang MaYun PeiMin Chen,2011,https://link.springer.com/chapter/10.1007/978-3-642-23357-9_57,Conference paper
+Web Site Database: Using PHP and MySQL,HTML5 and JavaScript Projects,,,,10.1007/978-1-4302-4033-4_10,Jeanine Meyer,2011,https://link.springer.com/chapter/10.1007/978-1-4302-4033-4_10,Chapter
+"Where am I: Using Geolocation, the Google Maps API, and PHP",HTML5 and JavaScript Projects,,,,10.1007/978-1-4302-4033-4_6,Jeanine Meyer,2011,https://link.springer.com/chapter/10.1007/978-1-4302-4033-4_6,Chapter
+Security,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_11,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_11,Chapter
+Tainted Flow Analysis on e-SSA-Form Programs,Compiler Construction,,,,10.1007/978-3-642-19861-8_8,Andrei RimsaMarcelo d’AmorimFernando Magno Quintão Pereira,2011,https://link.springer.com/chapter/10.1007/978-3-642-19861-8_8,Conference paper
+Form Design and Management,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_6,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_6,Chapter
+IBS: Intrusion Block System a General Security Module for elearning Systems,Digital Information and Communication Technology and Its Applications,,,,10.1007/978-3-642-22027-2_41,Alessio ContiAndrea SterbiniMarco Temperini,2011,https://link.springer.com/chapter/10.1007/978-3-642-22027-2_41,Conference paper
+Analysis of Back-Doored Phishing Kits,Advances in Digital Forensics VII,,,,10.1007/978-3-642-24212-0_12,Heather McCalleyBrad WardmanGary Warner,2011,https://link.springer.com/chapter/10.1007/978-3-642-24212-0_12,Conference paper
+Interactive VoiceXML Module into SIP-Based Warning Distribution System,"Multimedia Communications, Services and Security",,,,10.1007/978-3-642-21512-4_41,Karel TomalaJan RozhonFilip RezacJiri VychodilMiroslav VoznakJaroslav Zdralek,2011,https://link.springer.com/chapter/10.1007/978-3-642-21512-4_41,Conference paper
+JSON and Ajax,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_15,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_15,Chapter
+SQL Injection Disclosure Using BLAH Algorithm,Advances in Computing and Communications,,,,10.1007/978-3-642-22714-1_72,Justy JamesonK. K. Sherly,2011,https://link.springer.com/chapter/10.1007/978-3-642-22714-1_72,Conference paper
+Goal-Based Behavioral Customization of Information Systems,Advanced Information Systems Engineering,,,,10.1007/978-3-642-21640-4_8,Sotirios LiaskosMarin LitoiuMarina Daoud JungblutJohn Mylopoulos,2011,https://link.springer.com/chapter/10.1007/978-3-642-21640-4_8,Conference paper
+Social Media,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_4,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_4,Chapter
+PHP Basics,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_3,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_3,Chapter
+Database Integration II,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_8,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_8,Chapter
+Passing Information with PHP,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_3,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_3,Chapter
+Using PHP with MySQL,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_30,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_30,Chapter
+Using PHP to Manage Files,PHP Solutions,,,,10.1007/978-1-4302-3250-6_7,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_7,Chapter
+Security in Drupal,The Definitive Guide to Drupal 7,,,,10.1007/978-1-4302-3136-3_6,Stéphane Corlosquet,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3136-3_6,Chapter
+Preventing Web Application Injections with Complementary Character Coding,Computer Security – ESORICS 2011,,,,10.1007/978-3-642-23822-2_5,Raymond MuiPhyllis Frankl,2011,https://link.springer.com/chapter/10.1007/978-3-642-23822-2_5,Conference paper
+How to Write PHP Scripts,PHP Solutions,,,,10.1007/978-1-4302-3250-6_3,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_3,Chapter
+Creating a Blog Application with the PHP Driver,The Definitive Guide to MongoDB,,,,10.1007/978-1-4302-3052-6_8,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3052-6_8,Chapter
+Implementation,E-Librarian Service,,,,10.1007/978-3-642-17743-9_9,Serge LinckelsChristoph Meinel,2011,https://link.springer.com/chapter/10.1007/978-3-642-17743-9_9,Chapter
+PHP and MongoDB,The Definitive Guide to MongoDB,,,,10.1007/978-1-4302-3052-6_6,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3052-6_6,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP Solutions,,,,10.1007/978-1-4302-3250-6_9,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_9,Chapter
+Form Mastery,"HTML5 Mastery: Semantics, Standards, and Styling",,,,10.1007/978-1-4302-3862-1_4,Anselm BradfordPaul Haine,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3862-1_4,Chapter
+Bringing Forms to Life,PHP Solutions,,,,10.1007/978-1-4302-3250-6_5,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_5,Chapter
+Working with HTML Forms,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_13,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_13,Chapter
+Refactoring with Patterns,Pro PHP Refactoring,,,,10.1007/978-1-4302-2728-1_15,Francesco TrucchiaJacopo Romei,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2728-1_15,Chapter
+Generating Thumbnail Images,PHP Solutions,,,,10.1007/978-1-4302-3250-6_8,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_8,Chapter
+Networking,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_16,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_16,Chapter
+Safe Execution of System and Remote Procedure Calls,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_12,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_12,Chapter
+Preventing SQL Injection,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_3,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_3,Chapter
+Transactions,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_37,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_37,Chapter
+Preventing Remote Execution,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_5,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_5,Chapter
+Preventing Session Hijacking,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_7,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_7,Chapter
+Preventing Cross-Site Scripting,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_4,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_4,Chapter
+Preventing Data Loss,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_11,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_11,Chapter
+MySQL Triggers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_33,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_33,Chapter
+Designing a Secure Programming Language,Handbook of Information and Communication Security,,,,10.1007/978-3-642-04117-4_35,Thomas H. Austin,2010,https://link.springer.com/chapter/10.1007/978-3-642-04117-4_35,Chapter
+Users and Roles,Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_10,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_10,Chapter
+Adding Password Protection to Administrative Links,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_11,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_11,Chapter
+Managing Multiple Database Tables,PHP Solutions,,,,10.1007/978-1-4302-3250-6_16,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_16,Chapter
+Using Encryption,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_15,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_15,Chapter
+Legacy Code,Pro PHP Refactoring,,,,10.1007/978-1-4302-2728-1_13,Francesco TrucchiaJacopo Romei,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2728-1_13,Chapter
+Updating and Deleting Entries,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_7,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_7,Chapter
+Configuring Your Environment,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_2,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_2,Chapter
+Password Protecting Sensitive Actions and Areas,Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_6,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_6,Chapter
+Managing Content,PHP Solutions,,,,10.1007/978-1-4302-3250-6_13,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_13,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-2926-1_12,Matt Zandstra,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2926-1_12,Chapter
+"Add Controls to Create, Edit, and Delete Events",Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_5,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_5,Chapter
+Creating Widgets,Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_8,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_8,Chapter
+Adding the Ability to Upload Images,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_8,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_8,Chapter
+Adding Support for Multiple Pages,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_6,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_6,Chapter
+Pulling Data from Multiple Tables,PHP Solutions,,,,10.1007/978-1-4302-3250-6_15,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_15,Chapter
+Validating and Sanitizing User Input,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_2,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_2,Chapter
+"Custom Content Types, Taxonomies, and Fields",Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_12,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_12,Chapter
+Building the Entry Manager,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_5,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_5,Chapter
+Adding a Commenting System to Your Blog,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_10,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_10,Chapter
+Formatting Text and Dates,PHP Solutions,,,,10.1007/978-1-4302-3250-6_14,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_14,Chapter
+Authenticating Users with a Database,PHP Solutions,,,,10.1007/978-1-4302-3250-6_17,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_17,Chapter
+Indexes and Searching,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_36,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_36,Chapter
+Stored Routines,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_32,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_32,Chapter
+Arrays,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_5,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_5,Chapter
+Uploading Files,PHP Solutions,,,,10.1007/978-1-4302-3250-6_6,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_6,Chapter
+Working with Databases,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_4,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_4,Chapter
+Creating Plugins,Beginning WordPress 3,,,,10.1007/978-1-4302-2896-7_9,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2896-7_9,Chapter
+Performing Form Validation with Regular Expressions,Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_9,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_9,Chapter
+Ajax,jQuery Recipes,,,,10.1007/978-1-4302-2710-6_8,B. M. Harwani,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2710-6_8,Chapter
+Working with the File and Operating System,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_10,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_10,Chapter
+Error and Exception Handling,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_8,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_8,Chapter
+Editing the Calendar with AJAX and jQuery,Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_8,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_8,Chapter
+Using CAPTCHAs,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_9,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_9,Chapter
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_18,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_18,Chapter
+Securing REST Services,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_8,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_8,Chapter
+Enhancing the User Interface with jQuery,Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_7,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_7,Chapter
+Flex Mashups,AdvancED Flex 4,,,,10.1007/978-1-4302-2484-6_10,Elad Elrom,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2484-6_10,Chapter
+"User Authentication, Authorization, and Logging",Pro PHP Security,,,,10.1007/978-1-4302-3319-0_10,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_10,Chapter
+Finishing Touches,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_12,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_12,Chapter
+Handling File Uploads,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_15,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_15,Chapter
+Communication,Smart Home Automation with Linux,,,,10.1007/978-1-4302-2779-3_5,Steven Goodwin,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2779-3_5,Chapter
+Authenticating Your Users,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_14,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_14,Chapter
+Creating a Dynamic Online Gallery,PHP Solutions,,,,10.1007/978-1-4302-3250-6_12,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_12,Chapter
+Introducing the Zend Framework,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_24,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_24,Chapter
+Securing Unix,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_13,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_13,Chapter
+Reducing Your Workload with PHP Includes,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_12,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_12,Chapter
+Writing Secure Code,Pro Drupal 7 Development,,,,10.1007/978-1-4302-2839-4_21,Todd TomlinsonJohn K. VanDyk,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2839-4_21,Chapter
+Using jQuery,Pro Drupal 7 Development,,,,10.1007/978-1-4302-2839-4_18,Todd TomlinsonJohn K. VanDyk,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2839-4_18,Chapter
+Using PHP to Process a form,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_11,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_11,Chapter
+Working with Nodes,Pro Drupal 7 Development,,,,10.1007/978-1-4302-2839-4_7,Todd TomlinsonJohn K. VanDyk,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2839-4_7,Chapter
+Introducing the Basics of PHP,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_10,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_10,Chapter
+The Form API,Pro Drupal 7 Development,,,,10.1007/978-1-4302-2839-4_11,Todd TomlinsonJohn K. VanDyk,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2839-4_11,Chapter
+Control Hubs,Smart Home Automation with Linux,,,,10.1007/978-1-4302-2779-3_7,Steven Goodwin,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2779-3_7,Chapter
+Common jQuery Actions and Methods,Pro PHP and jQuery,,,,10.1007/978-1-4302-2848-6_2,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2848-6_2,Chapter
+Choosing the Best Workflow,Flash Builder and Flash Catalyst,,,,10.1007/978-1-4302-2836-3_5,Steven Peeters,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2836-3_5,Chapter
+"Handling Checkbox Groups, Searches, and Dates","The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_17,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_17,Chapter
+Computer Programming Fundamentals and Concepts,Bioinformatics: A Concept-Based Introduction,,,,10.1007/978-0-387-84870-9_2,Deepak N. KolippakkamPankaj GuptaVenkatarajan S. Mathura,2009,https://link.springer.com/chapter/10.1007/978-0-387-84870-9_2,Chapter
+Validating Database Input and User Authentication,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_15,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_15,Chapter
+"Views, Forms, Filters, and Validators",Beginning Zend Framework,,,,10.1007/978-1-4302-1826-5_4,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1826-5_4,Chapter
+Building Online Forms and Validating Input,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_9,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_9,Chapter
+Working with Custom Forms and Multiple Tables,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_16,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_16,Chapter
+Handling Security in a Zend Framework Project,Pro Zend Framework Techniques,,,,10.1007/978-1-4302-1880-7_8,Forrest Lyman,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1880-7_8,Chapter
+Creating the Site Navigation,Pro Zend Framework Techniques,,,,10.1007/978-1-4302-1880-7_7,Forrest Lyman,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1880-7_7,Chapter
+Managing Data with Zend Framework,Pro Zend Framework Techniques,,,,10.1007/978-1-4302-1880-7_4,Forrest Lyman,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1880-7_4,Chapter
+Managing Content,Pro Zend Framework Techniques,,,,10.1007/978-1-4302-1880-7_6,Forrest Lyman,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1880-7_6,Chapter
+Extending Your CMS,Pro Zend Framework Techniques,,,,10.1007/978-1-4302-1880-7_10,Forrest Lyman,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1880-7_10,Chapter
+Building and Processing Web Forms with Zend_Form,Pro Zend Framework Techniques,,,,10.1007/978-1-4302-1880-7_3,Forrest Lyman,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1880-7_3,Chapter
+Sending and Receiving E-mail,Beginning Zend Framework,,,,10.1007/978-1-4302-1826-5_6,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1826-5_6,Chapter
+"Database Communication, Manipulation, and Display",Beginning Zend Framework,,,,10.1007/978-1-4302-1826-5_5,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1826-5_5,Chapter
+Storing User Records in a Database,"The Essential Guide to Dreamweaver CS4 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-1611-7_14,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1611-7_14,Chapter
+PHP Arrays,Introduction to PHP for Scientists and Engineers,,,,10.1007/978-1-84800-237-1_3,David R. Brooks,2008,https://link.springer.com/chapter/10.1007/978-1-84800-237-1_3,Chapter
+Working with PHP,Introduction to PHP for Scientists and Engineers,,,,10.1007/978-1-84800-237-1_2,David R. Brooks,2008,https://link.springer.com/chapter/10.1007/978-1-84800-237-1_2,Chapter
+PHP Basics,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_3,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_3,Chapter
+Writing Controllers Using Zend_Controller,Beginning Zend Framework,,,,10.1007/978-1-4302-1826-5_3,,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1826-5_3,Chapter
+PHP Case Study,Foundation Flex for Developers,,,,10.1007/978-1-4302-0444-2_14,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0444-2_14,Chapter
+Why object-oriented PHP?,PHP Object-Oriented Solutions,,,,10.1007/978-1-4302-1012-2_1,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-1012-2_1,Chapter
+Using PHP with MySQL,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_30,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_30,Chapter
+Using PHP from a Command Line,Introduction to PHP for Scientists and Engineers,,,,10.1007/978-1-84800-237-1_5,David R. Brooks,2008,https://link.springer.com/chapter/10.1007/978-1-84800-237-1_5,Chapter
+Creating a Server-Side Environment for PHP,Introduction to PHP for Scientists and Engineers,,,,10.1007/978-1-84800-237-1_1,David R. Brooks,2008,https://link.springer.com/chapter/10.1007/978-1-84800-237-1_1,Chapter
+Using Php filters to Validate User Input,PHP Object-Oriented Solutions,,,,10.1007/978-1-4302-1012-2_4,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-1012-2_4,Chapter
+Writing PHP Classes,PHP Object-Oriented Solutions,,,,10.1007/978-1-4302-1012-2_2,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-1012-2_2,Chapter
+Secure PHP Programming,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_21,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_21,Chapter
+Forms,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_13,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_13,Chapter
+Networking,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_16,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_16,Chapter
+Transactions,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_37,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_37,Chapter
+MySQL Triggers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_33,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_33,Chapter
+Building a Versatile Remote File Connector,PHP Object-Oriented Solutions,,,,10.1007/978-1-4302-1012-2_5,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-1012-2_5,Chapter
+Introduction to the Zend Framework,Pro PHP,,,,10.1007/978-1-4302-0279-0_15,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0279-0_15,Chapter
+Symbolic String Verification: An Automata-Based Approach,Model Checking Software,,,,10.1007/978-3-540-85114-1_21,Fang YuTevfik BultanMarco CovaOscar H. Ibarra,2008,https://link.springer.com/chapter/10.1007/978-3-540-85114-1_21,Conference paper
+Configuring Your Environment,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_2,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_2,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-0467-1_12,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0467-1_12,Chapter
+Managing Customer Details,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_16,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_16,Chapter
+Catalog Administration: Products and Attributes,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_11,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_11,Chapter
+Stored Routines,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_32,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_32,Chapter
+Arrays,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_5,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_5,Chapter
+Catalog Administration: Departments and Categories,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_10,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_10,Chapter
+Indexes and Searching,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_36,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_36,Chapter
+Error and Exception Handling,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_8,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_8,Chapter
+Collecting and Working with Aggregated Content,AdvancED Flex Application Development,,,,10.1007/978-1-4302-0442-8_6,Chris Charlton,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0442-8_6,Chapter
+Working with the File and Operating System,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_10,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_10,Chapter
+Learning Facebook Platform Fundamentals,Facebook API Developers Guide,,,,10.1007/978-1-4302-0970-6_3,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0970-6_3,Chapter
+Introduction to Prototype and Scriptaculous,Practical Web 2.0 Applications with PHP,,,,10.1007/978-1-4302-0475-6_5,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0475-6_5,Chapter
+Creating Your Own Shopping Cart,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_12,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_12,Chapter
+Flex Mashups,AdvancED Flex 3,,,,10.1007/978-1-4302-1028-3_10,Elad Elrom,2008,https://link.springer.com/chapter/10.1007/978-1-4302-1028-3_10,Chapter
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_18,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_18,Chapter
+Product Reviews,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_21,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_21,Chapter
+Searching the Catalog,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_8,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_8,Chapter
+Implementing the Order Pipeline: Part 2,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_19,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_19,Chapter
+Implementing AJAX Features,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_13,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_13,Chapter
+Ajax and JSON,Pro PHP,,,,10.1007/978-1-4302-0279-0_18,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0279-0_18,Chapter
+Handling File Uploads,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_15,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_15,Chapter
+MVC and the Zend Framework,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_24,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_24,Chapter
+Receiving Payments Using PayPal,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_9,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_9,Chapter
+Authenticating Your Users,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_14,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_14,Chapter
+Symbolic Computation for Nonlinear Wave Resonances,Extreme Ocean Waves,,,,10.1007/978-1-4020-8314-3_6,E. KartashovaC. RaabCh. FeurerG. MayrhoferW. Schreiner,2008,https://link.springer.com/chapter/10.1007/978-1-4020-8314-3_6,Chapter
+Customizing Views,Beginning CakePHP,,,,10.1007/978-1-4302-0978-2_6,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0978-2_6,Chapter
+Using jQuery,Pro Drupal Development,,,,10.1007/978-1-4302-0990-4_17,John K. VanDyk,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0990-4_17,Chapter
+PHP On Rails,Ruby on Rails for PHP and Java Developers,,,,10.1007/978-3-540-73145-0_7,,2007,https://link.springer.com/chapter/10.1007/978-3-540-73145-0_7,Chapter
+Writing Secure Code,Pro Drupal Development,,,,10.1007/978-1-4302-0990-4_20,John K. VanDyk,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0990-4_20,Chapter
+Taking the Pain out of Working with Dates,PHP Object-Oriented Solutions,,,,10.1007/978-1-4302-1012-2_3,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-1012-2_3,Chapter
+PHP Basics,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_3,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_3,Chapter
+Accepting Customer Orders,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_14,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_14,Chapter
+A Dynamic Image Gallery,Practical Web 2.0 Applications with PHP,,,,10.1007/978-1-4302-0475-6_11,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0475-6_11,Chapter
+Using PHP to Process a Form,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_11,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_11,Chapter
+Working with Data in Flex Applications,Foundation Flex for Developers,,,,10.1007/978-1-4302-0444-2_6,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0444-2_6,Chapter
+Introducing the Basics of PHP,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_10,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_10,Chapter
+Secure PHP Programming,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_21,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_21,Chapter
+Working with PHP Includes and Templates,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_12,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_12,Chapter
+"Resources for Supporting Information Cards in PHP, Java, Ruby, and Perl-Based Relying Parties",Beginning Information Cards and Cardspace,,,,10.1007/978-1-4302-0204-2_13,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0204-2_13,Chapter
+Forms,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_13,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_13,Chapter
+PHP’s Oracle Functionality,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_32,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_32,Chapter
+Networking,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_16,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_16,Chapter
+Building Online Forms and Validating Input,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_9,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_9,Chapter
+Controlling Access to Your Site,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_15,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_15,Chapter
+Configuring Your Environment,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_2,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_2,Chapter
+Forms,Beginning Ajax with PHP,,,,10.1007/978-1-4302-0253-0_5,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0253-0_5,Chapter
+Postpayment Processing,Pro PayPal E-Commerce,,,,10.1007/978-1-4302-0353-7_5,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0353-7_5,Chapter
+Searching Records and Handling Dates,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_17,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_17,Chapter
+Storing Records in a Database,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_14,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_14,Chapter
+Working with Multiple Tables,"The Essential Guide to Dreamweaver CS3 with CSS, Ajax, and PHP",,,,10.1007/978-1-4302-0288-2_16,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0288-2_16,Chapter
+Arrays,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_5,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_5,Chapter
+Oracle Triggers,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_37,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_37,Chapter
+Working with the File and Operating System,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_10,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_10,Chapter
+Error and Exception Handling,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_8,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_8,Chapter
+Spatially Enabled Web Applications,Beginning Ajax with PHP,,,,10.1007/978-1-4302-0253-0_10,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0253-0_10,Chapter
+Getting User Feedback,The Essential Guide to CSS and HTML Web Design,,,,10.1007/978-1-4302-0479-4_8,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0479-4_8,Chapter
+CRUD on Rails,Ruby on Rails for PHP and Java Developers,,,,10.1007/978-3-540-73145-0_3,,2007,https://link.springer.com/chapter/10.1007/978-3-540-73145-0_3,Chapter
+Session Handlers,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_18,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_18,Chapter
+Managing Online Disputes,Pro PayPal E-Commerce,,,,10.1007/978-1-4302-0353-7_9,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0353-7_9,Chapter
+Forms,Foundations of Microsoft Expression Web,,,,10.1007/978-1-4302-0392-6_10,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0392-6_10,Chapter
+Handling File Uploads,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_15,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_15,Chapter
+MVC and the Zend Framework,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_25,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_25,Chapter
+Authentication,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_14,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_14,Chapter
+Writing Secure Code,Pro Drupal Development,,,,10.1007/978-1-4302-0190-8_20,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0190-8_20,Chapter
+Security,Beginning Ajax with PHP,,,,10.1007/978-1-4302-0253-0_12,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0253-0_12,Chapter
+Working with Remote Data using the RPC Classes,Flex Solutions,,,,10.1007/978-1-4302-0424-4_6,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0424-4_6,Chapter
+The Form API,Pro Drupal Development,,,,10.1007/978-1-4302-0190-8_10,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0190-8_10,Chapter
+Payflow Gateway,Pro PayPal E-Commerce,,,,10.1007/978-1-4302-0353-7_7,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0353-7_7,Chapter
+On the Security of a Popular Web Submission and Review Software (WSaR) for Cryptology Conferences,Information Security Applications,,,,10.1007/978-3-540-77535-5_18,Swee-Won LoRaphael C. -W. PhanBok-Min Goi,2007,https://link.springer.com/chapter/10.1007/978-3-540-77535-5_18,Conference paper
+PHP Basics,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_3,Chapter
+PHP Basics,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_3,Chapter
+How to Write PHP Scripts,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_3,Chapter
+Case Study: Using PHP for an XML Application,Beginning XML with DOM and Ajax,,,,10.1007/978-1-4302-0177-9_13,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0177-9_13,Chapter
+Using PHP to Manage Files,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_7,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_7,Chapter
+Solutions to Common PHP/Mysql Problems,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_14,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_14,Chapter
+Installing and Configuring Apache and PHP,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_2,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_2,Chapter
+Installing and Configuring Apache and PHP,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_2,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_2,Chapter
+Pages that Remember: Simple Login and Multipage Forms,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_9,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_9,Chapter
+Bringing Forms to Life,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_5,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_5,Chapter
+Generating Thumbnail Images,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_8,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_8,Chapter
+Introduction to Server-Side XML,Beginning XML with DOM and Ajax,,,,10.1007/978-1-4302-0177-9_11,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0177-9_11,Chapter
+PHP’s MySQL Extension,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_29,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_29,Chapter
+Indexes and Searching,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_35,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_35,Chapter
+PHP’s mysqli Extension,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_30,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_30,Chapter
+Authentication,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_14,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_14,Chapter
+SimpleXML,Pro PHP XML and Web Services,,,,10.1007/978-1-4302-0139-7_7,Robert Richards,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0139-7_7,Chapter
+Indexes and Searching,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_35,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_35,Chapter
+Handling File Uploads,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_15,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_15,Chapter
+Handling File Uploads,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_15,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_15,Chapter
+MySQL Triggers,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_32,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_32,Chapter
+Transactions,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_36,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_36,Chapter
+Transactions,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_36,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_36,Chapter
+Networking,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_16,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_16,Chapter
+Networking,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_16,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_16,Chapter
+Web Distributed Data Exchange (WDDX),Pro PHP XML and Web Services,,,,10.1007/978-1-4302-0139-7_15,Robert Richards,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0139-7_15,Chapter
+XML-RPC,Pro PHP XML and Web Services,,,,10.1007/978-1-4302-0139-7_16,Robert Richards,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0139-7_16,Chapter
+Arrays,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_5,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_5,Chapter
+XML Security,Pro PHP XML and Web Services,,,,10.1007/978-1-4302-0139-7_12,Robert Richards,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0139-7_12,Chapter
+Arrays,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_5,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_5,Chapter
+Managing Content,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_13,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_13,Chapter
+Using Sessions to Track Visitors and Restrict Access,Foundation PHP For Dreamweaver 8,,,,10.1007/978-1-4302-0101-4_10,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0101-4_10,Chapter
+Forms and Navigational Cues,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_13,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_13,Chapter
+Write Your Own Blog Engine,Blog Design Solutions,,,,10.1007/978-1-4302-0127-4_7,Richard Rutter,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0127-4_7,Chapter
+Using Static Program Analysis to Aid Intrusion Detection,Detection of Intrusions and Malware & Vulnerability Assessment,,,,10.1007/11790754_2,Manuel EgeleMartin SzydlowskiEngin KirdaChristopher Kruegel,2006,https://link.springer.com/chapter/10.1007/11790754_2,Conference paper
+Forms and Navigational Cues,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_13,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_13,Chapter
+Stored Routines,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_31,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_31,Chapter
+Getting User Feedback,Foundation Web Design with Dreamweaver 8,,,,10.1007/978-1-4302-0126-7_9,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0126-7_9,Chapter
+Keeping Intruders at Bay,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_15,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_15,Chapter
+Getting Feedback from an Online form,Foundation PHP For Dreamweaver 8,,,,10.1007/978-1-4302-0101-4_6,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0101-4_6,Chapter
+Uploading Files,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_6,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_6,Chapter
+Working with the File and Operating System,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_10,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_10,Chapter
+Authentication,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_14,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_14,Chapter
+Working with the File and Operating System,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_10,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_10,Chapter
+Working with Multiple Tables,Foundation PHP For Dreamweaver 8,,,,10.1007/978-1-4302-0101-4_9,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0101-4_9,Chapter
+Representational State Transfer (REST),Pro PHP XML and Web Services,,,,10.1007/978-1-4302-0139-7_17,Robert Richards,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0139-7_17,Chapter
+Error and Exception Handling,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_8,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_8,Chapter
+Error and Exception Handling,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_8,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_8,Chapter
+Session Handlers,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_18,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_18,Chapter
+Session Handlers,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_18,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_18,Chapter
+Extensible Stylesheet Language Transformations (XSLT),Pro PHP XML and Web Services,,,,10.1007/978-1-4302-0139-7_10,Robert Richards,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0139-7_10,Chapter
+Displaying a Blog and Photo Gallery,Foundation PHP For Dreamweaver 8,,,,10.1007/978-1-4302-0101-4_11,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0101-4_11,Chapter
+Creating a Dynamic Online Gallery,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_12,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_12,Chapter
+Web Services,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_20,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_20,Chapter
+Web Services,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_20,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_20,Chapter
+Scripting with OpenSSH,Pro OpenSSH,,,,10.1007/978-1-4302-0076-5_9,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0076-5_9,Chapter
+Using PHP/MapScript,Beginning MapServer,,,,10.1007/978-1-4302-0053-6_8,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0053-6_8,Chapter
+Server Communication (XML and Web Services),Object-Oriented ActionScript for Flash 8,,,,10.1007/978-1-4302-0125-0_20,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0125-0_20,Chapter
+Accessible Data Input,Web Accessibility,,,,10.1007/978-1-4302-0188-5_8,Jim Thatcher,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0188-5_8,Chapter
+Using MySQL Databases in PHP 5,PHP 5 Recipes,,,,10.1007/978-1-4302-0070-3_15,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0070-3_15,Chapter
+Overview of PHP Data Types and Concepts,PHP 5 Recipes,,,,10.1007/978-1-4302-0070-3_1,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0070-3_1,Chapter
+PHP,The Definitive Guide to MySQL5,,,,10.1007/978-1-4302-0071-0_15,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0071-0_15,Chapter
+Application development,Foundation Flash Applications for Mobile Devices,,,,10.1007/978-1-4302-0308-7_5,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0308-7_5,Chapter
+Introductory Example (An Opinion Poll with PHP),The Definitive Guide to MySQL5,,,,10.1007/978-1-4302-0071-0_3,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0071-0_3,Chapter
+JavaScript and User Interaction: Navigation and Forms,Beginning JavaScript with DOM Scripting and Ajax,,,,10.1007/978-1-4302-0184-7_7,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0184-7_7,Chapter
+Protecting Your Data with Sessions,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_9,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_9,Chapter
+Understanding Web Basics,PHP 5 Recipes,,,,10.1007/978-1-4302-0070-3_12,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0070-3_12,Chapter
+Validating User Input,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_11,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_11,Chapter
+Extending the Capabilities of MapScript with MySQL,Beginning MapServer,,,,10.1007/978-1-4302-0053-6_9,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0053-6_9,Chapter
+Preventing SQL Injection,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_12,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_12,Chapter
+Creating and Using Forms,PHP 5 Recipes,,,,10.1007/978-1-4302-0070-3_13,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0070-3_13,Chapter
+Controlling Access II: Permissions and Restrictions,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_10,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_10,Chapter
+Working with Multiple Tables and XML,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_12,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_12,Chapter
+Working with Variables,PHP 5 Recipes,,,,10.1007/978-1-4302-0070-3_10,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0070-3_10,Chapter
+Keeping Control with a Content Management System,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_10,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_10,Chapter
+Flash Breaks Free,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_2,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_2,Chapter
+Calculations and Decisions,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_3,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_3,Chapter
+Creating a User Registration Database,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_8,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_8,Chapter
+Preventing Cross-Site Scripting,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_13,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_13,Chapter
+Of Strings and Things,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_4,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_4,Chapter
+Working Smarter with Arrays and Loops,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_5,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_5,Chapter
+Verifying Your Users’ Identities,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_18,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_18,Chapter
+Working with Dates,Foundation PHP 5 for Flash,,,,10.1007/978-1-4302-0013-0_11,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0013-0_11,Chapter
+PHP: Library Management,The Definitive Guide to MySQL,,,,10.1007/978-1-4302-0669-9_12,Michael Kofler,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0669-9_12,Chapter
+PHP: Discussion Forum,The Definitive Guide to MySQL,,,,10.1007/978-1-4302-0669-9_13,Michael Kofler,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0669-9_13,Chapter
+Predefined PHP Variables,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_9,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_9,Chapter
+PHP: Fundamentals and Programming Techniques,The Definitive Guide to MySQL,,,,10.1007/978-1-4302-0669-9_11,Michael Kofler,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0669-9_11,Chapter
+Introduction to PHP,PHP Web Development with Macromedia Dreamweaver MX 2004,,,,10.1007/978-1-4302-0701-6_1,Allan KentDavid PowersRachel Andrew,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0701-6_1,Chapter
+Accessing MySQL Using PHP,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_36,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_36,Chapter
+Interacting with the User,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_18,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_18,Chapter
+Debugging and Error Handling,PHP Web Development with Macromedia Dreamweaver MX 2004,,,,10.1007/978-1-4302-0701-6_8,Allan KentDavid PowersRachel Andrew,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0701-6_8,Chapter
+Reading and Writing to Files,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_26,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_26,Chapter
+Simple Image Manipulation,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_29,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_29,Chapter
+More File Handling,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_27,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_27,Chapter
+Data Manipulation and Server Behaviors,PHP Web Development with Macromedia Dreamweaver MX 2004,,,,10.1007/978-1-4302-0701-6_5,Allan KentDavid PowersRachel Andrew,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0701-6_5,Chapter
+Session Management,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_23,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_23,Chapter
+Templating with Smarty,"Essential PHP Tools: Modules, Extensions, and Accelerators",,,,10.1007/978-1-4302-0714-6_4,David Sklar,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0714-6_4,Chapter
+Form Validation and Data Retention,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_19,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_19,Chapter
+Case Study: Roundtree Garden Club,PHP Web Development with Macromedia Dreamweaver MX 2004,,,,10.1007/978-1-4302-0701-6_9,Allan KentDavid PowersRachel Andrew,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0701-6_9,Chapter
+News Portal,Dreamweaver MX 2004 Design Projects,,,,10.1007/978-1-4302-5432-4_2,Rachel AndrewCraig GrannellAllan KentChristopher Schmitt,2004,https://link.springer.com/chapter/10.1007/978-1-4302-5432-4_2,Chapter
+File Uploading Using Forms,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_28,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_28,Chapter
+Security Issues,PHP and MySQL Manual,,,,10.1007/978-0-85729-404-3_20,Simon StobartMike Vassileiou,2004,https://link.springer.com/chapter/10.1007/978-0-85729-404-3_20,Chapter
+Introductory Example (An Opinion Poll),The Definitive Guide to MySQL,,,,10.1007/978-1-4302-0669-9_3,Michael Kofler,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0669-9_3,Chapter
+Enterprise Patterns,"PHP 5 Objects, Patterns, and Practice",,,,10.1007/978-1-4302-0403-9_12,Matt Zandstra,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0403-9_12,Chapter
+"Working with Authentication, Users, and Passwords","Essential PHP Tools: Modules, Extensions, and Accelerators",,,,10.1007/978-1-4302-0714-6_10,David Sklar,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0714-6_10,Chapter
+Developing Heavyweight Web Services with SOAP,"Essential PHP Tools: Modules, Extensions, and Accelerators",,,,10.1007/978-1-4302-0714-6_7,David Sklar,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0714-6_7,Chapter
+MySQL Programming,Beginning MySQL Database Design and Optimization,,,,10.1007/978-1-4302-0729-0_7,Jon StephensChad Russell,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0729-0_7,Chapter
+Top PHP Questions,Dreamweaver Developer’s Instant Troubleshooter,,,,10.1007/978-1-4302-0806-8_12,Gareth Downes-Powell,2003,https://link.springer.com/chapter/10.1007/978-1-4302-0806-8_12,Chapter
+Behind the scenes I: PHP,Foundation Flash MX Applications,,,,10.1007/978-1-4302-5211-5_8,Scott MebbersonSteve Webster,2003,https://link.springer.com/chapter/10.1007/978-1-4302-5211-5_8,Chapter
+Coding FTP Clients,Professional PHP4,,,,10.1007/978-1-4302-1120-4_11,Luis ArgerichWankyu ChoiJohn CoggeshallKen EgervariMartin GeislerZak GreantAndrew HillChris HubbardJames MooreDevon O’DellJon PariseHarish RawatTarique SaniChristopher ScolloDeepak ThomasChris Ullman,2003,https://link.springer.com/chapter/10.1007/978-1-4302-1120-4_11,Chapter
+FlashBlog: Plugging it together,Foundation Flash MX Applications,,,,10.1007/978-1-4302-5211-5_10,Scott MebbersonSteve Webster,2003,https://link.springer.com/chapter/10.1007/978-1-4302-5211-5_10,Chapter
+Security,Professional PHP4,,,,10.1007/978-1-4302-1120-4_24,Luis ArgerichWankyu ChoiJohn CoggeshallKen EgervariMartin GeislerZak GreantAndrew HillChris HubbardJames MooreDevon O’DellJon PariseHarish RawatTarique SaniChristopher ScolloDeepak ThomasChris Ullman,2003,https://link.springer.com/chapter/10.1007/978-1-4302-1120-4_24,Chapter
+Behind the Scenes II: MySQL and Data Storage,Foundation Flash MX Applications,,,,10.1007/978-1-4302-5211-5_9,Scott MebbersonSteve Webster,2003,https://link.springer.com/chapter/10.1007/978-1-4302-5211-5_9,Chapter
+Interface design,Foundation Flash MX Applications,,,,10.1007/978-1-4302-5211-5_11,Scott MebbersonSteve Webster,2003,https://link.springer.com/chapter/10.1007/978-1-4302-5211-5_11,Chapter
+Using PHP and Apache,Foundation Dreamweaver MX,,,,10.1007/978-1-4302-5213-9_10,Craig GrannellTodd MarksGeorge McLachlanMatt StephensJerome Turner,2002,https://link.springer.com/chapter/10.1007/978-1-4302-5213-9_10,Chapter
+CVS,Real World Software Configuration Management,,,,10.1007/978-1-4302-0792-4_5,Sean Kenefick,2003,https://link.springer.com/chapter/10.1007/978-1-4302-0792-4_5,Chapter
+Secure Login and Registration,Foundation Dreamweaver MX,,,,10.1007/978-1-4302-5213-9_13,Craig GrannellTodd MarksGeorge McLachlanMatt StephensJerome Turner,2002,https://link.springer.com/chapter/10.1007/978-1-4302-5213-9_13,Chapter
+Ming,Advanced PHP for Flash,,,,10.1007/978-1-4302-5205-4_8,Steve WebsterMatt RiceKev SutherlandJacob HansonJames PalmerTodd MarksHåvard Eide,2002,https://link.springer.com/chapter/10.1007/978-1-4302-5205-4_8,Chapter
+Advanced MySQL,Advanced PHP for Flash,,,,10.1007/978-1-4302-5205-4_5,Steve WebsterMatt RiceKev SutherlandJacob HansonJames PalmerTodd MarksHåvard Eide,2002,https://link.springer.com/chapter/10.1007/978-1-4302-5205-4_5,Chapter

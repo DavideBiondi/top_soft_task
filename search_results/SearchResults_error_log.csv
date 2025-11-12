@@ -1,0 +1,100 @@
+Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
+PHP Core Security,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_2,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_2,Chapter
+Object Basics,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_3,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_3,Chapter
+Security Standards and Best Practices,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_5,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_5,Chapter
+Vagrant,"PHP 8 Objects, Patterns, and Practice: Volume 2",,,,10.1007/979-8-8688-0779-4_8,Matt Zandstra,2025,https://link.springer.com/chapter/10.1007/979-8-8688-0779-4_8,Chapter
+Apache Web Server,Using and Administering Linux: Volume 3,,,,10.1007/978-1-4842-9786-5_51,David Both,2023,https://link.springer.com/chapter/10.1007/978-1-4842-9786-5_51,Chapter
+Log Files,Apache Essentials,,,,10.1007/978-1-4842-8324-0_6,Darren James Harkness,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8324-0_6,Chapter
+Sample Apache Configurations,Apache Essentials,,,,10.1007/978-1-4842-8324-0_7,Darren James Harkness,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8324-0_7,Chapter
+Error Handling,PHP 8 Quick Scripting Reference,,,,10.1007/978-1-4842-6619-9_29,Mikael Olsson,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6619-9_29,Chapter
+Basic Blog: Images and Authentication,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_9,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_9,Chapter
+PHP,Cyber Operations,,,,10.1007/978-1-4842-4294-0_20,Mike O’Leary,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4294-0_20,Chapter
+Object Basics,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_3,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_3,Chapter
+Configuration Essentials,Apache Essentials,,,,10.1007/978-1-4842-8324-0_2,Darren James Harkness,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8324-0_2,Chapter
+Web Server Part 1: Apache/Nginx Basics,Practical Internet Server Configuration,,,,10.1007/978-1-4842-6960-2_9,Robert La Lau,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6960-2_9,Chapter
+Vagrant,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_20,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_20,Chapter
+Handling and Logging Exceptions,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_6,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_6,Chapter
+Installing an Open Source Software Product: WordPress,Set Up and Manage Your Virtual Private Server,,,,10.1007/978-1-4842-6966-4_8,Jon Westfall,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6966-4_8,Chapter
+Containerizing and Automating Your Deployments,Practical Linux DevOps,,,,10.1007/978-1-4842-8318-9_8,John S. Tonello,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8318-9_8,Chapter
+Authentication,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_8,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_8,Chapter
+Data Objects,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_7,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_7,Chapter
+Multifunctional Interfaces,Learn PHP 8,,,,10.1007/978-1-4842-6240-5_9,Steve Prettyman,2020,https://link.springer.com/chapter/10.1007/978-1-4842-6240-5_9,Chapter
+Apache Web Server,Using and Administering Linux: Volume 3,,,,10.1007/978-1-4842-5485-1_10,David Both,2020,https://link.springer.com/chapter/10.1007/978-1-4842-5485-1_10,Chapter
+Deploying Masonite,The Definitive Guide to Masonite,,,,10.1007/978-1-4842-5602-2_13,Christopher PittJoe Mancuso,2020,https://link.springer.com/chapter/10.1007/978-1-4842-5602-2_13,Chapter
+Creating a Simple Web App,Building Scalable PHP Web Applications Using the Cloud,,,,10.1007/978-1-4842-5212-3_4,Jonathan Bartlett,2019,https://link.springer.com/chapter/10.1007/978-1-4842-5212-3_4,Chapter
+Linux Security Basics,Building Scalable PHP Web Applications Using the Cloud,,,,10.1007/978-1-4842-5212-3_13,Jonathan Bartlett,2019,https://link.springer.com/chapter/10.1007/978-1-4842-5212-3_13,Chapter
+Create a Product Catalog,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_8,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_8,Chapter
+Apache and ModSecurity,Cyber Operations,,,,10.1007/978-1-4842-4294-0_14,Mike O’Leary,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4294-0_14,Chapter
+Join Multiple Tables and Other Enhancements,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_9,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_9,Chapter
+E-commerce: A Brief Introduction,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_11,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_11,Chapter
+Migrate to a Host and Back Up Your Website Database,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_7,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_7,Chapter
+Error and Exception Handling,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_8,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_8,Chapter
+Create a Message Board,"Practical PHP 7, MySQL 8, and MariaDB Website Databases",,,,10.1007/978-1-4842-3843-1_10,Adrian W. WestSteve Prettyman,2018,https://link.springer.com/chapter/10.1007/978-1-4842-3843-1_10,Chapter
+Error Handling,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_11,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_11,Chapter
+Installation and Configuration,PHP and MySQL Recipes,,,,10.1007/978-1-4842-0605-8_1,Frank M. Kromann,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0605-8_1,Chapter
+User-Facing Software,PHP CLI,,,,10.1007/978-1-4842-2238-6_4,Rob Aley,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2238-6_4,Chapter
+Distribution and Deployment Issues,PHP Beyond the Web,,,,10.1007/978-1-4842-2481-6_10,Rob Aley,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2481-6_10,Chapter
+Error Handling,PHP 7 Quick Scripting Reference,,,,10.1007/978-1-4842-1922-5_29,Mikael Olsson,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1922-5_29,Chapter
+Web and SQL Services,Pro Linux System Administration,,,,10.1007/978-1-4842-2008-5_11,Dennis MatotekJames TurnbullPeter Lieverdink,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2008-5_11,Chapter
+User-Facing Software,PHP Beyond the Web,,,,10.1007/978-1-4842-2481-6_5,Rob Aley,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2481-6_5,Chapter
+Handling and Logging Exceptions,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_5,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_5,Chapter
+Web Server,Learn CentOS Linux Network Services,,,,10.1007/978-1-4842-2379-6_7,Antonio Vazquez,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2379-6_7,Chapter
+Authentication,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_7,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_7,Chapter
+Multifunctional Interfaces,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_8,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_8,Chapter
+Data Objects,Learn PHP 7,,,,10.1007/978-1-4842-1730-6_6,Steve Prettyman,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1730-6_6,Chapter
+Nginx Core Directives,Nginx,,,,10.1007/978-1-4842-1656-9_3,Rahul Soni,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1656-9_3,Chapter
+Nginx Modules,Nginx,,,,10.1007/978-1-4842-1656-9_4,Rahul Soni,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1656-9_4,Chapter
+"Log Analysis, Monitoring, and Automation",Nginx,,,,10.1007/978-1-4842-1656-9_9,Rahul Soni,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1656-9_9,Chapter
+Vagrant,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_20,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_20,Chapter
+Troubleshooting Tips and FAQ,Nginx,,,,10.1007/978-1-4842-1656-9_12,Rahul Soni,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1656-9_12,Chapter
+Nginx and Dynamic Content,Nginx,,,,10.1007/978-1-4842-1656-9_7,Rahul Soni,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1656-9_7,Chapter
+Get More with Wget,Practical Linux Topics,,,,10.1007/978-1-4842-1772-6_5,Chris Binnie,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1772-6_5,Chapter
+OpenLDAP,Learn CentOS Linux Network Services,,,,10.1007/978-1-4842-2379-6_11,Antonio Vazquez,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2379-6_11,Chapter
+Load Balancing with Nginx,Nginx,,,,10.1007/978-1-4842-1656-9_8,Rahul Soni,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1656-9_8,Chapter
+Web Applications,Cyber Operations,,,,10.1007/978-1-4842-0457-3_18,Mike O’Leary,2015,https://link.springer.com/chapter/10.1007/978-1-4842-0457-3_18,Chapter
+Apache and ModSecurity,Cyber Operations,,,,10.1007/978-1-4842-0457-3_11,Mike O’Leary,2015,https://link.springer.com/chapter/10.1007/978-1-4842-0457-3_11,Chapter
+Setting Up a LAMP Server,The Definitive Guide to SUSE Linux Enterprise Server 12,,,,10.1007/978-1-4302-6820-8_12,Sander van Vugt,2014,https://link.springer.com/chapter/10.1007/978-1-4302-6820-8_12,Chapter
+Error Handling,PHP Quick Scripting Reference,,,,10.1007/978-1-4302-6284-8_29,Mikael Olsson,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6284-8_29,Chapter
+"Security, Forms, and Error Handling",Expert PHP and MySQL,,,,10.1007/978-1-4302-6008-0_6,Marc Rochkind,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6008-0_6,Chapter
+Application Scaling,Pro Node.js for Developers,,,,10.1007/978-1-4302-5861-2_16,Colin J. Ihrig,2013,https://link.springer.com/chapter/10.1007/978-1-4302-5861-2_16,Chapter
+Development and Deployment,Advanced Joomla!,,,,10.1007/978-1-4302-1629-2_14,Dan Rahmel,2013,https://link.springer.com/chapter/10.1007/978-1-4302-1629-2_14,Chapter
+Facebook Developer Tools,Beginning Facebook Game Apps Development,,,,10.1007/978-1-4302-4171-3_9,Wayne Graham,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4171-3_9,Chapter
+SSL Load Balancing,Practical Load Balancing,,,,10.1007/978-1-4302-3681-8_11,Peter MembreyDavid HowsEelco Plugge,2012,https://link.springer.com/chapter/10.1007/978-1-4302-3681-8_11,Chapter
+Security,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_11,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_11,Chapter
+The Page Lifecycle,Pro Drupal 7 for Windows Developers,,,,10.1007/978-1-4302-3154-7_2,Brian Travis,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3154-7_2,Chapter
+Drush,The Definitive Guide to Drupal 7,,,,10.1007/978-1-4302-3136-3_26,Greg Anderson,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3136-3_26,Chapter
+Error and Exception Handling,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_8,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_8,Chapter
+An Introduction to PEAR and Pyrus,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-2926-1_15,Matt Zandstra,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2926-1_15,Chapter
+"User Authentication, Authorization, and Logging",Pro PHP Security,,,,10.1007/978-1-4302-3319-0_10,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_10,Chapter
+Final Recommendations,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_17,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_17,Chapter
+Linux Web Services,Foundations of CentOS Linux,,,,10.1007/978-1-4302-1965-1_13,Ryan BaclitChivas SicamPeter MembreyJohn Newbigin,2009,https://link.springer.com/chapter/10.1007/978-1-4302-1965-1_13,Chapter
+Error and Exception Handling,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_8,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_8,Chapter
+Starting the TShirtShop Project,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_3,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_3,Chapter
+Ajax: Advanced Client/Server Communication,Practical Prototype and script.aculo.us,,,,10.1007/978-1-4302-0502-9_4,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0502-9_4,Chapter
+Deploying Django,The Definitive Guide to Django,,,,10.1007/978-1-4302-0331-5_20,Adrian HolovatyJacob Kaplan-Moss,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0331-5_20,Chapter
+Events,Practical Prototype and script.aculo.us,,,,10.1007/978-1-4302-0502-9_5,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0502-9_5,Chapter
+Anomaly Detection with Diagnosis in Diversified Systems using Information Flow Graphs,Proceedings of The Ifip Tc 11 23rd International Information Security Conference,,,,10.1007/978-0-387-09699-5_20,Frédéric MajorczykEric TotelLudovic MéAyda Saïdane,2008,https://link.springer.com/chapter/10.1007/978-0-387-09699-5_20,Conference paper
+Creating the Product Catalog: Part 1,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_4,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_4,Chapter
+Error and Exception Handling,Beginning PHP and Oracle,,,,10.1007/978-1-4302-0367-4_8,,2007,https://link.springer.com/chapter/10.1007/978-1-4302-0367-4_8,Chapter
+Installing and Configuring Apache and PHP,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_2,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_2,Chapter
+Installing and Configuring Apache and PHP,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_2,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_2,Chapter
+PHP’s PostgreSQL Functionality,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_30,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_30,Chapter
+Error and Exception Handling,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_8,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_8,Chapter
+Error and Exception Handling,Beginning PHP and PostgreSQL 8,,,,10.1007/978-1-4302-0136-6_8,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0136-6_8,Chapter
+Dealing with Shared Hosts,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_2,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_2,Chapter
+Benchmarking and Profiling,Pro MySQL,,,,10.1007/978-1-4302-0048-2_6,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0048-2_6,Chapter
+Accessing Databases with ADODB,"Essential PHP Tools: Modules, Extensions, and Accelerators",,,,10.1007/978-1-4302-0714-6_2,David Sklar,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0714-6_2,Chapter
+Apache in Jail,Hardening Apache,,,,10.1007/978-1-4302-0675-0_6,Tony Mobily,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0675-0_6,Chapter
+Logging,Hardening Apache,,,,10.1007/978-1-4302-0675-0_3,Tony Mobily,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0675-0_3,Chapter
+Dynamic Web Page Development,Foundation Mac OS X Web Development,,,,10.1007/978-1-4302-5133-0_5,Phil Sherry,2004,https://link.springer.com/chapter/10.1007/978-1-4302-5133-0_5,Chapter
+Secure Installation and Configuration,Hardening Apache,,,,10.1007/978-1-4302-0675-0_1,Tony Mobily,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0675-0_1,Chapter
+Mac UNIX Essentials,Foundation Mac OS X Web Development,,,,10.1007/978-1-4302-5133-0_6,Phil Sherry,2004,https://link.springer.com/chapter/10.1007/978-1-4302-5133-0_6,Chapter
+Extending Apache,Pro Apache,,,,10.1007/978-1-4302-0658-3_12,Peter Wainwright,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0658-3_12,Chapter
+Apache Security Modules,Hardening Apache,,,,10.1007/978-1-4302-0675-0_5,Tony Mobily,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0675-0_5,Chapter
+Monitoring Apache,Pro Apache,,,,10.1007/978-1-4302-0658-3_9,Peter Wainwright,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0658-3_9,Chapter
+Apache and PHP Setup on Linux,Dreamweaver Developer’s Instant Troubleshooter,,,,10.1007/978-1-4302-0806-8_6,Gareth Downes-Powell,2003,https://link.springer.com/chapter/10.1007/978-1-4302-0806-8_6,Chapter
+Building Apache the Way You Want It,Pro Apache,,,,10.1007/978-1-4302-0658-3_3,Peter Wainwright,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0658-3_3,Chapter
+Debugging,Professional PHP4,,,,10.1007/978-1-4302-1120-4_7,Luis ArgerichWankyu ChoiJohn CoggeshallKen EgervariMartin GeislerZak GreantAndrew HillChris HubbardJames MooreDevon O’DellJon PariseHarish RawatTarique SaniChristopher ScolloDeepak ThomasChris Ullman,2003,https://link.springer.com/chapter/10.1007/978-1-4302-1120-4_7,Chapter
+Installation,Professional PHP4,,,,10.1007/978-1-4302-1120-4_3,Luis ArgerichWankyu ChoiJohn CoggeshallKen EgervariMartin GeislerZak GreantAndrew HillChris HubbardJames MooreDevon O’DellJon PariseHarish RawatTarique SaniChristopher ScolloDeepak ThomasChris Ullman,2003,https://link.springer.com/chapter/10.1007/978-1-4302-1120-4_3,Chapter
+Security,Professional PHP4,,,,10.1007/978-1-4302-1120-4_24,Luis ArgerichWankyu ChoiJohn CoggeshallKen EgervariMartin GeislerZak GreantAndrew HillChris HubbardJames MooreDevon O’DellJon PariseHarish RawatTarique SaniChristopher ScolloDeepak ThomasChris Ullman,2003,https://link.springer.com/chapter/10.1007/978-1-4302-1120-4_24,Chapter
+An Introduction to PHP,A Programmer’s Introduction to PHP 4.0,,,,10.1007/978-1-4302-0856-3_1,W. J. Gilmore,2001,https://link.springer.com/chapter/10.1007/978-1-4302-0856-3_1,Chapter

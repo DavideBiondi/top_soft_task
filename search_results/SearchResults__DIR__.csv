@@ -1,0 +1,69 @@
+Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
+PHP on the Command Line,"PHP 8 Objects, Patterns, and Practice: Volume 2",,,,10.1007/979-8-8688-0779-4_11,Matt Zandstra,2025,https://link.springer.com/chapter/10.1007/979-8-8688-0779-4_11,Chapter
+PHP Standards,"PHP 8 Objects, Patterns, and Practice: Volume 2",,,,10.1007/979-8-8688-0779-4_3,Matt Zandstra,2025,https://link.springer.com/chapter/10.1007/979-8-8688-0779-4_3,Chapter
+Object Tools,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_5,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_5,Chapter
+Enterprise Patterns,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_12,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_12,Chapter
+Framework Security,Building Secure PHP Applications,,,,10.1007/979-8-8688-0932-3_4,Satej Kumar Sahu,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0932-3_4,Chapter
+Object Basics,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_3,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_3,Chapter
+Implementing Endpoints and Generating Documentation,API Development with Laravel,,,,10.1007/979-8-8688-1576-8_6,Adegoke Akintoye,2025,https://link.springer.com/chapter/10.1007/979-8-8688-1576-8_6,Chapter
+Advanced Package Development,Building Real-Time Marvels with Laravel,,,,10.1007/978-1-4842-9789-6_11,Sivaraj Selvaraj,2024,https://link.springer.com/chapter/10.1007/978-1-4842-9789-6_11,Chapter
+Data Dashboard and Gaming,PHP 8 for Absolute Beginners,,,,10.1007/978-1-4842-8205-2_10,Jason LengstorfThomas Blom HansenSteve Prettyman,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8205-2_10,Chapter
+Objects and Design,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_6,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_6,Chapter
+Generating Thumbnail Images,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_10,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_10,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_11,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_11,Chapter
+Useful Tricks and Operations,PHP by Example,,,,10.1007/979-8-8688-0258-4_6,Alex Vasilev,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0258-4_6,Chapter
+Lightening Your Workload with Includes,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_5,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_5,Chapter
+Code Auditing,Handbook for CTFers,,,,10.1007/978-981-19-0336-6_10,,2022,https://link.springer.com/chapter/10.1007/978-981-19-0336-6_10,Chapter
+Patterns for Flexible Object Programming,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_10,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_10,Chapter
+Object Tools,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_5,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_5,Chapter
+Advanced Web Challenges,Handbook for CTFers,,,,10.1007/978-981-19-0336-6_3,,2022,https://link.springer.com/chapter/10.1007/978-981-19-0336-6_3,Chapter
+Advanced Features,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_4,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_4,Chapter
+Constants,PHP 8 Quick Scripting Reference,,,,10.1007/978-1-4842-6619-9_13,Mikael Olsson,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6619-9_13,Chapter
+Enterprise Patterns,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_12,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_12,Chapter
+Running a Blog,Beginning Ansible Concepts and Application,,,,10.1007/978-1-4842-8173-4_11,Shaun R SmithPeter Membrey,2022,https://link.springer.com/chapter/10.1007/978-1-4842-8173-4_11,Chapter
+Code Injection Prevention in Content Management Systems Using Machine Learning,Computational Vision and Bio-Inspired Computing,,,,10.1007/978-981-16-9573-5_4,C. KavithamaniR. S. Sankara SubramanianSrinevasan KrishnamurthyJayakrishnan ChathuGayatri Iyer,2022,https://link.springer.com/chapter/10.1007/978-981-16-9573-5_4,Conference paper
+Writing Our First Bit of Code,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_2,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_2,Chapter
+Building a Dependency Injection Container,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_8,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_8,Chapter
+Object Basics,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_3,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_3,Chapter
+Building a Database Library,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_6,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_6,Chapter
+Building a Template Engine,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_4,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_4,Chapter
+Testing Our Framework,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_9,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_9,Chapter
+Building a Router,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_3,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_3,Chapter
+Modularizing Laravel,Domain-Driven Laravel,,,,10.1007/978-1-4842-6023-4_8,Jesse Griffin,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6023-4_8,Chapter
+"Config, Cache, Sessions, Filesystems",Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_10,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_10,Chapter
+Building a Validator,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_5,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_5,Chapter
+Objects and Design,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_6,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_6,Chapter
+"Queues, Logging, Emails",Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_11,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_11,Chapter
+Advanced Laravel,Domain-Driven Laravel,,,,10.1007/978-1-4842-6023-4_5,Jesse Griffin,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6023-4_5,Chapter
+Advanced Features,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_4,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_4,Chapter
+Patterns for Flexible Object Programming,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_10,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_10,Chapter
+Lightening Your Workload with Includes,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_5,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_5,Chapter
+Generating Thumbnail Images,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_10,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_10,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_11,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_11,Chapter
+PHP Basics,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_1,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_1,Chapter
+Using Helper Libraries in Your Application,Pro Functional PHP Programming,,,,10.1007/978-1-4842-2958-3_8,Rob Aley,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2958-3_8,Chapter
+PHP Standards,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_15,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_15,Chapter
+Singleton,Design Patterns in PHP and Laravel,,,,10.1007/978-1-4842-2451-9_7,Kelt Dockins,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2451-9_7,Chapter
+Abstract Factory,Design Patterns in PHP and Laravel,,,,10.1007/978-1-4842-2451-9_3,Kelt Dockins,2017,https://link.springer.com/chapter/10.1007/978-1-4842-2451-9_3,Chapter
+Enterprise Patterns,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_12,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_12,Chapter
+Object Tools,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_5,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_5,Chapter
+Frameworks,PHP Development Tool Essentials,,,,10.1007/978-1-4842-0683-6_5,Chad Russell,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0683-6_5,Chapter
+Object Basics,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_3,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_3,Chapter
+Advanced Topics,PHP Persistence,,,,10.1007/978-1-4842-2559-2_11,Michael Romer,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2559-2_11,Chapter
+Caching,PHP Persistence,,,,10.1007/978-1-4842-2559-2_10,Michael Romer,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2559-2_10,Chapter
+Constants,PHP 7 Quick Scripting Reference,,,,10.1007/978-1-4842-1922-5_13,Mikael Olsson,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1922-5_13,Chapter
+"Hello, Doctrine 2!",PHP Persistence,,,,10.1007/978-1-4842-2559-2_4,Michael Romer,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2559-2_4,Chapter
+Advanced Features,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_4,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_4,Chapter
+System Software,PHP Beyond the Web,,,,10.1007/978-1-4842-2481-6_6,Rob Aley,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2481-6_6,Chapter
+Objects and Design,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_6,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_6,Chapter
+Command Line Tools,PHP Persistence,,,,10.1007/978-1-4842-2559-2_9,Michael Romer,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2559-2_9,Chapter
+Dependency Management,PHP Development Tool Essentials,,,,10.1007/978-1-4842-0683-6_4,Chad Russell,2016,https://link.springer.com/chapter/10.1007/978-1-4842-0683-6_4,Chapter
+Hello Lumen,Lumen Programming Guide,,,,10.1007/978-1-4842-2187-7_2,Paul Redmond,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2187-7_2,Chapter
+"Authentication, Access Control, and Safe File Handling",Securing PHP Apps,,,,10.1007/978-1-4842-2120-4_4,Ben Edmunds,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2120-4_4,Chapter
+Patterns for Flexible Object Programming,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_10,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_10,Chapter
+Building an Application with Neo4j,Beginning Neo4j,,,,10.1007/978-1-4842-1227-1_8,Chris Kemper,2015,https://link.springer.com/chapter/10.1007/978-1-4842-1227-1_8,Chapter
+Generating Thumbnail Images,PHP Solutions,,,,10.1007/978-1-4842-0635-5_8,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_8,Chapter
+Lightening Your Workload with Includes,PHP Solutions,,,,10.1007/978-1-4842-0635-5_4,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_4,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP Solutions,,,,10.1007/978-1-4842-0635-5_9,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_9,Chapter
+Constants,PHP Quick Scripting Reference,,,,10.1007/978-1-4302-6284-8_13,Mikael Olsson,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6284-8_13,Chapter
+Introduction,Pro Android Python with SL4A,,,,10.1007/978-1-4302-3570-5_1,Paul Ferrill,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3570-5_1,Chapter

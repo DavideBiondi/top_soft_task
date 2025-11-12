@@ -1,0 +1,60 @@
+Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
+PHP and MySQL Working Together,PHP 8 Basics,,,,10.1007/978-1-4842-8082-9_10,Gunnard EngebrethSatej Kumar Sahu,2023,https://link.springer.com/chapter/10.1007/978-1-4842-8082-9_10,Chapter
+Connecting to a Database with PHP and SQL,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_13,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_13,Chapter
+Managing Multiple Database Tables,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_18,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_18,Chapter
+Authenticating Users with a Database,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_19,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_19,Chapter
+Managing Content,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_15,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_15,Chapter
+Pulling Data from Multiple Tables,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_17,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_17,Chapter
+Recent Techniques Supporting Vulnerabilities Management for Secure Online Apps,Advances in Cybersecurity Management,,,,10.1007/978-3-030-71381-2_12,Tun Myat AungNi Ni Hla,2021,https://link.springer.com/chapter/10.1007/978-3-030-71381-2_12,Chapter
+Connecting to a&#xa0;Database with PHP and SQL,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_13,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_13,Chapter
+Using PHP with MySQL,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_27,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_27,Chapter
+Managing Multiple Database Tables,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_18,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_18,Chapter
+Authenticating Users with a Database,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_19,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_19,Chapter
+Pulling Data from Multiple Tables,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_17,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_17,Chapter
+Managing Content,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_15,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_15,Chapter
+Transactions,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_34,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_34,Chapter
+Practical Database Queries,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_32,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_32,Chapter
+MySQL Triggers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_30,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_30,Chapter
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_17,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_17,Chapter
+Authenticating Your Users,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_14,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_14,Chapter
+Stored Routines,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_29,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_29,Chapter
+Indexes and Searching,Beginning PHP and MySQL,,,,10.1007/978-1-4302-6044-8_33,Frank M. Kromann,2018,https://link.springer.com/chapter/10.1007/978-1-4302-6044-8_33,Chapter
+Databases and SQL,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_10,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_10,Chapter
+Security,PHP 7 Zend Certification Study Guide,,,,10.1007/978-1-4842-3246-0_6,Andrew Beak,2017,https://link.springer.com/chapter/10.1007/978-1-4842-3246-0_6,Chapter
+Implementing a Bitcoin Exchange with Enhanced Security,Information Technology: New Generations,,,,10.1007/978-3-319-32467-8_24,Ebru Celikel CankayaLuke Daniel Carr,2016,https://link.springer.com/chapter/10.1007/978-3-319-32467-8_24,Conference paper
+Connecting to a Database with PHP and SQL,PHP Solutions,,,,10.1007/978-1-4842-0635-5_11,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_11,Chapter
+Managing Multiple Database Tables,PHP Solutions,,,,10.1007/978-1-4842-0635-5_16,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_16,Chapter
+Authenticating Users with a Database,PHP Solutions,,,,10.1007/978-1-4842-0635-5_17,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_17,Chapter
+Pulling Data from Multiple Tables,PHP Solutions,,,,10.1007/978-1-4842-0635-5_15,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_15,Chapter
+Managing Content,PHP Solutions,,,,10.1007/978-1-4842-0635-5_13,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_13,Chapter
+Database Integration II,Pro PHP Programming,,,,10.1007/978-1-4302-3561-3_8,Peter MacIntyreBrian DanchillaMladen Gogala,2011,https://link.springer.com/chapter/10.1007/978-1-4302-3561-3_8,Chapter
+Using PHP with MySQL,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_30,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_30,Chapter
+Connecting to MySQL with PHP and SQL,PHP Solutions,,,,10.1007/978-1-4302-3250-6_11,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_11,Chapter
+Transactions,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_37,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_37,Chapter
+Practical Database Queries,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_35,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_35,Chapter
+Preventing SQL Injection,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_3,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_3,Chapter
+Managing Multiple Database Tables,PHP Solutions,,,,10.1007/978-1-4302-3250-6_16,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_16,Chapter
+Managing Content,PHP Solutions,,,,10.1007/978-1-4302-3250-6_13,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_13,Chapter
+MySQL Triggers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_33,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_33,Chapter
+Authenticating Users with a Database,PHP Solutions,,,,10.1007/978-1-4302-3250-6_17,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_17,Chapter
+Pulling Data from Multiple Tables,PHP Solutions,,,,10.1007/978-1-4302-3250-6_15,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_15,Chapter
+Session Handlers,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_18,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_18,Chapter
+Stored Routines,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_32,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_32,Chapter
+Indexes and Searching,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_36,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_36,Chapter
+Working with Databases,PHP for Absolute Beginners,,,,10.1007/978-1-4302-2474-7_4,Jason Lengstorf,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2474-7_4,Chapter
+Authenticating Your Users,Beginning PHP and MySQL,,,,10.1007/978-1-4302-3115-8_14,,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3115-8_14,Chapter
+Using PHP with MySQL,Beginning PHP and MySQL,,,,10.1007/978-1-4302-0299-8_30,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0299-8_30,Chapter
+Exploring More DB2 Development Options,Beginning DB2,,,,10.1007/978-1-4302-0548-7_17,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0548-7_17,Chapter
+Solutions to Common PHP/Mysql Problems,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_14,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_14,Chapter
+PHP’s mysqli Extension,Beginning PHP and MySQL 5,,,,10.1007/978-1-4302-0117-5_30,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0117-5_30,Chapter
+Managing Content,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_13,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_13,Chapter
+Keeping Intruders at Bay,PHP Solutions: Dynamic Web Design Made Easy,,,,10.1007/978-1-4302-0275-2_15,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0275-2_15,Chapter
+Language Extensions,The Definitive Guide to SQLite,,,,10.1007/978-1-4302-0172-4_8,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0172-4_8,Chapter
+Databases and Perl,Beginning Web Development with Perl,,,,10.1007/978-1-4302-0089-5_3,,2006,https://link.springer.com/chapter/10.1007/978-1-4302-0089-5_3,Chapter
+PHP,The Definitive Guide to MySQL5,,,,10.1007/978-1-4302-0071-0_15,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0071-0_15,Chapter
+Using MySQL Databases in PHP 5,PHP 5 Recipes,,,,10.1007/978-1-4302-0070-3_15,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0070-3_15,Chapter
+Preventing SQL Injection,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_12,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_12,Chapter
+phpMyAdmin,The Definitive Guide to MySQL5,,,,10.1007/978-1-4302-0071-0_6,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0071-0_6,Chapter
+API Reference,The Definitive Guide to MySQL5,,,,10.1007/978-1-4302-0071-0_23,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0071-0_23,Chapter
+Accessing PostgreSQL from Perl,Beginning Databases with PostgreSQL,,,,10.1007/978-1-4302-0018-5_16,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0018-5_16,Chapter
+MySQL Programming,Beginning MySQL Database Design and Optimization,,,,10.1007/978-1-4302-0729-0_7,Jon StephensChad Russell,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0729-0_7,Chapter

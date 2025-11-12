@@ -179,12 +179,12 @@ $row= $result->fetch_assoc();
 $id_cliente=(int)$row['id_cliente'];
 $id_piva=(int)$row['id_piva'];
 
-// TODO: Add these couples in the related try catch 
+// You do not need these couples in the related try catch, because the related query will not be dynamic
 
-$piva_ateco_params = [];
-$piva_ateco_params[] = $id_piva;
-$piva_ateco_types = "";
-$piva_ateco_types .= "i";
+// $piva_ateco_params = [];
+// $piva_ateco_params[] = $id_piva;
+// $piva_ateco_types = "";
+// $piva_ateco_types .= "i";
 
 
 $stmt->close();

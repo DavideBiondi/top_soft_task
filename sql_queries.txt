@@ -330,3 +330,4 @@ mysql> SELECT c.nome, c.cognome, p.numero_piva, ca.codice AS codice_ateco, ca.de
 +------+---------+---------------+--------------+-------------------------------------------------------------------+-----------------+
 2 rows in set (0,05 sec)
 
+SELECT c.nome, c.cognome, p.numero_piva, ca.codice AS codice_ateco, ca.descrizione FROM clienti c INNER JOIN partite_iva p ON c.id_cliente=p.id_cliente LEFT JOIN piva_ateco pa ON p.id_piva=pa.id_piva LEFT JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco ORDER BY c.nome;

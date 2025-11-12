@@ -1,0 +1,28 @@
+Item Title,Publication Title,Book Series Title,Journal Volume,Journal Issue,Item DOI,Authors,Publication Year,URL,Content Type
+Enterprise Patterns,"PHP 8 Objects, Patterns, and Practice: Volume 1",,,,10.1007/979-8-8688-0482-3_12,Matt Zandstra,2024,https://link.springer.com/chapter/10.1007/979-8-8688-0482-3_12,Chapter
+Lightening Your Workload with Includes,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_5,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_5,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 8 Solutions,,,,10.1007/978-1-4842-7141-4_11,David Powers,2022,https://link.springer.com/chapter/10.1007/978-1-4842-7141-4_11,Chapter
+Building a Template Engine,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_4,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_4,Chapter
+Testing Our Framework,Pro PHP 8 MVC,,,,10.1007/978-1-4842-6957-2_9,Christopher Pitt,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6957-2_9,Chapter
+Testing with PHPUnit,"PHP 8 Objects, Patterns, and Practice",,,,10.1007/978-1-4842-6791-2_18,Matt Zandstra,2021,https://link.springer.com/chapter/10.1007/978-1-4842-6791-2_18,Chapter
+Lightening Your Workload with Includes,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_5,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_5,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP 7 Solutions,,,,10.1007/978-1-4842-4338-1_11,David Powers,2019,https://link.springer.com/chapter/10.1007/978-1-4842-4338-1_11,Chapter
+User-Facing Software,PHP Beyond the Web,,,,10.1007/978-1-4842-2481-6_5,Rob Aley,2016,https://link.springer.com/chapter/10.1007/978-1-4842-2481-6_5,Chapter
+Testing with PHPUnit,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4842-1996-6_18,Matt Zandstra,2016,https://link.springer.com/chapter/10.1007/978-1-4842-1996-6_18,Chapter
+Lightening Your Workload with Includes,PHP Solutions,,,,10.1007/978-1-4842-0635-5_4,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_4,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP Solutions,,,,10.1007/978-1-4842-0635-5_9,David Powers,2014,https://link.springer.com/chapter/10.1007/978-1-4842-0635-5_9,Chapter
+Testing with PHPUnit,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-6032-5_18,Matt Zandstra,2013,https://link.springer.com/chapter/10.1007/978-1-4302-6032-5_18,Chapter
+Configuration,Pro PHP MVC,,,,10.1007/978-1-4302-4165-2_4,Chris Pitt,2012,https://link.springer.com/chapter/10.1007/978-1-4302-4165-2_4,Chapter
+Refactoring with Patterns,Pro PHP Refactoring,,,,10.1007/978-1-4302-2728-1_15,Francesco TrucchiaJacopo Romei,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2728-1_15,Chapter
+Lightening Your Workload with Includes,PHP Solutions,,,,10.1007/978-1-4302-3250-6_4,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_4,Chapter
+Structuring Behavior,Pro PHP Refactoring,,,,10.1007/978-1-4302-2728-1_7,Francesco TrucchiaJacopo Romei,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2728-1_7,Chapter
+Pages That Remember: Simple Login and Multipage Forms,PHP Solutions,,,,10.1007/978-1-4302-3250-6_9,David Powers,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3250-6_9,Chapter
+Final Recommendations,Pro PHP Security,,,,10.1007/978-1-4302-3319-0_17,Chris SnyderThomas MyerMichael Southwell,2010,https://link.springer.com/chapter/10.1007/978-1-4302-3319-0_17,Chapter
+Testing with PHPUnit,"PHP Objects, Patterns, and Practice",,,,10.1007/978-1-4302-2926-1_18,Matt Zandstra,2010,https://link.springer.com/chapter/10.1007/978-1-4302-2926-1_18,Chapter
+Search Engine Optimization,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_7,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_7,Chapter
+Searching the Catalog,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_8,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_8,Chapter
+Catalog Administration: Departments and Categories,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_10,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_10,Chapter
+Receiving Payments Using PayPal,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_9,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_9,Chapter
+Creating Your Own Shopping Cart,Beginning PHP and MySQL E-Commerce,,,,10.1007/978-1-4302-0291-2_12,,2008,https://link.springer.com/chapter/10.1007/978-1-4302-0291-2_12,Chapter
+Maintaining Separate Development and Production Environments,Pro PHP Security,,,,10.1007/978-1-4302-0057-4_3,,2005,https://link.springer.com/chapter/10.1007/978-1-4302-0057-4_3,Chapter
+Sending Mail,"Essential PHP Tools: Modules, Extensions, and Accelerators",,,,10.1007/978-1-4302-0714-6_9,David Sklar,2004,https://link.springer.com/chapter/10.1007/978-1-4302-0714-6_9,Chapter

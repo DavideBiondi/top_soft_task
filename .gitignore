@@ -1,4 +1,4 @@
-# Ignora credenziali e configurazioni locali
+# Ignore credentials and local configurations
 /php_webapp/login_module/secrets.php
 secrets.php
 /.env
@@ -8,7 +8,10 @@ secrets.php
 *.bak
 *.log
 
-# File temporanei o cache
+#Docker version of the app
+/php_webapp_docker_version
+
+# Temporary files or cache
 *.tmp
 *.swp
 *.swo
@@ -18,7 +21,7 @@ secrets.php
 .vscode/
 .idea/
 
-# Composer (se usato)
+# Composer (if used)
 vendor/
 
 # Docker volumes
@@ -32,3 +35,18 @@ Thumbs.db
 Nota-metodologica-1.pdf
 *.docx
 *.sh
+*.zip
+*.exclude
+
+# Not all the sh files
+!**/analytic_index_creation.sh
+
+# Linux temporary files
+.~*#
+
+#Text files
+*.txt
+
+# But not all the text files
+!sql_queries.txt
+**/comments.txt

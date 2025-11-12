@@ -119,3 +119,29 @@ ADD CONSTRAINT check_surname_min_length CHECK (CHAR_LENGTH (cognome) >= 2);
 
 
 
+SELECT c.nome, c.cognome, c.email, p.numero_piva, t.numero_telefono, ca.codice AS codice_ateco, ca.descrizione FROM clienti c INNER JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente INNER JOIN partite_iva p ON c.id_cliente=p.id_cliente INNER JOIN piva_ateco pa ON p.id_piva=pa.id_piva INNER JOIN codici_ateco ca ON pa.id_ateco=ca.id_ateco WHERE c.cognome LIKE 'Rossi' ORDER BY c.nome;   
+           
+
+SELECT 
+    c.id_cliente,
+    c.nome,
+    c.cognome,
+    c.email,
+    t.numero_telefono,
+    p.numero_piva,
+    p.nome_azienda,
+    p.denominazione,
+    p.data_attivazione,
+    ca.codice AS codice_ateco,
+    ca.descrizione AS descrizione_ateco
+FROM clienti c
+LEFT JOIN telefoni_clienti t ON c.id_cliente = t.id_cliente
+LEFT JOIN partite_iva p ON c.id_cliente = p.id_cliente
+LEFT JOIN piva_ateco pa ON p.id_piva = pa.id_piva
+LEFT JOIN codici_ateco ca ON pa.id_ateco = ca.id_ateco
+;
+
+SELECT c.nome, c.cognome, c.email, t.numero_telefono
+          FROM clienti c
+          LEFT JOIN telefoni_clienti t  ON c.id_cliente = t.id_cliente;
+          
