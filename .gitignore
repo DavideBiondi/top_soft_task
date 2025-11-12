@@ -49,4 +49,5 @@ Nota-metodologica-1.pdf
 
 # But not all the text files
 !sql_queries.txt
-**/comments.txt
+!**/comments.txt
+

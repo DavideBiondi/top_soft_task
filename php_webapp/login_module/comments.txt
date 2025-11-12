@@ -1,0 +1,243 @@
+*******************************************************************************************************
+Theoric concepts about E-R model, UML and MySQL
+# TODO: Create and Complete the UML section
+Third Normal Form (3NF) in MySQL Database:
+The relational schema follows the Third Normal Form to avoid 
+data redundancy and ensure data integrity.
+
+Each table contains only attributes that depend on the primary key.
+
+Transitive dependencies have been removed by introducing linking tables 
+(e.g., the relationship between clients, partite IVA, and codici ATECO).
+
+The design enforces referential integrity through foreign keys, ensuring 
+consistent and traceable relationships between entities.
+
+As a result, the database structure supports scalability and efficient querying 
+while preserving normalization and avoiding update anomalies.
+
+-----------------------------------------------------------------------------------------
+Cardinality:
+The cardinality of a relation describes the mapping of entity instances 
+associated within the relationships.
+The possible values of cardinality are ‘one’ or ‘many’.
+The main types of relationship cardinality are: one-to-one, one-to-many, and many-to-many.
+
+----------------------------------------------------------------------------------------------
+Relation:
+A relation represents an association between one or more entities.
+Relations are classified in terms of degree, cardinality, direction, and existence.
+
+Binary relationships, that is, associations between two entities, 
+are the most common type of relationships in the real world.
+When a relationship associates an entity with itself, it is referred to as 
+a recursive binary relationship.
+
+A ternary relationship involves three entities and is used when a binary relationship is inadequate.
+Many modeling approaches recognize only binary relationships; in such cases, 
+ternary or n-ary relationships are decomposed into two or more binary relationships.
+-------------------------------------------------------------------------------------------------
+General definitions:
+The set of values that can appear in a column is called the domain.
+The number of columns is called the degree.
+The number of rows indicates the cardinality of the table.
+Attributes describe the entities with which they are associated.
+A particular instance of an attribute is called a value.
+
+---------------------------------------------------------------------------------------------------
+Entity:
+There are several definitions for entities:
+• Any person, place, thing, event, or distinguishable concept about which information is collected.
+• Something that can be uniquely identified.
+• Any object that must be represented within a database.
+
+-----------------------------------------------------------------------------------------------------
+Attribute:
+Attributes are the objects that describe an entity.
+Key attributes are used to identify an entity.
+Derived attributes are those created through a formula or processing operations 
+based on other attributes.
+
+Attributes can be classified as identifiers or descriptors:
+• Identifiers, more commonly referred to as keys, uniquely identify an instance of an entity.
+• A descriptor, on the other hand, describes a non-unique characteristic of an entity instance.
+-----------------------------------------------------------------------------------------------------
+Primary Key:
+A primary key is an attribute or a set of attributes that uniquely identify 
+a specific instance of an entity.
+It is considered good practice that every entity in the data model has 
+a primary key whose value uniquely identifies each instance of that entity.
+
+To qualify as a primary key for an entity, an attribute must have the following properties:
+• The value must be specified for every instance of the entity.
+• The value must be unique for each instance of the entity.
+• The value must not change or become null during the lifetime of the entity instance.
+
+Sometimes, more than one attribute is required to uniquely identify an entity.
+A primary key composed of multiple attributes is called a composite key.
+Note: Although natural keys (derived from existing meaningful 
+attributes such as an email or a tax ID) 
+can be used, they are generally not considered a best practice. 
+Artificial or surrogate keys are preferred because they remain stable even 
+when real-world data changes.
+
+An artificial key is formed by an attribute without intrinsic meaning, 
+added artificially to the set of attributes.
+Typically, an artificial key consists of a counter that automatically increments 
+with each new instance added to the entity.
+
+-------------------------------------------------------------------------------------------------
+Foreign Key:
+A foreign key is an attribute that completes a relationship by identifying the parent entity.
+Every one-to-many relationship present in the model must be supported by a foreign key.
+Foreign key attributes are accompanied by the notation ‘fk’.
+
+----------------------------------------------------------------------------------------
+Entity integrity rule:
+The entity integrity rule states that, for every instance of an entity, the primary key value must exist, be unique, and not be NULL.
+Without entity integrity, the primary key could not fulfill its identifying function.
+
+--------------------------------------------------------------------------------------------
+Referential integrity rule:
+The referential integrity rule states that for every foreign key value, 
+there must exist a corresponding primary key value in the associated table.
+
+--------------------------------------------------------------------------------------------------
+
+Insertion Rules:
+Dependent insertion: allows the insertion of a child entity 
+instance only if the corresponding parent key already exists.
+
+Automatic insertion: allows the insertion of a child instance; 
+if the parent entity instance does not exist, it is automatically created.
+
+Null insertion: allows the insertion of a child entity; if the parent instance does not exist, 
+the foreign key in the child is set to NULL.
+
+Default insertion: allows the insertion of a child entity instance. 
+If the parent entity instance does not exist, 
+the foreign key in the child is set to a predefined default value.
+
+No effect: this rule states that inserting a child entity instance is always allowed. 
+The existence of a parent instance is not required, and therefore no consistency check is performed.
+
+----------------------------------------------------------------------------------------------------
+Deletion Rules
+Restrict deletion: allows the deletion of a parent entity instance only if no child entity instances exist.
+
+Cascade deletion: always allows the deletion of a parent entity instance and automatically 
+deletes all corresponding child entity instances.
+
+Null deletion: always allows the deletion of a parent entity instance. 
+If a child entity instance exists, its foreign key values are set to NULL.
+
+Default deletion: always allows the deletion of a parent entity instance. 
+If a child entity instance exists, its foreign key values are set to predefined default values.
+
+No effect: this rule always allows the deletion. No consistency check is performed.
+
+----------------------------------------------------------------------------------------------------
+# TODO: Verify the update Rules, and Read Consistency (Informative Note)
+Update Rules:
+Restrict update: allows modification of the parent entity’s primary key value only 
+if no dependent child entities exist. 
+If child instances reference the key, the update is rejected to preserve referential integrity.
+
+Cascade update: automatically updates the foreign key values in all related child entities 
+when the parent’s primary key value changes.
+
+Set null update: allows the modification of the parent entity’s key value. 
+If the corresponding parent instance is updated, the foreign key values 
+in child entities are set to NULL.
+
+Set default update: allows modification of the parent entity’s key value. 
+If the parent key changes, the foreign key values in the child entities 
+are set to predefined default values.
+
+No effect: allows the modification of the parent entity’s key without performing 
+any consistency checks on the child entities.
+
+----------------------------------------------------------------------------------------------------
+Read Consistency (Informative Note):
+
+Read operations do not modify data and therefore do not require integrity rules.
+However, database management systems typically ensure read consistency 
+through transaction isolation levels, guaranteeing that data retrieved by a 
+query reflects a valid and consistent state of the database at the time of reading.
+
+-------------------------------------------------------------------------------------------------
+
+*****************************************************************************************************
+Token used
+# TODO: Complete this section with all the methods and token covered
+Prepared statement methods/properties:
+mysqli::$method/property (e.g $conn->method/property, $stmt->method/property)
+
+
+connect_error:
+Property containing the error description from the most recently executed
+statement specified by the connection object. 
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 661)
+
+num_rows:
+Property containing the number of rows retrieved by the statement specified
+by the stmt object.
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 661)
+
+error:
+Property containing the error description from the most recently executed
+statement specified by the stmt object.
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 661)
+
+****************************************************************************************************
+Other MySQL/MariaDB related methods
+
+begin_transaction():
+By default, MySQL and MariaDB work in autocommit mode. In other words, SQL queries are executed
+immediately. To use a transaction, you need to turn off autocommit mode and then invoke the begin_
+transaction() method on the database connection object.
+$conn->autocommit(false);
+$conn->begin_transaction();
+(PHP 8 Solutions 978-1-4842-7141-4, p. 521)
+
+prepare():
+The advantage to using prepared statements is
+twofold:
+1) Over iterations of queries, there is reduced parsing
+time even though the query is run more than once,
+so the result is that the queries are executed with
+high efficiency.
+2) PHP MySQL prepared statements can be very useful
+against SQL injections.
+(PHP 8 Basics 978-1-4842-8082-9, p. 206)
+prepare takes the query you
+want to run in MySQL but gives you the ability to bind parameters to
+minimize bandwidth on the server, as you only send the parameters each
+time and not the whole query.
+(PHP 8 Basics 978-1-4842-8082-9, p. 207)
+
+bind_param():
+$query->bind_param("ssii",$firstName, $lastName, $age, $score);
+This code uses the $query object you created earlier and this time you
+use the bind_param method, which takes in two sets of parameters. The
+first (“ssii”) in your example is the list of the types of parameters that you
+are binding. You are using “ssii”, which stands for “string, string, integer,
+integer” or first_name, last_name, age, score. 
+(PHP 8 Basics 978-1-4842-8082-9, p. 208)
+
+commit():
+The commit() method commits the present transaction to the database, returning TRUE
+on success and FALSE otherwise. Its prototype follows:
+class mysqli {
+boolean commit()
+}
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 662)
+
+
+rollback():
+The rollback() method rolls back the present transaction, returning TRUE on success
+and FALSE otherwise. Its prototype follows:
+class mysqli {
+boolean rollback()
+}
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 662)
