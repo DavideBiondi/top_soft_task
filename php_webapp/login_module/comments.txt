@@ -169,7 +169,6 @@ query reflects a valid and consistent state of the database at the time of readi
 
 *****************************************************************************************************
 Token used
-# TODO: Complete this section with all the methods and token covered
 Prepared statement methods/properties:
 mysqli::$method/property (e.g $conn->method/property, $stmt->method/property)
 
@@ -199,6 +198,21 @@ transaction() method on the database connection object.
 $conn->autocommit(false);
 $conn->begin_transaction();
 (PHP 8 Solutions 978-1-4842-7141-4, p. 521)
+there’s a subtle difference between begin_transaction()
+(MySQLi) and beginTransaction() (PDO). The PDO method doesn’t have an underscore.
+(PHP 8 Solutions 978-1-4842-7141-4, p. 522)
+
+
+$conn:
+MySQLi has two interfaces: procedural and object-oriented. The procedural interface is designed to ease the
+transition from the original MySQL functions. Since the object-oriented version is more compact, that’s the
+version adopted here.
+To connect to MySQL or MariaDB, you create a mysqli object by passing four arguments to the
+constructor method: the hostname, username, password, and name of the database. This is how you
+connect to the phpsols database:
+$conn = new mysqli($hostname, $username, $password, 'phpsols');
+This stores the connection object as $conn.
+(PHP 8 Solutions 978-1-4842-7141-4, p. 359)
 
 prepare():
 The advantage to using prepared statements is
@@ -241,3 +255,576 @@ class mysqli {
 boolean rollback()
 }
 (Beginning PHP and MySQL, 978-1-4302-6044-8, p. 662)
+Function and method names in PHP are case-insensitive, so rollBack() and rollback() are
+equally acceptable for MySQLi and PDO.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 522)
+
+close():
+When you have finished with a prepared statement, the close() method frees the memory used.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 383)
+
+fetch_assoc():
+The most common way to display the results of a SELECT query is to use a loop to extract one row from
+the result set at a time. MySQLi_Result has a method called fetch_assoc() that retrieves the current row
+as an associative array ready for display on the web page. Each element in the array is named after the
+corresponding column in the table.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 365)
+
+insert_id:
+if ($names) {
+$sql = 'INSERT INTO images (filename, caption) VALUES (?, ?)';
+if ($stmt->prepare($sql)) {
+    $stmt->bind_param('ss', $names[0], $_POST['caption']);
+    $stmt->execute();
+    $imageOK = $stmt->affected_rows;
+    }
+}
+// get the image's primary key or find out what went wrong
+if ($imageOK) {
+    $image_id = $stmt->insert_id;
+}
+...[...]...If the image details were inserted in the images table, the prepared statement’s
+insert_id property retrieves the primary key of the new record and stores it in
+$image_id. The insert_id property must be accessed before running any other
+SQL queries because it contains the primary key of the most recent query.
+(PHP 8 Solutions, 978-1-4842-7141-4, pp. 513-514)
+
+execute():
+Once the statement has been prepared and the values have been bound to the placeholders, call the
+statement’s execute() method. The result of a SELECT query can then be fetched from the statement object.
+With other types of queries, this is the end of the process.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 382)
+
+session_destroy():
+In PHP, you can use the "session_unset()" and
+“session_destroy()” functions to end sessions
+appropriately. The "session_unset()" function
+unsets all session variables, and "session_destroy()"
+terminates the session. This ensures that the session
+data is no longer accessible or exploitable after the
+session is ended.
+Here’s an example of how to destroy a session upon
+user logout:
+```php
+session_start(); // Start the session
+session_unset(); // Unset all session variables
+session_destroy(); // End the session
+```
+Destroying sessions appropriately is a critical
+security practice that helps protect user data,
+privacy, and the integrity of your web application.
+(Building Secure PHP Applications, 979-8-8688-0932-3, p. 103)
+
+get_result():
+mysqli_stmt::get_result -- mysqli_stmt_get_result — Gets a result set from a prepared statement 
+as a mysqli_result object (https://www.php.net/manual/en/class.mysqli-result.php)
+Description
+Object-oriented style
+public mysqli_stmt::get_result(): mysqli_result|false
+Procedural style
+mysqli_stmt_get_result(mysqli_stmt $statement): mysqli_result|false
+Retrieves a result set from a prepared statement as a mysqli_result object.
+The data will be fetched from the MySQL server to PHP.
+This method should be called only for queries which produce a result set.
+(https://www.php.net/manual/en/mysqli-stmt.get-result.php)
+------------------------------------------------------------------------------------------------------------
+************************************************************************************************************
+PHP Standard methods/tokens
+
+count():
+counts the number of elements in an array
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 100)
+
+fopen():
+Let’s discuss the most common techniques for getting data from files and
+writing data to files.
+First of all, the file needs to be opened. To do that, you use the fopen()
+function. The function’s first argument is a string specifying the path to
+the file. The second argument is a string with special characters. That
+argument determines the access mode under which you use the file.
+(PHP by Example 979-8-8688-0258-4, p. 187)
+the fopen() function returns a numeric identifier that can
+be used to access the opened file.
+(PHP by Example 979-8-8688-0258-4, p. 189)
+
+foreach:
+To iterate through an array, PHP has the foreach(...) statement:
+foreach($array as $key => $value) {
+...
+}
+You can use foreach on other types of collections, such as data which
+we’ll get later from the database. You don’t always want the key, and, in
+some non-array collections, there won’t actually be a key. If you want just
+the values, you can use
+foreach($collection as $value) {
+...
+}
+(An Introduction to PHP 979-8-8688-0177-8, p. 56)
+
+fputcsv():
+# Write an array out to STDOUT in CSV format.
+# First, create an array of arrays...
+$records[] = ['User', 'Full Name', 'Gender'];
+$records[] = ['Rob', 'Robert Aley', 'M'];
+$records[] = ['Ada', 'Augusta Ada King, Countess of Lovelace', 'F'];
+$records[] = ['Grete', 'Grete Hermann', 'F'];
+echo ("The following is your Data in CSV format :\n\n");
+# ...then convert each array to CSV on the fly as we write it out
+foreach ($records as $record) {
+fputcsv(STDOUT, $record);
+};
+(PHP Beyond the Web, 978-1-4842-2481-6, p. 57)
+The PHP function fputcsv() will pass the information into the file (or STDOUT)
+in comma separated format.
+(PHP 8 for Absolute Beginners, 978-1-4842-8205-2, p. 362)
+
+getMessage():
+When PHP throws an exception as the result of an internal error, it immediately brings the script to a
+halt. If you have turned on the display of error messages, as recommended in a testing environment, PHP
+displays a message indicating what’s happened. Sometimes these messages can be difficult to interpret, so
+it’s often a good idea to catch the exception....[...]...
+try {
+// main script goes here
+} catch (Throwable $t) {
+echo $t->getMessage();
+}
+The Throwable type declaration in the catch block covers both internal errors and exceptions thrown
+by scripts (user exceptions).
+(PHP 8 Solutions, 978-1-4842-7141-4. p. 79)
+
+die:
+PHP has a statement with two names: exit and die. Both do exactly the
+same job, which is to terminate the PHP script at that point and go no
+further. Both also allow the option of including a message:
+exit;
+exit('ByeBye');
+die;
+die('Goodbye Cruel World');
+Note that, even though exit and die are not technically functions, the
+message must be inside parentheses.
+The difference between the two is entirely up to you...[...]...
+Here, we’ll exit with a message:
+try {
+$pdo = new PDO($dsn, $user, $passwd);
+}
+catch (PDOException $e) {
+die('Problem connecting to the Database');
+}
+(An Introduction to PHP, 979-8-8688-0177-8, p. 159)
+
+__DIR__:
+The require_once statement includes the PHP constant __DIR__ which returns the
+current directory location.
+(PHP 8 for Absolute Beginners, 978-1-4842-8205-2, p. 361)
+
+display_errors:
+display_errors = On
+The display_errors setting is whether you want errors displayed on
+the screen—for development, yes; for deployment, probably not.
+(An Introduction to PHP, 979-8-8688-0177-8, p. 26)
+
+error_reporting:
+During the development stage, you’ll likely want all errors to be reported. Therefore,
+consider setting the directive like this in php.ini:
+error_reporting = E_ALL
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 213)
+This directive can also be set within the PHP script. That will be useful when
+debugging a script and you don’t want to change the server configuration for all scripts.
+This is done with the ini_set() function like this:
+ini_set('error_reporting', E_ALL);
+It is also possible to use the error_reporting() function...[...]...
+error_reporting(E_ALL);
+The constants used when configuring directives in php.ini are also available as
+constants in the PHP script.
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 213)
+
+display_startup_errors:
+be sure to enable the display_startup_errors directive, which
+will display any errors encountered during initialization of the PHP engine. Like
+display_errors, you’ll want to be certain display_startup_errors is disabled on your
+production server.
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 214)
+
+error_log:
+PHP applications can log messages into the default PHP error file or in an application specific
+file. The php.ini file can be edited (see Chapter 1 for location) to specify the location
+and name of the default error log file.
+(Learn PHP 8, 978-1-4842-6240-5, p. 239)
+<?php
+error_log("error message");
+?>
+Enter this code and save it in a test file. Test it in your environment. If your settings
+are correct, PHP will create the error log at the location specified in the error_log
+parameter. Do not create the file yourself.
+(Learn PHP 8, 978-1-4842-6240-5, p. 240)
+
+E_ALL:
+"error_reporting = E_ALL"
+This setting configures the level of error reporting. Setting it to “E_ALL”
+is quite permissive and will report all types of errors, including notices
+and warnings. While it’s valuable for development and debugging, in a
+production environment, you might want to reduce error reporting to a
+more minimal level (e.g., error_reporting = E_ERROR) to avoid revealing
+potentially sensitive information. Reducing error reporting can help
+prevent the disclosure of detailed error messages that could be used by
+attackers to gain insight into your application’s structure.
+(Building Secure PHP Applications, 979-8-8688-0932-3, p. 46)
+
+echo:
+PHP’s echo is a language construct (a basic syntactic unit of PHP code). 
+Without much discussion, we have discovered that this statement will display a 
+string of text that is placed between double quotes.
+...[...]...The initial double quote indicates the beginning of a string of characters. 
+The second double quote marks the end of the string to output. 
+In PHP, we must delimit (use quotes) for any strings in our code.
+(PHP 8 for Absolute Beginners, 978-1-4842-8205-2, p. 44)
+When you want to display the value of a single variable or expression (and nothing else), you can use the
+short echo tag, which consists of an opening angle bracket, a question mark, and the equal sign, like this:
+<p>My name is <?= $name ?>.</p>
+This produces the same output as this:
+<p>My name is <?php echo $name ?>.</p>
+Because it’s shorthand for echo, no other code can be in the same PHP block, but it’s particularly useful
+when embedding database results in a web page.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 36)
+
+$_SESSION: 
+A superglobal array that stores session
+variables and their values. You can use this array to
+store and retrieve data specific to a user’s session.
+(Building Secure PHP Applications, 979-8-8688-0932-3, p. 93)
+An associative array containing session variables available to the current script. 
+See the Session functions documentation (https://www.php.net/manual/en/ref.session.php) 
+for more information on how this is used.
+Note:
+This is a 'superglobal', or automatic global, variable. 
+This simply means that it is available in all scopes throughout a script. 
+There is no need to do global $variable; to access it within functions or methods.
+(https://www.php.net/manual/en/reserved.variables.session.php)
+
+header():
+To redirect to the next page, we can use the following PHP:
+if(!$errors)...
+{
+// Move On
+header("Location: URL");
+exit;
+}
+else {
+$errors = sprintf('<p class="errors">%s</p>', $errors);
+}
+...[...]....You can probably get away with just using the short name of the page:
+// Move On
+header("Location: imagelist.php");
+exit;
+Technically, however, it should be a full URL, complete with a protocol
+and host—something like this:
+header("Location: https://www.example.com/imagelist.php");
+exit;
+(An Introduction to PHP, 979-8-8688-0177-8, pp. 227-228)
+The header() function sends an HTTP header to the browser. It takes as its
+argument a string containing the header and its value separated by a colon.
+In this case, it uses the Location header to redirect the browser to the page
+specified by the URL following the colon. Adjust the URL to match your own
+setup if necessary.
+(PHP 8 Solutions, 978-1-4842-7141-4, pp. 110-111)
+
+
+htmlspecialchars():
+Output Encoding: When displaying user-generated
+content, using output encoding functions like
+“htmlspecialchars()” helps prevent XSS attacks by
+ensuring that user input is treated as plain text, not
+executable code.
+(Building Secure PHP Applications, 979-8-8688-0932-3, p. 25)
+If I build a comments section on my blog and allow folks to submit their own
+comments to it, ...[...]...readers might...[...]...submit comments containing
+script tags...[...]...
+To avoid this issue, we can provide a helper to escape data when it’s being re-­rendered:
+protected function escape(string $content): string
+{
+return htmlspecialchars($content, ENT_QUOTES);
+}
+htmlspecialchars will convert the angled brackets of HTML tags, so <script>
+becomes <script> – which means the script will appear as text.
+(Pro PHP 8 MVC, 978-1-4842-6957-2, p. 70)
+
+empty():
+There are a few ways to test for an empty string. For example:
+$test = '';
+if($test = '') print 'empty';
+if(empty($test)) print 'empty';
+if(!$test) print 'empty';
+(An Introduction to PHP, 979-8-8688-0177-8, p. 82)
+
+endif:
+PHP has an obscure alternative way of writing an if() block:
+<?php
+$test = true;
+if($test):
+print 'Plan A';
+else:
+print 'Plan B';
+endif;
+?>
+Here, the braces are replaced with a colon (:); the final brace is
+replaced with an endif keyword.
+You won’t normally see this in standard
+PHP code, but we’re going to take advantage of this syntax when mixing in
+with HTML:
+<?php
+$test = true;
+?>
+<?php if($test): ?>
+Plan A
+<?php else: ?>
+Plan A
+<?php endif; ?>
+It works exactly the same way.
+(An Introduction to PHP, 979-8-8688-0177-8, pp. 100-101)
+
+endwhile:
+The while loop statement has perhaps the simplest syntax of all loop
+statements. It begins with the while keyword, after which some condition
+is placed in parentheses, and then a block of commands in curly braces
+follows. In general, it looks as follows.
+while(condition){
+# commands
+}
+...[...]...There is another form of the while loop statement, in which curly
+braces are not used, a colon is placed after the condition, and the operator
+ends with the endwhile instruction (and a semicolon).
+while(condition):
+# commands
+endwhile;
+(PHP by Example, 979-8-8688-0258-4, p. 62)
+
+Exception $e:
+<?php } catch (Exception $e) {
+header('Location: http://localhost/php8sols/error.php');
+} ?>
+This closes the try block and creates a catch block to handle the exception. The
+code in the catch block uses header() to redirect the user to error.php.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 110)
+
+implode():
+The actual HTML for the navigation block appears as
+<nav>
+<ul>
+<li> ... </li>
+<li> ... </li>
+<li> ... </li>
+</ul>
+</nav>
+We’ll replace the contents of the unordered list with our new array
+...[...]...To print the array, you’ll have to join the
+array items into a single string...[...]...with the implode() function:
+<?php
+...
+foreach($links as $text => $href) {
+$ul[] = sprintf($a, $href, $text);
+}
+$ul = implode($ul);
+?>
+The implode() function takes an optional first value which is a string
+to put between the joined values.
+(An Introduction to PHP, 979-8-8688-0177-8, pp. 58-59)
+
+ini_set():
+The php.ini file can be used to configure almost any aspect of PHP’s behavior.
+...[...]...Some of the configuration options can be overwritten in an .htaccess file (Apache)
+or by using the ini_set() function in the PHP script.
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 31)
+The third, and most localized, means for manipulating PHP’s configuration variables is
+via the ini_set() function within the PHP script itself. For example, suppose you want
+to modify PHP’s maximum execution time for a given script. Just embed the following
+command into the top of the PHP script:
+<?php
+ini_set('max_execution_time', '60');
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 33)
+
+isset():
+The isset() construct tests whether a variable has been set.
+(An Introduction to PHP, 979-8-8688-0177-8, p. 50)
+
+json_encode():
+JSON is an object format that is very much like PHP’s array structure.
+PHP provides two functions that makes it very easy to convert back and forth from a
+JSON encoded string to PHP variables. These functions are called json_encode() and
+json_decode(). IN the simplest form both functions can be used with a single parameter
+as shown in the examples below.
+<?php
+$a = ['apple', 'orange', 'pineapple', 'pear'];
+header('Content-Type: application/json');
+echo json_encode($a);
+This example will produce the following output.
+["apple","orange","pineapple","pear"]
+(Beginning PHP and MySQL, 978-1-4302-6044-8, pp. 444-445)
+
+mysqli: 
+MySQL Improved (MySQLi) and
+PHP Data Objects (PDO)...[...]...You can’t mix them in the same database connection.
+It’s also important not to confuse MySQLi with
+the original MySQL extension, which is no longer supported. In most cases, the only difference in the names
+of MySQLi functions is the addition of the letter i (e.g., mysqli_query() instead of mysql_query()). However,
+the order of arguments is usually different...[...]...
+MySQLi is designed specifically to work with MySQL. It’s also fully compatible
+with MariaDB. PDO, on the other hand, is database system–neutral.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 357)
+
+??:
+The null coalescing operator is a convenient way of assigning a default value to a variable when another
+variable...[...]...hasn’t been defined. The operator
+consists of two question marks (??) and is used like this:
+$greeting = $_GET['name'] ?? 'guest';
+This attempts to set the value of $greeting to whatever is stored in $_GET['name']. But if $_
+GET['name'] hasn’t been defined—in other words, it’s null—the value after the ?? ('guest') is used instead.
+The null coalescing operator can be chained like this:
+$greeting = $_GET['name'] ?? $nonexistent ?? $undefined ?? 'guest';
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 60)
+
+fclose(): 
+Closes a file
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 164)
+
+ob_end_clean():
+The PHP engine automatically flushes the buffer at the end of the script, but it’s
+better to do so explicitly. Edit the PHP code block at the foot of the page like this:
+<?php } catch (Exception $e) {
+ob_end_clean();
+header('Location: http://localhost/php8sols/error.php');
+}
+ob_end_flush();
+?>
+...[...]... When redirecting to another page, you don’t want the HTML stored in the buffer. 
+So, inside the catch block, a call is made to ob_end_clean(), which turns off 
+the buffer and discards its contents.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 112)
+
+ob_start():
+<?php ob_start();
+try {
+include './includes/title.php';
+include './includes/random_image.php'; ?>
+The ob_start() function turns on output buffering, preventing any output from
+being sent to the browser before the header() function is called.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 112)
+<?php
+session_start();
+ob_start();
+?>
+This turns on output buffering and prevents output from being sent to the
+browser until the end of the script or until you specifically flush the output with
+ob_end_flush().
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 302)
+
+?:
+There are several strategies you can adopt to prevent SQL injection...[...]...:
+...[...]...
+•Use a prepared statement. In a prepared statement, placeholders in the SQL query
+represent values that come from user input. The PHP code automatically wraps
+strings in quotes and escapes embedded quotes and other control characters. The
+syntax is different for MySQLi and PDO.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 376)
+Both MySQLi and PDO support prepared statements...[...]...
+Both MySQLi and PDO use question marks as anonymous placeholders, like this:
+$sql = 'SELECT image_id, filename, caption FROM images WHERE caption LIKE ?';
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 381)
+
+$_POST:
+First, we need to know something about PHP’s so-called superglobals.
+These are built-in arrays of special data.
+...[...]...$_GET, $_POST, $_COOKIE, and $_REQUEST all contain
+data sent from the browser to the server.
+(An Introduction to PHP, 979-8-8688-0177-8, p. 59)
+
+preg_replace():
+We can use a regular expression to remove or escape control characters
+from user input. This is like taking out any funny symbols from our
+drawings to make sure they’re nice and clear.
+```php
+$cleanedInput = preg_replace('/[[:cntrl:]]/', '',
+$_POST['user_input']);
+```
+(Building Secure PHP Applications, 979-8-8688-0932-3, p. 88)
+The preg_replace() function replaces all occurrences of pattern with replacement and
+returns the modified result. Its prototype follows:
+mixed preg_replace(mixed pattern, mixed replacement, mixed str [, int limit[, int count]])
+Note that both the pattern and replacement parameters are defined as mixed. This is
+because you can supply a string or an array for either...[...]...
+Consider an example:
+<?php
+$text = "This is a link to http://www.wjgilmore.com/.";
+echo preg_replace("/http:\/\/(.*)\//", "<a href=\"\${0}\">\${0}</a>",
+$text);
+?>
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 237)
+
+require_once:
+PHP has four variations on a statement to include external content:
+...[...]...require_once will include a file if it’s available unless
+it’s already been included.
+(An Introduction to PHP, 979-8-8688-0177-8, p. 44)
+The require_once keyword is similar to the require
+keyword with the additional check to not load the file if it has already been loaded.
+(PHP 8 for Absolute Beginners, 978-1-4842-8205-2, p. 176)
+
+session_start(): 
+This function initializes a new session or resumes an existing session.
+(Building Secure PHP Applications, 979-8-8688-0932-3, p. 93)
+
+strlen():
+The sizeof() function is used to calculate the size of an array. The length of a
+string is calculated using the strlen() function.
+(PHP by Example, 979-8-8688-0258-4, p.228)
+
+substr_count():
+The substr_count() function returns the number of times one string occurs within
+another. This function is case sensitive. Its prototype follows:
+int substr_count(string str, string substring [, int offset [, int length]])
+The optional offset and length parameters determine the string offset from which to
+begin attempting to match the substring within the string, and the maximum length of
+the string to search following the offset, respectively.
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 262)
+
+throw new Exception:
+You can throw custom exceptions with the keyword throw like this:
+if (error occurs) {
+throw new Exception('Houston, we have a problem.');
+}
+The string inside the parentheses is used as the error message, which can be caught in a catch block.
+(PHP 8 Solutions, 978-1-4842-7141-4, p. 79)
+The default exception constructor is called with no parameters. For example, you can
+invoke the exception class like so:
+throw new Exception();
+For instance, save the following line of code to a PHP-enabled file and execute it
+within your browser:
+throw new Exception("Something bad just happened");
+(Beginning PHP and MySQL, 978-1-4302-6044-8, p. 219)
+
+trim():
+The data from the form may have been entered carelessly...[...]...we
+can clean it up...[...]...by removing extraneous spaces.
+The trim() function removes extra spaces at the beginning and end of
+a string and returns the result:
+$newString = trim($oldString);
+Much of the time, you simply want to replace the original string
+without generating a new string:
+$string = trim($string);
+We will modify the data gathering part of our code to include the
+trim() function:
+if(isset($_POST['send'])) {
+    // Read Data
+    $name = trim($_POST['name']);
+    $email = trim($_POST['email']);
+    $subject = trim($_POST['subject']);
+    $message = trim($_POST['message']);
+    ...
+    }
+(An Introduction to PHP, 979-8-8688-0177-8, p. 77)
+
+unset():
+You can use the unset() function to remove a field from an object. For
+example, to delete the $name field from the $obj object, the unset($obj->name)
+instruction could be helpful.
+(PHP by Example, 979-8-8688-0258-4, p. 210)
+

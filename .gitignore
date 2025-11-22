@@ -40,6 +40,7 @@ Nota-metodologica-1.pdf
 
 # Not all the sh files
 !**/analytic_index_creation.sh
+!**/citations_check.sh
 
 # Linux temporary files
 .~*#
