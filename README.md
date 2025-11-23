@@ -23,7 +23,7 @@ Shell utilities to:
 
 ## Screenshots
 ```md
-![Login Page](./Schermata 2025-11-05 12:56:29_login.png)
-![Dashboard](./Schermata 2025-11-05 13:01:16form_search.png)
-![E-R Model](./Top_srl_task_SQL_schema.png)
+![Login Page](Schermata%202025-11-05%2012:56:29_login.png)
+![Dashboard](Schermata%202025-11-05%2013:01:16form_search.png)
+![E-R Model](Top_srl_task_SQL_schema.png)
 ```
